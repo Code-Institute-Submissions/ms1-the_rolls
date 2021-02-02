@@ -128,13 +128,13 @@ This page will have details on how to contact the company for a booking enquiry.
 
 ### **Skeleton Plane**
 
-[Home Page Wireframes](/workspace/ms1-the_rolls/assets/images/homepage-wireframe.png)
+[Home Page Wireframes](./assets/images/homepage-wireframe.png)
 
-[About Us Wireframes](/workspace/ms1-the_rolls/assets/images/about-wireframe.png)
+[About Us Wireframes](./assets/images/about-wireframe.png)
 
-[Gallery Wireframes](/workspace/ms1-the_rolls/assets/images/gallery-wireframe.png)
+[Gallery Wireframes](./assets/images/gallery-wireframe.png)
 
-[Contact Wireframes](/workspace/ms1-the_rolls/assets/images/contact-wireframe.png)
+[Contact Wireframes](./assets/images/contact-wireframe.png)
 
 ### **Surface Plane**
 

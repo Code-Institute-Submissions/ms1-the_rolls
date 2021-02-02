@@ -7,25 +7,25 @@ This project is a static front-end website for a fictitious chauffeur driven, lu
 # Table of Contents
 
 
-- [Project Overview]()
+- [Project Overview](#project-overview)
 
-- [UX Design]()
+- [UX Design](#ux-design)
 
-    - [Strategy]()
-    - [Scope]()
-    - [Structure]()
-    - [Skeleton]()
-    - [Surface]()
+    - [Strategy](#strategy-plane)
+    - [Scope](#scope-plane)
+    - [Structure](#structure-plane)
+    - [Skeleton](#skeleton-plane)
+    - [Surface](#surface-plane)
 
-- [Features]()
+- [Features](#features)
 
-- [Technologies Used]()
+- [Technologies Used](#technologies-used)
 
-- [Testing]()
+- [Testing](#testing)
 
-- [Deployment]()
+- [Deployment](#deployment)
 
-- [Credits]()
+- [Credits](#credits)
 
 # Project Overview
 
@@ -128,30 +128,30 @@ This page will have details on how to contact the company for a booking enquiry.
 
 ### **Skeleton Plane**
 
-[Home Page Wireframes]()
+[Home Page Wireframes](/workspace/ms1-the_rolls/assets/images/homepage-wireframe.png)
 
-[About Us Wireframes]()
+[About Us Wireframes](/workspace/ms1-the_rolls/assets/images/about-wireframe.png)
 
-[Gallery Wireframes]()
+[Gallery Wireframes](/workspace/ms1-the_rolls/assets/images/gallery-wireframe.png)
 
-[Contact Wireframes]()
+[Contact Wireframes](/workspace/ms1-the_rolls/assets/images/contact-wireframe.png)
 
 ### **Surface Plane**
 
 #### Logo:
 
 #### Colour Scheme:
-The colour scheme was chosen to evoke certain emotions appropriate to this business. According to an [article](https://www.verywellmind.com/color-psychology-2795824) on colour psychology:
+The colour scheme was chosen to evoke certain emotions appropriate to this business. According to a [verywellmind.com article](https://www.verywellmind.com/color-psychology-2795824) on colour psychology:
 
 Green evokes: Calm, optimism, security
 
 Blue evokes: Stability, calm, trustworthiness
 
+White evokes: Cleanliness, peacefulness
+
 Black evokes: Sophistication
 
 Grey evokes: Neutral, formal
-
-White evokes: Cleanliness, peacefulness
 
 #### Typography:
 
@@ -182,22 +182,18 @@ Each page is split into different sections and they appear either stacked or sid
 
     -	The footer has site navigation links across the top of the footer. This allows the user to easily navigate to the next page without having to scroll back to the top. Each footer has a different set of links so that only the other pages which can be navigated to are displayed, this is done to reduce clutter. Having these links at the bottom of each page makes for a nicer UX, especially on larger smartphones.
 
-    -	The background is a darker, contrasting colour to the rest of the page.
-
 - Features specific to each page
 
     - Home Page
         - Leads with a hero image overlaid with a call to action in the form of a booking enquiry button. The button links to the Contact page.
         - A ‘What we do’ section to communicate to the user straight away the kind of service that is provided by the company.
         - A 'Testimonials' section with 2 reviews from previous happy customers.
-        - Data presented stacked on a smartphone and side by side on larger devices.
     - About
         - An ‘About Us’ section to tell the user a little bit more about the company and the company ethos.
         - An ‘About the car’ section to give more detail on the cars specification, number of available seats etc.
     - Gallery
         - Promotional Images of the service provided in a carousel. By using this feature the user will not see the images loading one by one as they would if they were presented in a masonry design for example.
         - Below the image carousel there is a booking enquiry button that stands out to the user. This button links to the contact page.
-
     - Contact
         - The page leads with an image overlaid with text which encourages the user to make contact with the company.
         - An enquiry form with various input types to get the necessary information from the interested user. As the business is primarily targeted at weddings, the inputs are aligned to that need. All inputs are required except for the three address sections to allow the form to cater for different events.

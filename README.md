@@ -138,6 +138,8 @@ This page will have details on how to contact the company for a booking enquiry.
 
 ### **Surface Plane**
 
+The projects overall aesthethic is designed to align with the companies ethos and branding and evoke a sense of calm, trusthworthiness and simplicity.
+
 #### Logo:
 
 #### Colour Scheme:
@@ -145,13 +147,13 @@ The colour scheme was chosen to evoke certain emotions appropriate to this busin
 
 Green evokes: Calm, optimism, security
 
-Blue evokes: Stability, calm, trustworthiness
+Blue evokes: Stability, calm, trustworthiness, professionalism
 
-White evokes: Cleanliness, peacefulness
+White evokes: Cleanliness, peacefulness, simplicity
 
-Black evokes: Sophistication
+<!-- Black evokes: Sophistication
 
-Grey evokes: Neutral, formal
+Grey evokes: Neutral, formal -->
 
 #### Typography:
 
@@ -201,10 +203,11 @@ Each page is split into different sections and they appear either stacked or sid
         
 # Technologies Used
 
-
 - **[Balsamiq](https://balsamiq.com/)** - Used to create wireframes
 
 - **[Gitpod IDE](https://gitpod.io/)** - Used to code HTML & CSS
+
+- **[resizing.app](https://resizing.app/features/resize-png/)** - Used to resize images 
 
 # Testing
 

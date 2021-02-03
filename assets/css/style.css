@@ -1,7 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Roboto&display=swap');
+
+body{
+    font-family:"Roboto", sans-serif;
+}
 /*--------------------------------------------------------------------------------- NAVBAR */
+.navbar-brand{
+    font-family:"Playfair Display", serif;
+    font-size:180%;
+    color:#5a5a5a!important;
+}
 
-/*----------------------------------------------------------------------------- HERO IMAGE */
+.navbar{
+    padding:0;
+}
+.navbar-light{
+    border-bottom: 2px solid #5a5a5a;
+}
 
+.navbar button{
+    border:0;
+}
+/*------------------------------------------------------------------- HERO IMAGE & CALLOUT */
+.hero-callout-outer{
+    background: rgb(36, 119, 108) url(../images/hero-image.jpg) bottom right/ cover no-repeat ;
+    height:75vh;
+    min-height:500px;
+}
+
+.callout{
+    background-color:rgb(164 184 163 / 95%);
+    color:#fafafa;
+    border-radius:10px;
+    margin-top:5%;
+    min-height:170px;
+    border:1px solid #5a5a5a;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: rgb(123 140 123);
+    border-color: #5a5a5a;
+}
+.btn-success:hover,
+.btn-success:active,
+.btn-success:focus,
+.btn-success:active:focus{
+    background-color: rgb(100 114 100);
+    border-color: #5a5a5a;
+    box-shadow: 0 0 0 0.25rem rgb(100 114 100 / 30%);
+    }
+@media screen and (min-width:1200px){
+    .hero-callout-outer{
+        height:80vh;
+    }
+    .callout{
+        margin-top:25vh;
+        height:25vh;
+    }
+}
+
+@keyframes image-zoom {
+    from{
+        transform: scale(1.0);
+    }
+    to{
+        transform: scale(1.05);
+    }
+}
 
 /*--------------------------------------------------------------------------------- FOOTER */
 

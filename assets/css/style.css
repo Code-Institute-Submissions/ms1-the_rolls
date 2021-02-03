@@ -28,7 +28,7 @@ body{
 }
 
 .callout{
-    background-color:rgb(164 184 163 / 95%);
+    background-color:rgb(164 184 163 / 85%);
     color:#fafafa;
     border-radius:10px;
     margin-top:5%;
@@ -58,15 +58,33 @@ body{
         height:25vh;
     }
 }
+@media screen and (min-width:1441px){
+    .hero-callout-outer{
+        height:70vh;
+    }
+    .callout{
+        margin-top:20vh;
+        height:25vh;
+    }
+    .navbar-brand{
+        font-size:250%;
+    }
+    .navbar{
+        padding:1rem;
+    }
+    .nav-link{
+        font-size:200%;
+    } 
+}
 
-@keyframes image-zoom {
+/* @keyframes image-zoom {
     from{
         transform: scale(1.0);
     }
     to{
         transform: scale(1.05);
     }
-}
+} */
 
 /*--------------------------------------------------------------------------------- FOOTER */
 
@@ -74,9 +92,29 @@ footer{
     background-color:#ececec;
 }
 
-footer i{
-    font-size:2.0rem;
+.sm-icons{
+    font-size:150%;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    text-align:center;
+    color:#5a5a5a;
+    background-color:#cecece;
+    padding:8px 0;
+    line-height:10px;
+
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
+
+.sm-icons:hover{
+    background-color:rgb(164 184 163);
+    color:#5a5a5a;
+}
+
+
 /*--------------------------------------------------------------------- BACKGROUND TESTERS */
 .redbg{
     background-color:red;

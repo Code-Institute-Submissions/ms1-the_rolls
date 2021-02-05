@@ -1,7 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Noticia+Text&display=swap');
+/*-------------------------------------------------------------------------------- GENERAL */
 body{
-    font-family:"Roboto", sans-serif;
+    font-family:"Noticia Text", sans-serif;
+}
+.spacer{
+    width:50vw;
+    margin:20px auto;
+    border: 1px solid #5a5a5a;
+    opacity:1;
+}
+.heading{
+    font-family:"Playfair Display", serif;
+    text-transform:uppercase;
 }
 /*--------------------------------------------------------------------------------- NAVBAR */
 .navbar-brand{
@@ -24,15 +34,13 @@ body{
 .hero-callout-outer{
     background: rgb(36, 119, 108) url(../images/hero-image.jpg) bottom right/ cover no-repeat ;
     height:75vh;
-    min-height:500px;
+    min-height:480px;   
 }
 
 .callout{
-    background-color:rgb(164 184 163 / 85%);
+    background-color:rgb(164 184 163 / 90%);
     color:#fafafa;
     border-radius:10px;
-    margin-top:5%;
-    min-height:170px;
     border:1px solid #5a5a5a;
 }
 
@@ -49,34 +57,22 @@ body{
     border-color: #5a5a5a;
     box-shadow: 0 0 0 0.25rem rgb(100 114 100 / 30%);
     }
-@media screen and (min-width:1200px){
-    .hero-callout-outer{
-        height:80vh;
-    }
-    .callout{
-        margin-top:25vh;
-        height:25vh;
-    }
-}
-@media screen and (min-width:1441px){
-    .hero-callout-outer{
-        height:70vh;
-    }
-    .callout{
-        margin-top:20vh;
-        height:25vh;
-    }
-    .navbar-brand{
-        font-size:250%;
-    }
-    .navbar{
-        padding:1rem;
-    }
-    .nav-link{
-        font-size:200%;
-    } 
-}
 
+@media screen and (max-width:992px){
+    .callout{
+        margin-top:13vw;
+    }
+}
+@media screen and (max-width:576px){
+    .callout{
+        margin-top:5vw;
+    }
+}
+@media screen and (min-width:768px){
+    .wwd-text-container{
+        border-right:1px solid #5a5a5a;
+    }
+}
 /* @keyframes image-zoom {
     from{
         transform: scale(1.0);
@@ -85,6 +81,19 @@ body{
         transform: scale(1.05);
     }
 } */
+/*----------------------------------------------------------------------------- WHAT WE DO */
+.wwd-image{
+    width:90%;
+    height:auto;
+    max-width:370px;
+        margin: 30px 0 30px;
+}
+
+.wwd-text{
+    width:90%;
+    height:auto;
+    max-width:370px;
+}
 
 /*--------------------------------------------------------------------------------- FOOTER */
 

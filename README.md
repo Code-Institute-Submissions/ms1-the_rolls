@@ -214,3 +214,5 @@ Each page is split into different sections and they appear either stacked or sid
 # Deployment
 
 # Credits
+
+pexels.com used for some stock photos used in testimonials section

@@ -23,23 +23,30 @@ hr{
 /*--------------------------------------------------------------------------------- NAVBAR */
 .navbar-brand{
     font-family:"Playfair Display", serif;
-    font-size:180%;
+    font-size:1.7rem;
     color:#5a5a5a!important;
 }
-
+.nav-item a{
+    text-transform:uppercase;
+    font-size:1.2rem;
+}
 .navbar{
     padding:0;
 }
 .navbar-light{
     border-bottom: 2px solid #5a5a5a;
 }
-
+.nav-link .active{
+    font-weight:800;
+}
 .navbar button{
     border:0;
 }
+
+
 /*------------------------------------------------------------------- HERO IMAGE & CALLOUT */
 .hero-callout-outer{
-    background: rgb(36, 119, 108) url(../images/hero-image.jpg) bottom right/ cover no-repeat ;
+    background: rgb(184,196,176) url(../images/hero-image.jpg) bottom right/ cover no-repeat ;
     height:75vh;
     min-height:480px;   
 }
@@ -78,10 +85,24 @@ hr{
         margin-top:5vw;
     }
 
+    .nav-item a{
+        text-align:end;
+        margin-right:15px;
+    }
+
 }
 /* SCREEN SIZE MD AND LARGER*/
 @media screen and (min-width:768px){
     
+}
+/* SCREEN SIZE XL AND LARGER*/
+@media screen and (min-width:1200px){
+    .nav-item a {
+        font-size:1.4rem;
+    }
+    .navbar-brand{
+        font-size:2.2rem;
+    }
 }
 
 /* @keyframes image-zoom {
@@ -94,18 +115,12 @@ hr{
 } */
 /*----------------------------------------------------------------------------- WHAT WE DO */
 
-.testimonial-image-container{
-    background-image:rgb(36, 119, 108) url(../images/testimonial-one.jpg) center center/ cover no-repeat;
-    width:400px;
-    height:auto;
-}
 /*--------------------------------------------------------------------------- TESTIMONIALS */
 .testimonial-bg{
-  background: rgb(185,203,185);
-background: linear-gradient(90deg, rgba(185,203,185,0.6643032212885154) 0%, rgba(218,238,218,0.6951155462184874) 50%, rgba(188,205,188,0.6727065826330532) 100%);
+background: rgb(192,205,183);
+background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 50%, rgba(192,205,183,1) 100%);
 }
-.quotes{
-    /* font-size:150%; */
+.quotes {
     color:#5a5a5a;
     }
 .quotes-white{
@@ -120,8 +135,23 @@ background: linear-gradient(90deg, rgba(185,203,185,0.6643032212885154) 0%, rgba
 /*--------------------------------------------------------------------------------- FOOTER */
 
 footer{
-    background: rgb(107,122,106);
-   
+    background: rgb(184,196,176);
+    background: #fffcf7;
+}
+
+footer a {
+    color:#5a5a5a;
+    text-transform:uppercase;
+    text-decoration:none;
+    font-size:1.2rem;
+}
+
+ footer a:hover,
+ footer a:active,
+ footer a:focus,
+ footer a:active:focus
+{
+    color:#5a5a5a;
 }
 
 .sm-icons{
@@ -162,4 +192,12 @@ footer{
 
 .greybg{
     background-color:rgb(164 184 163);
+}
+
+/*-------------------------------------------------------------------- HOVER.CSS Modifiers */
+.hvr-underline-from-center:before {
+    bottom:20%;
+    background:#5a5a5a;
+    height:2px;
+    margin:0 8px;
 }

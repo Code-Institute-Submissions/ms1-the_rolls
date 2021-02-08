@@ -209,6 +209,8 @@ Each page is split into different sections and they appear either stacked or sid
 
 - **[resizing.app](https://resizing.app/features/resize-png/)** - Used to resize images 
 
+-**[cssgradient.io](https://cssgradient.io/)** Used to create color gradient background
+
 # Testing
 
 # Deployment

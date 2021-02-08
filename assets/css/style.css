@@ -105,7 +105,7 @@ hr{
 background: linear-gradient(90deg, rgba(185,203,185,0.6643032212885154) 0%, rgba(218,238,218,0.6951155462184874) 50%, rgba(188,205,188,0.6727065826330532) 100%);
 }
 .quotes{
-    font-size:200%;
+    /* font-size:150%; */
     color:#5a5a5a;
     }
 .quotes-white{
@@ -116,6 +116,7 @@ background: linear-gradient(90deg, rgba(185,203,185,0.6643032212885154) 0%, rgba
     width:30px;
     height:auto;
 }
+
 /*--------------------------------------------------------------------------------- FOOTER */
 
 footer{

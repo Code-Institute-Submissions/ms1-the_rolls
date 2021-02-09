@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Noticia+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&family=Playfair+Display:wght@800&display=swap');
+
 /*-------------------------------------------------------------------------------- GENERAL */
 
 body{
@@ -9,16 +10,15 @@ hr{
     border:1px solid #5a5a5a;
     opacity:1;
 }
-.hr-white{
-    border:1px solid white;
-    opacity:1;
-}
 .heading{
     font-family:"Playfair Display", serif;
     text-transform:uppercase;
 }
-.white{
-    color:white;
+.rounded {
+    border-radius:25px!important;
+}
+.shadow{
+    box-shadow: 5px 5px 10px #cecece;
 }
 /*--------------------------------------------------------------------------------- NAVBAR */
 .navbar-brand{
@@ -47,12 +47,12 @@ hr{
 .hero-callout-outer{
     background: rgb(184,196,176) url(../images/hero-image.jpg) bottom right/ cover no-repeat ;
     height:75vh;
-    min-height:480px;   
+    min-height:480px;
+    max-height:700px;   
 }
 
 .callout{
-    background-color:rgb(164 184 163 / 90%);
-    color:#fafafa;
+    background-color:rgb(164 184 163 / 97%);
     border-radius:10px;
     border:1px solid #5a5a5a;
 }
@@ -61,6 +61,7 @@ hr{
     color: #fff;
     background-color: rgb(123 140 123);
     border-color: #5a5a5a;
+    font-size:130%;
 }
 .btn-success:hover,
 .btn-success:active,
@@ -71,28 +72,44 @@ hr{
     box-shadow: 0 0 0 0.25rem rgb(100 114 100 / 30%);
     }
 /*------------------------------------------------------------------------ MEDIA QUERIES */
-/* UP TO SCREEN SIZE LG */
-@media screen and (max-width:992px){
+
+/* SCREENS SIZE XXL AND LARGER */
+@media screen and (min-width:1400px){
     .callout{
-        margin-top:13vw;
+        margin-top:60px;
     }
-    
+    .hero-callout-outer{
+        min-height:650px;
+        max-height:1000px;
+    }
+}
+/* SCREENS SIZE XL TO XXL */
+@media screen and (min-width:1201px) and (max-width:1400px){
+    .callout{
+        margin-top:70px;
+    }
+    .hero-callout-outer{
+        min-height:630px;
+    }
+}
+/* SCREEN SIZE SM TO XL */
+@media screen and (min-width:577px) and (max-width:1200px){
+    .callout{
+        margin-top:70px;
+    }
 }
 /* UP TO SCREEN SIZE SM */
 @media screen and (max-width:576px){
     .callout{
         margin-top:5vw;
     }
-
+    .hero-callout-outer{
+        max-height:520px;
+    }
     .header-nav a{
         text-align:end;
         margin-right:10px;
     }
-
-}
-/* SCREEN SIZE MD AND LARGER*/
-@media screen and (min-width:768px){
-    
 }
 /* SCREEN SIZE XL AND LARGER*/
 @media screen and (min-width:1200px){

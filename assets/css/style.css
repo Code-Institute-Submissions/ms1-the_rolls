@@ -33,16 +33,15 @@ hr{
 .navbar{
     padding:0;
 }
-.navbar-light{
-    border-bottom: 2px solid #5a5a5a;
-}
 .nav-link .active{
     font-weight:800;
 }
 .navbar button{
     border:0;
 }
-
+.header-nav{
+    border-bottom:2px solid #5a5a5a;
+}
 
 /*------------------------------------------------------------------- HERO IMAGE & CALLOUT */
 .hero-callout-outer{
@@ -85,9 +84,9 @@ hr{
         margin-top:5vw;
     }
 
-    .nav-item a{
+    .header-nav a{
         text-align:end;
-        margin-right:15px;
+        margin-right:10px;
     }
 
 }
@@ -133,27 +132,12 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
 }
 
 /*--------------------------------------------------------------------------------- FOOTER */
-
 footer{
-    background: rgb(184,196,176);
     background: #fffcf7;
 }
-
-footer a {
-    color:#5a5a5a;
-    text-transform:uppercase;
-    text-decoration:none;
-    font-size:1.2rem;
+footer .navbar-nav{
+    flex-direction:row;
 }
-
- footer a:hover,
- footer a:active,
- footer a:focus,
- footer a:active:focus
-{
-    color:#5a5a5a;
-}
-
 .sm-icons{
     font-size:150%;
     width:40px;
@@ -170,9 +154,8 @@ footer a {
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
 }
-
 .sm-icons:hover{
-    background-color:rgb(164 184 163);
+    background-color:rgb(192,205,183);
     color:#5a5a5a;
 }
 

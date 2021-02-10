@@ -7,8 +7,10 @@ body{
     background-color:#fffcf7;
 }
 hr{
-    border:1px solid #5a5a5a;
-    opacity:1;
+    height:2px!important; 
+    border:none; 
+    color:#5a5a5a; 
+    background-color:#5a5a5a;  
 }
 .heading{
     font-family:"Playfair Display", serif;

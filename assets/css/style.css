@@ -89,12 +89,70 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
     border-radius:15px;
     font-family:"Sacramento", cursive;
 }
+.map-outer{
+    height:400px;
+    width:100%;
+    display:inline-block;
+    overflow:hidden;
+}
+.map-inner{
+    position:relative;
+    top:-50px;
+    border:none;
+}
 /*------------------------------------------------------------------------ MEDIA QUERIES */
 
-/* SCREENS SIZE XXL AND LARGER */
+/* SCREEN SIZE XS */
+@media screen and (max-width:575px){
+    .callout{
+        margin-top:5vw;
+    }
+    .header-nav a{
+        text-align:end;
+        margin-right:10px;
+    }
+}
+/* SCREEN SIZE SM and up */
+@media screen and (min-width:576px){
+    .about-image-outer{
+        height:250px;
+    }
+    .callout{
+        margin-top:25px;
+    }
+}
+/* SCREEN SIZE MD and up */
+@media screen and (min-width:768px){
+    .gallery-carousel img {
+    border-radius:25px;
+}
+    .about-image-outer{
+        height:300px;
+    }
+}
+/* SCREEN SIZE LG and up */
+@media screen and (min-width:992px){
+
+}
+/* SCREEN SIZE XL and up */
+@media screen and (min-width:1200px){
+    .about-image-outer{
+        height:350px;
+    }
+    .hero-callout-outer{
+        height:500px;
+    }
+}
+/* FOR iPAD Pro in landscape view */
+@media screen and (min-width:1365px){
+    .hero-callout-outer{
+        height:550px;
+    }
+}
+/* SCREENS SIZE XXL and up */
 @media screen and (min-width:1400px){
     .callout{
-        margin-top:40px;
+        margin-top:30px;
     }
     .hero-callout-outer{
         height:700px;
@@ -105,59 +163,8 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
     .nav-item a {
         font-size:1.4rem;
     }
-}
-/* SCREENS SIZE XL TO XXL */
-@media screen and (min-width:1201px) and (max-width:1400px){
-    .callout{
-        margin-top:25px;
-    }
-    .hero-callout-outer{
-        height:540px;
-    }
-
-}
-/* SCREEN SIZE SM TO XL */
-@media screen and (min-width:577px) and (max-width:1200px){
-    .callout{
-        margin-top:25px;
-    }
-}
-/* UP TO SCREEN SIZE SM */
-@media screen and (max-width:576px){
-    .callout{
-        margin-top:5vw;
-    }
-    .header-nav a{
-        text-align:end;
-        margin-right:10px;
-    }
-}
-
-/* SCREEN SIZE MD AND LARGER */
-@media screen and (min-width:768px){
-    .gallery-carousel img {
-    border-radius:25px;
-}
     .about-image-outer{
-        height:300px;
-    }
-}
-/* SCREEN SIZE SM TO MD */
-@media screen and (min-width:576px) and (max-width:767px){
-    .about-image-outer{
-        height:250px;
-    }
-}
-/* SCREEN SIZE XL to XXL */
-@media screen and (min-width:1200px) and (max-width:1399px){
-    .about-image-outer{
-        height:350px;
-    }
-}
-
-@media screen and (min-width:1400px){
-    .about-image-outer{
-        height:600px;
+        height:500px;
     }
 }
 /* @keyframes image-zoom {

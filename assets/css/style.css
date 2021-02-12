@@ -1,8 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noticia+Text&family=Playfair+Display:wght@800&family=Sacramento&display=swap');
 
-
-
 /*-------------------------------------------------------------------------------- GENERAL */
 
 body{
@@ -12,6 +10,7 @@ body{
 .heading{
     font-family:"Playfair Display", serif;
     text-transform:uppercase;
+    letter-spacing:1px;
 }
 .rounded {
     border-radius:25px!important;
@@ -28,6 +27,7 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
     font-family:"Playfair Display", serif;
     font-size:1.7rem;
     color:#5a5a5a!important;
+    letter-spacing:2px;
 }
 .nav-item a{
     text-transform:uppercase;
@@ -74,7 +74,7 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
     }
 
 /*---------------------------------------------------------------------------------- ABOUT */
-.about-image-outer{
+.lead-image{
     height:160px;
     background: rgb(184,196,176) url(../images/about-main-image.jpg) bottom center/ cover no-repeat ;
 }
@@ -90,14 +90,13 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
     font-family:"Sacramento", cursive;
 }
 .map-outer{
-    height:400px;
+    height:380px;
     width:100%;
-    display:inline-block;
     overflow:hidden;
 }
 .map-inner{
     position:relative;
-    top:-50px;
+    top:-55px;
     border:none;
 }
 /*------------------------------------------------------------------------ MEDIA QUERIES */
@@ -114,7 +113,7 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
 }
 /* SCREEN SIZE SM and up */
 @media screen and (min-width:576px){
-    .about-image-outer{
+    .lead-image{
         height:250px;
     }
     .callout{
@@ -126,7 +125,7 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
     .gallery-carousel img {
     border-radius:25px;
 }
-    .about-image-outer{
+    .lead-image{
         height:300px;
     }
 }
@@ -136,7 +135,7 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
 }
 /* SCREEN SIZE XL and up */
 @media screen and (min-width:1200px){
-    .about-image-outer{
+    .lead-image{
         height:350px;
     }
     .hero-callout-outer{
@@ -163,7 +162,7 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
     .nav-item a {
         font-size:1.4rem;
     }
-    .about-image-outer{
+    .lead-image{
         height:500px;
     }
 }
@@ -176,19 +175,9 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
     }
 } */
 
-
 /*--------------------------------------------------------------------------- TESTIMONIALS */
-
 .quotes {
     color:#5a5a5a;
-    }
-.quotes-white{
-    font-size:200%;
-    color:white;
-    }
-.spacer{
-    width:30px;
-    height:auto;
 }
 /*--------------------------------------------------------------------------------- FOOTER */
 footer{
@@ -215,28 +204,23 @@ footer .navbar-nav{
 }
 .sm-icons:hover{
     background-color:rgb(192,205,183);
-    color:#5a5a5a;
 }
-
 
 /*--------------------------------------------------------------------- BACKGROUND TESTERS */
 .redbg{
     background-color:red;
 }
-
 .bluebg{
     background-color:blue;
 }
-
 .pinkbg{
     background-color:pink;
 }
-
 .greybg{
     background-color:rgb(164 184 163);
 }
 
-/*-------------------------------------------------------------------- HOVER.CSS Modifiers */
+/*--------------------------------------------------------------------- HOVER.CSS Modifiers */
 .hvr-underline-from-center:before {
     bottom:20%;
     background:#5a5a5a;

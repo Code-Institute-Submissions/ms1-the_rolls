@@ -209,7 +209,7 @@ Each page is split into different sections and they appear either stacked or sid
 
 - **[resizing.app](https://resizing.app/features/resize-png/)** - Used to resize images 
 
--**[cssgradient.io](https://cssgradient.io/)** Used to create color gradient background
+- **[cssgradient.io](https://cssgradient.io/)** Used to create color gradient background
 
 # Testing
 
@@ -217,4 +217,6 @@ Each page is split into different sections and they appear either stacked or sid
 
 # Credits
 
-pexels.com used for some stock photos used in testimonials section
+pexels.com used for the stock photos in testimonials section.
+
+https://www.howtoonlinetips.com/hide-google-map-top-bar-embedded-header/ used inspiration from the code on this site to hide the header on the embedded google map.

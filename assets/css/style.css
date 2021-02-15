@@ -93,6 +93,13 @@ h2:after {
 .what-we-do-img{
     box-shadow: 0 0 10px #3B3B3B;
 }
+/*--------------------------------------------------------------------------- TESTIMONIALS */
+.quotes {
+    color:#3B3B3B;
+}
+.testimonial-img {
+    border-radius:25px;
+}
 /*---------------------------------------------------------------------------------- ABOUT */
 .about-lead-image{
     height:160px;
@@ -119,38 +126,6 @@ h2:after {
     top:-55px;
     border:none;
 }
-
-
-/*--------------------------------------------------------------------------- TESTIMONIALS */
-.quotes {
-    color:#3B3B3B;
-}
-.testimonial-img {
-    border-radius:25px;
-}
-/*----------------------------------------------------------------------------- CONTACT US */
-.contact-lead-image{
-    height:160px;
-    background: rgb(184,196,176) url(../images/rolls-church.jpg) bottom center/ cover no-repeat ;
-}
-.form-control{
-    background-color:#fffefc;
-}
-.form-control:focus{
-    border-color: #3B3B3B;
-    box-shadow: 0 0 0 0.25rem rgb(100 114 100 / 30%);
-}
-.contact-details i{
-    font-size:250%;
-}
-.contact-details a{
-    font-size:200%;
-    text-decoration:none;
-    color:inherit;
-}
-.form-control{
-    border:1px solid #3B3B3B;
-}
 /*--------------------------------------------------------------------------------- FOOTER */
 footer{
     background: #ececec;
@@ -158,6 +133,7 @@ footer{
 footer .navbar-nav{
     flex-direction:row;
 }
+/* Code below modified from the C.I. CV mini-project */
 .sm-icons{
     font-size:150%;
     width:40px;
@@ -187,6 +163,29 @@ footer a:hover{
 .footer-nav .nav-item a{
     text-transform:uppercase;
     font-size:1.0rem;
+}
+/*----------------------------------------------------------------------------- CONTACT US */
+.contact-lead-image{
+    height:160px;
+    background: rgb(184,196,176) url(../images/rolls-church.jpg) bottom center/ cover no-repeat ;
+}
+.form-control{
+    background-color:#fffefc;
+}
+.form-control:focus{
+    border-color: #3B3B3B;
+    box-shadow: 0 0 0 0.25rem rgb(100 114 100 / 30%);
+}
+.contact-details i{
+    font-size:250%;
+}
+.contact-details a{
+    font-size:200%;
+    text-decoration:none;
+    color:inherit;
+}
+.form-control{
+    border:1px solid #3B3B3B;
 }
 /*--------------------------------------------------------------------- HOVER.CSS Modifiers */
 .hvr-underline-from-center:before {

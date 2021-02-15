@@ -110,6 +110,10 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
         text-align:end;
         margin-right:10px;
     }
+    .contact-detail-section{
+        background: rgb(192,205,183);
+        background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 50%, rgba(192,205,183,1) 100%);
+    }
 }
 /* SCREEN SIZE SM and up */
 @media screen and (min-width:576px){
@@ -118,6 +122,10 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
     }
     .callout{
         margin-top:25px;
+    }
+    .contact-detail-section{
+        background: rgb(192,205,183);
+        background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 50%, rgba(192,205,183,1) 100%);
     }
 }
 /* SCREEN SIZE MD and up */
@@ -140,6 +148,10 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
     }
     .hero-callout-outer{
         height:500px;
+    }
+    .contact-detail-section{
+        background-color:#fffcf7;
+        background:none;
     }
 }
 /* FOR iPAD Pro in landscape view */
@@ -187,6 +199,14 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
     border-color: #5a5a5a;
     box-shadow: 0 0 0 0.25rem rgb(100 114 100 / 30%);
 }
+.contact-details i{
+    font-size:250%;
+}
+.contact-details a{
+    font-size:200%;
+    text-decoration:none;
+    color:inherit;
+}
 /*--------------------------------------------------------------------------------- FOOTER */
 footer{
     background: #fffcf7;
@@ -205,13 +225,17 @@ footer .navbar-nav{
     padding:8px 0;
     line-height:10px;
 
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
 }
 .sm-icons:hover{
     background-color:rgb(192,205,183);
+}
+footer a:hover{
+    color:#5a5a5a;
+}
 }
 footer .nav-item a {
     font-size:1rem;

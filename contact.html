@@ -66,7 +66,8 @@
 <!-- FORM -->
 <div class="container-fluid">
     <div class="row justify-content-evenly">
-        <div class="col-11 col-md-4">
+        <div class="col-11 col-md-7 col-xl-4 my-4">
+            <h3 class="mb-3 text-center">Wedding Enquiry Form</h3>
             <form action="https://formdump.codeinstitute.net" method="POST">
                 <div class="form-group">
                     <label for="full_name">Full Name:</label>
@@ -86,27 +87,44 @@
                 </div>
                 <div class="form-group">
                     <label for="pick_up_address">Pick-Up Address:</label>
-                    <textarea type="text-area" class="form-control" id="pick_up_address" name="pick_up_address" required rows="3"></textarea>
+                    <textarea type="text-area" class="form-control" id="pick_up_address" name="pick_up_address" required rows="3" placeholder="Please include Eircode"></textarea>
                 </div>
                 <div class="form-group">
                     <label for="ceremony_address">Ceremony Address:</label>
-                    <textarea type="text-area" class="form-control" id="ceremony_address" name="ceremony_address" required rows="3"></textarea>
+                    <textarea type="text-area" class="form-control" id="ceremony_address" name="ceremony_address" required rows="3" placeholder="Please include Eircode"></textarea>
                 </div>
                 <div class="form-group">
                     <label for="reception_address">Reception Address:</label>
-                    <textarea type="text-area" class="form-control" id="reception_address" name="reception_address" required rows="3"></textarea>
+                    <textarea type="text-area" class="form-control" id="reception_address" name="reception_address" required rows="3" placeholder="Please include Eircode"></textarea>
                 </div>
                 <div class="form-group">
                     <label for="message">Message:</label>
                     <textarea type="text-area" class="form-control" id="message" name="message" rows="4" placeholder="Anything else we need to know?"></textarea>
                 </div>
-                <div class="text-center mt-3">
-                    <button type="submit" class="btn btn-success">Submit</button>
+                <div class="text-center mt-5">
+                    <button type="submit" class="btn btn-success">Enquire Now</button>
                 </div>
             </form>
         </div>
-        <div class="col-11 col-md-4 align-conter-center">
-            
+        <div class="col-xl-4 my-4 text-center contact-detail-section">
+            <div class="my-4">
+                <h3 class="mb-3">Have a Question?</h3>
+            </div>
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-xl-9">
+                        <p>If you have a question or would like to make a booking enquiry
+                            for a different occasion then get in touch. We would be happy to help.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-details my-3">
+                <i class="fas fa-phone-alt" aria-hidden="true"></i> <a href="tel:+353448437655">044-8437655</a>
+            </div>
+            <div class="contact-details my-3">
+                <i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:info@therolls.ie">info@therolls.ie</a>
+            </div>
         </div>
     </div>
 </div>

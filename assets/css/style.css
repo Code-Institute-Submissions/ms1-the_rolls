@@ -6,24 +6,44 @@
 body{
     font-family:"Noticia Text", sans-serif;
     background-color:#fffcf7;
+    color:#3B3B3B;
 }
-.heading{
+.green-bg{
+    background: rgb(192,205,183);
+    background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 50%, rgba(192,205,183,1) 100%);
+}
+/* Below code modified from https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
+h2 {
     font-family:"Playfair Display", serif;
     text-transform:uppercase;
     letter-spacing:1px;
+    overflow: hidden;
+    text-align: center;
+    margin:20px 0 20px 0;
 }
-/* .rounded {
-    border-radius:25px!important;
-} */
-.green-bg{
-background: rgb(192,205,183);
-background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 50%, rgba(192,205,183,1) 100%);
+h2:before,
+h2:after {
+    background-color: #3b3b3b;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+h2:before {
+    right: 0.3em;
+    margin-left: -50%;
+}
+h2:after {
+    left: 0.3em;
+    margin-right: -50%;
 }
 /*--------------------------------------------------------------------------------- NAVBAR */
 .navbar-brand{
     font-family:"Playfair Display", serif;
     font-size:1.7rem;
-    color:#5a5a5a!important;
+    color:#3B3B3B!important;
     letter-spacing:2px;
 }
 .nav-item a{
@@ -40,7 +60,7 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
     border:0;
 }
 .header-nav{
-    border-bottom:2px solid #5a5a5a;
+    border-bottom:2px solid #3B3B3B;
 }
 
 /*------------------------------------------------------------------- HERO IMAGE & CALLOUT */
@@ -52,13 +72,13 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
 .callout{
     background-color:rgb(164 184 163 / 97%);
     border-radius:10px;
-    border:1px solid #5a5a5a;
+    border:1px solid #3B3B3B;
 }
 
 .btn-success {
     color: #fff;
     background-color: rgb(123 140 123);
-    border-color: #5a5a5a;
+    border-color: #3B3B3B;
     font-size:130%;
 }
 .btn-success:hover,
@@ -66,20 +86,20 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
 .btn-success:focus,
 .btn-success:active:focus{
     background-color: rgb(100 114 100);
-    border-color: #5a5a5a;
+    border-color: #3B3B3B;
     box-shadow: 0 0 0 0.25rem rgb(100 114 100 / 30%);
     }
 /* ---------------------------------------------------------------------------- WHAT WE DO */
 .what-we-do-img{
-    box-shadow: 0 0 10px #989898;
+    box-shadow: 0 0 10px #3B3B3B;
 }
 /*---------------------------------------------------------------------------------- ABOUT */
-.lead-image{
+.about-lead-image{
     height:160px;
     background: rgb(184,196,176) url(../images/about-main-image.jpg) bottom center/ cover no-repeat ;
 }
 .royce-quotes{
-    color:#5a5a5a;
+    color:#3B3B3B;
     font-size:40%;
 }
 .royce-text{
@@ -99,6 +119,89 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
     top:-55px;
     border:none;
 }
+
+
+/*--------------------------------------------------------------------------- TESTIMONIALS */
+.quotes {
+    color:#3B3B3B;
+}
+.testimonial-img {
+    border-radius:25px;
+}
+/*----------------------------------------------------------------------------- CONTACT US */
+.contact-lead-image{
+    height:160px;
+    background: rgb(184,196,176) url(../images/rolls-church.jpg) bottom center/ cover no-repeat ;
+}
+.form-control{
+    background-color:#fffefc;
+}
+.form-control:focus{
+    border-color: #3B3B3B;
+    box-shadow: 0 0 0 0.25rem rgb(100 114 100 / 30%);
+}
+.contact-details i{
+    font-size:250%;
+}
+.contact-details a{
+    font-size:200%;
+    text-decoration:none;
+    color:inherit;
+}
+.form-control{
+    border:1px solid #3B3B3B;
+}
+/*--------------------------------------------------------------------------------- FOOTER */
+footer{
+    background: #ececec;
+}
+footer .navbar-nav{
+    flex-direction:row;
+}
+.sm-icons{
+    font-size:150%;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    text-align:center;
+    color:#3B3B3B;
+    background-color:#cecece;
+    padding:8px 0;
+    line-height:10px;
+
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+.sm-icons:hover{
+    background-color:rgb(192,205,183);
+}
+footer a:hover{
+    color:#3B3B3B;
+}
+.footer-nav{
+    margin-top:40px;
+    margin-bottom:20px;
+}
+.footer-nav .nav-item a{
+    text-transform:uppercase;
+    font-size:1.0rem;
+}
+/*--------------------------------------------------------------------- HOVER.CSS Modifiers */
+.hvr-underline-from-center:before {
+    bottom:20%;
+    background:#3B3B3B;
+    height:2px;
+    margin:0 8px;
+}
+/*------------------------------------------------------------------- ANIMATE.CSS Modifiers */
+.animate__animated.animate__fadeInLeft{
+    --animate-duration: 2000ms;
+}
+.animate__animated.animate__fadeIn{
+    --animate-duration: 3000ms;
+}
 /*------------------------------------------------------------------------ MEDIA QUERIES */
 
 /* SCREEN SIZE XS */
@@ -117,7 +220,10 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
 }
 /* SCREEN SIZE SM and up */
 @media screen and (min-width:576px){
-    .lead-image{
+    .about-lead-image{
+        height:250px;
+    }
+    .contact-lead-image{
         height:250px;
     }
     .what-we-do-img{
@@ -136,7 +242,10 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
     .gallery-carousel img {
         border-radius:25px;
     }
-    .lead-image{
+    .about-lead-image{
+        height:300px;
+    }
+    .contact-lead-image{
         height:300px;
     }
 }
@@ -146,7 +255,10 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
 }
 /* SCREEN SIZE XL and up */
 @media screen and (min-width:1200px){
-    .lead-image{
+    .about-lead-image{
+        height:350px;
+    }
+    .contact-lead-image{
         height:350px;
     }
     .hero-callout-outer{
@@ -169,7 +281,7 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
         margin-top:30px;
     }
     .hero-callout-outer{
-        height:700px;
+        height:600px;
     }
     .navbar-brand{
         font-size:2.2rem;
@@ -177,103 +289,13 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
     .nav-item a {
         font-size:1.4rem;
     }
-    .lead-image{
+    .about-lead-image{
+        height:500px;
+    }
+    .contact-lead-image{
         height:500px;
     }
     .footer-nav .nav-item a{
     font-size:1.0rem;
     }
-}
-/* @keyframes image-zoom {
-    from{
-        transform: scale(1.0);
-    }
-    to{
-        transform: scale(1.05);
-    }
-} */
-
-/*--------------------------------------------------------------------------- TESTIMONIALS */
-.quotes {
-    color:#5a5a5a;
-}
-.testimonial-img {
-    border-radius:25px;
-}
-/*----------------------------------------------------------------------------- CONTACT US */
-.form-control{
-    background-color:#fffefc;
-}
-.form-control:focus{
-    border-color: #5a5a5a;
-    box-shadow: 0 0 0 0.25rem rgb(100 114 100 / 30%);
-}
-.contact-details i{
-    font-size:250%;
-}
-.contact-details a{
-    font-size:200%;
-    text-decoration:none;
-    color:inherit;
-}
-/*--------------------------------------------------------------------------------- FOOTER */
-footer{
-    background: #ececec;
-}
-footer .navbar-nav{
-    flex-direction:row;
-}
-.sm-icons{
-    font-size:150%;
-    width:40px;
-    height:40px;
-    border-radius:50%;
-    text-align:center;
-    color:#5a5a5a;
-    background-color:#cecece;
-    padding:8px 0;
-    line-height:10px;
-
-    transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-}
-.sm-icons:hover{
-    background-color:rgb(192,205,183);
-}
-footer a:hover{
-    color:#5a5a5a;
-}
-.footer-nav .nav-item a{
-    text-transform:uppercase;
-    font-size:1.0rem;
-}
-/*--------------------------------------------------------------------- BACKGROUND TESTERS */
-.redbg{
-    background-color:red;
-}
-.bluebg{
-    background-color:blue;
-}
-.pinkbg{
-    background-color:pink;
-}
-.greybg{
-    background-color:rgb(164 184 163);
-}
-
-/*--------------------------------------------------------------------- HOVER.CSS Modifiers */
-.hvr-underline-from-center:before {
-    bottom:20%;
-    background:#5a5a5a;
-    height:2px;
-    margin:0 8px;
-}
-/*------------------------------------------------------------------- ANIMATE.CSS Modifiers */
-.animate__animated.animate__fadeInLeft{
-    --animate-duration: 2000ms;
-}
-.animate__animated.animate__fadeIn{
-    --animate-duration: 3000ms;
 }

@@ -48,7 +48,7 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
 
 /*------------------------------------------------------------------- HERO IMAGE & CALLOUT */
 .hero-callout-outer{
-    background: rgb(184,196,176) url(../images/hero-image.jpg) bottom right/ cover no-repeat ;
+    background: rgb(192,205,183) url(../images/hero-image.jpg) bottom right/ cover no-repeat ;
     height:500px;   
 }
 
@@ -179,6 +179,14 @@ background: linear-gradient(90deg, rgba(192,205,183,1) 0%, rgba(217,230,208,1) 5
 .quotes {
     color:#5a5a5a;
 }
+/*----------------------------------------------------------------------------- CONTACT US */
+.form-control{
+    background-color:#fffefc;
+}
+.form-control:focus{
+    border-color: #5a5a5a;
+    box-shadow: 0 0 0 0.25rem rgb(100 114 100 / 30%);
+}
 /*--------------------------------------------------------------------------------- FOOTER */
 footer{
     background: #fffcf7;
@@ -205,7 +213,9 @@ footer .navbar-nav{
 .sm-icons:hover{
     background-color:rgb(192,205,183);
 }
-
+footer .nav-item a {
+    font-size:1rem;
+}
 /*--------------------------------------------------------------------- BACKGROUND TESTERS */
 .redbg{
     background-color:red;

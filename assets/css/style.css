@@ -1,10 +1,9 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Playfair+Display:wght@400&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Playfair+Display:wght@400&family=Italianno&display=swap');
 
 /*-------------------------------------------------------------------------------- GENERAL */
 
 body{
-    font-family:"Roboto", sans-serif;
+    font-family:"Raleway", sans-serif;
     background-color:#fffcf7;
     color:#3B3B3B;
 }
@@ -106,11 +105,11 @@ h2:after {
     font-size:40%;
 }
 .royce-text{
-    font-size:200%;
+    font-size:2.5rem;
     background:#f1f1f1;
     padding:10px 0;
     border-radius:15px;
-    font-family:"Sacramento", cursive;
+    font-family:"Italianno", cursive;
 }
 .map-outer{
     height:380px;

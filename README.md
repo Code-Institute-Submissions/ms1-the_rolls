@@ -40,13 +40,13 @@ This project is for Milestone 1 of the Code Institute Full Stack Developer Cours
 ### **The Business Goals:**
 -	Create an online presence for the company where users can easily access information on the service.
 -	Develop more booking leads for the business.
--	Present the brand and the service offered as a high-end, luxury product.
+-	Present the brand and the service offered as a high-end, luxury product andevoke a sense of timeless elegance.
 -	Primarily target the website at the lucrative wedding market, while making it clear the service can be booked for other occasions.
 
 ### **Target Clients:**
 -	Couples organising their weddings. Typically 25-45 years old.
 -	Parents looking to buy a wedding gift for their Son or Daughter. Typically 50-70 years old.
--	People looking to book a chauffeured car for a special occasion.
+-	People looking to book a chauffeured car for a special occasion. Variable ages.
 
 ### **Tech considerations:**
 -	The service is targeted at users of varying ages and varying technical ability, so it is important that the site is easy to use and navigate. 
@@ -142,29 +142,50 @@ The projects overall aesthethic is designed to align with the companies ethos an
 
 #### Logo:
 
+Instead of creating a logo I chose to keep it simple and implement the site logo using HTML. 
+
 #### Colour Scheme:
 The colour scheme was chosen to evoke certain emotions appropriate to this business. According to a [verywellmind.com article](https://www.verywellmind.com/color-psychology-2795824) on colour psychology:
 
-Green evokes: Calm, optimism, security
-
 Blue evokes: Stability, calm, trustworthiness, professionalism
+
+Green evokes: Calm, optimism, security
 
 White evokes: Cleanliness, peacefulness, simplicity
 
+Black evokes: Sophistication
+
 I chose to use green and white as the two main colours of the website and then allow the blue to come from the images of the car on the site.
 
-Specifically, the colours used are:
-<div style="background-color:#b8cdb7; width:100px; height:100px; border-radius:10px; border:1px solid #000"></div>
-Green: #b8cdb7
-<div style="background-color:#fffcf7; width:100px; height:100px; border-radius:10px border:1px solid #000"></div>
-White: #fffcf7
-<div style="background-color:#3b3b3b; width:100px; height:100px; border-radius:10px border:1px solid #000"></div>
-Black: #3b3b3b
-<!-- Black evokes: Sophistication
+The colour of the car is a washed out blue so I chose to complement that with a similarily washed out green. The white chosen is an off white to add some warmth to the site as I felt pure white made the site a little cold. The text is a dark grey rather than black to bring a little bit of warmth and to complement the washed out colours of blue and green.
 
-Grey evokes: Neutral, formal -->
+Specifically, the three main colours used are:
+<figure style="display:inline-block">
+<div style="background-color:#90a8be; width:100px; height:100px; border-radius:10px; border:1px solid #000; display:inline-block"></div>
+<figcaption>Car colour</figcaption>
+</figure>
+<figure style="display:inline-block">
+<div style="background-color:#b8cdb7; width:100px; height:100px; border-radius:10px; border:1px solid #000; display:inline-block"></div>
+<figcaption>#b8cdb7</figcaption>
+</figure>
+<figure style="display:inline-block">
+<div style="background-color:#fffcf7; width:100px; height:100px; border-radius:10px; border:1px solid #000; display:inline-block"></div>
+<figcaption>#fffcf7</figcaption>
+</figure>
+<figure style="display:inline-block">
+<div style="background-color:#3b3b3b; width:100px; height:100px; border-radius:10px; border:1px solid #000; display:inline-block"></div>
+<figcaption>#3b3b3b</figcaption>
+</figure>
 
 #### Typography:
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Playfair+Display:wght@400&family=Sacramento&display=swap');
+Google fonts ws used for all of the fonts on the site.
+
+Playfair Display at regular font weight was chosen for the brand logo and main headings. Playfair is an elegant serif typeface well suited for titles and headlines. Its classical style lends itself to the company ethos of timeless elegance.
+
+Raleway at font weight 300 was chosen as the text for the main body and sub headings. Raleway is an elegant sans-serif typeface. To add an extra touch of elegance I chose to use a light weight.
+
+Italianno was chosen for the Henry Rolls quote section. Italianno is a cursive typeface, chosen for its elegance. 
 
 #### Images:
 
@@ -227,5 +248,7 @@ Each page is split into different sections and they appear either stacked or sid
 # Credits
 
 pexels.com used for the stock photos in testimonials section.
+
+Google fonts.
 
 https://www.howtoonlinetips.com/hide-google-map-top-bar-embedded-header/ used inspiration from the code on this site to hide the header on the embedded google map.

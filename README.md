@@ -151,6 +151,15 @@ Blue evokes: Stability, calm, trustworthiness, professionalism
 
 White evokes: Cleanliness, peacefulness, simplicity
 
+I chose to use green and white as the two main colours of the website and then allow the blue to come from the images of the car on the site.
+
+Specifically, the colours used are:
+<div style="background-color:#b8cdb7; width:100px; height:100px; border-radius:10px; border:1px solid #000"></div>
+Green: #b8cdb7
+<div style="background-color:#fffcf7; width:100px; height:100px; border-radius:10px border:1px solid #000"></div>
+White: #fffcf7
+<div style="background-color:#3b3b3b; width:100px; height:100px; border-radius:10px border:1px solid #000"></div>
+Black: #3b3b3b
 <!-- Black evokes: Sophistication
 
 Grey evokes: Neutral, formal -->

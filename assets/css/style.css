@@ -9,8 +9,8 @@ body{
     color:#3B3B3B;
 }
 .green-bg{
-    background: rgb(184,205,183);
-    background: linear-gradient(90deg, rgba(184,205,183,1) 0%, rgb(200, 212, 200) 50%,  rgba(184,205,183,1) 100%);
+    background: #b8cdb7;
+    background: linear-gradient(90deg, #b8cdb7 0%, #c8d4c8 50%,  #b8cdb7 100%);
 }
 /* Below code modified from https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
 h2 {
@@ -64,21 +64,21 @@ h2:after {
 }
 
 /*------------------------------------------------------------------- HERO IMAGE & CALLOUT */
-.hero-callout-outer{
-    background: rgb(192,205,183) url(../images/hero-image.jpg) bottom right/ cover no-repeat ;
+.hero-image{
+    background: #b8cdb7 url(../images/hero-image.jpg) bottom right/ cover no-repeat ;
     height:500px;   
 }
 
 .callout{
-    background: rgb(184,205,183);
-    background: linear-gradient(90deg, rgba(184,205,183,1) 0%, rgb(200, 212, 200) 50%,  rgba(184,205,183,1) 100%);
+    background: #b8cdb7;
+    background: linear-gradient(90deg, #b8cdb7 0%, #c8d4c8 50%,  #b8cdb7 100%);
     border-radius:10px;
     border:1px solid #3B3B3B;
 }
 
 .btn-success {
     color: #fff;
-    background-color: rgb(123 140 123);
+    background-color: #7b8c7b;
     border-color: #3B3B3B;
     font-size:130%;
 }
@@ -88,7 +88,7 @@ h2:after {
 .btn-success:active:focus{
     background-color: rgb(100 114 100);
     border-color: #3B3B3B;
-    box-shadow: 0 0 0 0.25rem rgb(100 114 100 / 30%);
+    box-shadow: 0 0 0 0.25rem #0000004d;
     }
 /* ---------------------------------------------------------------------------- WHAT WE DO */
 /*--------------------------------------------------------------------------- TESTIMONIALS */
@@ -101,7 +101,7 @@ h2:after {
 /*---------------------------------------------------------------------------------- ABOUT */
 .about-lead-image{
     height:160px;
-    background: rgb(184,196,176) url(../images/about-main-image.jpg) bottom center/ cover no-repeat ;
+    background: #b8cdb7 url(../images/about-main-image.jpg) bottom center/ cover no-repeat ;
 }
 .royce-quotes{
     color:#3B3B3B;
@@ -165,14 +165,14 @@ footer a:hover{
 /*----------------------------------------------------------------------------- CONTACT US */
 .contact-lead-image{
     height:160px;
-    background: rgb(184,196,176) url(../images/rolls-church.jpg) bottom center/ cover no-repeat ;
+    background: #b8cdb7 url(../images/rolls-church.jpg) bottom center/ cover no-repeat ;
 }
 .form-control{
     background-color:#fffcf7;
 }
 .form-control:focus{
     border-color: #3B3B3B;
-    box-shadow: 0 0 0 0.25rem rgb(100 114 100 / 30%);
+    box-shadow: 0 0 0 0.25rem #0000004d;
 }
 .contact-details i{
     font-size:250%;

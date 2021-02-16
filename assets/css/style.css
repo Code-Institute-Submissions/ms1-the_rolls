@@ -68,14 +68,12 @@ h2:after {
     background: #b8cdb7 url(../images/hero-image.jpg) bottom right/ cover no-repeat ;
     height:500px;   
 }
-
 .callout{
     background: #b8cdb7;
     background: linear-gradient(90deg, #b8cdb7 0%, #c8d4c8 50%,  #b8cdb7 100%);
     border-radius:10px;
     border:1px solid #3B3B3B;
 }
-
 .btn-success {
     color: #fff;
     background-color: #7b8c7b;
@@ -210,6 +208,10 @@ footer a:hover{
         text-align:end;
         margin-right:10px;
     }
+    .callout-heading{
+    letter-spacing:0;
+    font-size:1.4rem;
+    }
 }
 /* SCREEN SIZE SM and up */
 @media screen and (min-width:576px){
@@ -241,7 +243,9 @@ footer a:hover{
 }
 /* SCREEN SIZE LG and up */
 @media screen and (min-width:992px){
-
+    .hero-image{
+        height:550px;
+    }
 }
 /* SCREEN SIZE XL and up */
 @media screen and (min-width:1200px){
@@ -251,14 +255,8 @@ footer a:hover{
     .contact-lead-image{
         height:350px;
     }
-    .hero-callout-outer{
-        height:500px;
-    }
-}
-/* FOR iPAD Pro in landscape view */
-@media screen and (min-width:1365px){
-    .hero-callout-outer{
-        height:550px;
+    .hero-image{
+        height:570px;
     }
 }
 /* SCREENS SIZE XXL and up */
@@ -266,8 +264,8 @@ footer a:hover{
     .callout{
         margin-top:30px;
     }
-    .hero-callout-outer{
-        height:680px;
+    .hero-image{
+        height:600px;
     }
     .navbar-brand{
         font-size:2.2rem;
@@ -283,5 +281,10 @@ footer a:hover{
     }
     .footer-nav .nav-item a{
     font-size:1.0rem;
+    }
+}
+@media screen and (min-width:1600px){
+    .hero-image{
+        height:700px;
     }
 }

@@ -87,7 +87,6 @@ h2:after {
     border-color: #3B3B3B;
     box-shadow: 0 0 0 0.25rem #0000004d;
     }
-/* ---------------------------------------------------------------------------- WHAT WE DO */
 /*--------------------------------------------------------------------------- TESTIMONIALS */
 .quotes {
     color:#3B3B3B;
@@ -106,7 +105,7 @@ h2:after {
 }
 .royce-text{
     font-size:2.5rem;
-    background:#f1f1f1;
+    background:#fffcf7;
     padding:10px 0;
     border-radius:15px;
     font-family:"Italianno", cursive;
@@ -158,6 +157,9 @@ footer a:hover{
 .footer-nav .nav-item a{
     text-transform:uppercase;
     font-size:1.0rem;
+}
+.copyright-text{
+    font-size:70%;
 }
 /*----------------------------------------------------------------------------- CONTACT US */
 .contact-lead-image{

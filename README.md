@@ -141,11 +141,11 @@ This page will have details on how to contact the company for a booking enquiry.
 
 ### **Surface Plane**
 
-The projects overall aesthethic is designed to align with the companies ethos and branding and evoke a sense of calm, trusthworthiness and simplicity.
+The projects overall aesthethic is designed to align with the companies ethos and branding and evoke a sense of calm, elegance, trusthworthiness and simplicity.
 
 #### Logo:
 
-Instead of creating a logo I chose to keep it simple and implement the site logo using HTML. 
+Instead of creating a logo I chose to keep it simple and implement the site logo using HTML and CSS so that it scales well across different devices. 
 
 #### Colour Scheme:
 The colour scheme was chosen to evoke certain emotions appropriate to this business. According to a [verywellmind.com article](https://www.verywellmind.com/color-psychology-2795824) on colour psychology:
@@ -280,6 +280,47 @@ Each page is split into different sections and they appear either stacked or sid
 
 # Testing
 
+## User Story Testing
+### As a visitor to the site I want to see what services you provide.
+- A user who initially lands on the site instantly sees the hero image of a wedding couple beside the car with ribbons on the bonnet. This immediately gives the impression of what the service offered is.
+- The user sees the callout that gives a brief description of the service, further reinforcing the initial impression given with the hero image.
+- On the landing page the user can see a "What we do" section.
+- An "Äbout Us" page on the site goes into more detail on the service provided if the user wants to find out more.
+
+### As a potential customer I want to see what the car looks like inside and out, so I know exactly what I would be paying for.
+- The hero image on the home page gives the first impression of this.
+- The What We Do section of the home page presents 2 more pictures of the car.
+- The user can follow the navigation to the gallery page to see the entire collection of pictures of the car.
+- Each page of the site leads with a picture of the car, so that no matter what page the user lands on initially they will get an impression of the car.
+
+### As a potential customer who is interested in booking your service I want to know how much it costs, so I know if it is within my budget before spending time making an enquiry.
+- The user will find this information in the About page.
+- It is made clear to the user that the prices listed are estimated prices based on the location of their event and that they should get in contact to get an accurate quote.
+
+### As an interested customer I would like a link to your social media accounts, so I can see more photos and follow you.
+- The user will find these links in the footer of each page. 
+- It is conventional to have the social media links at the bottom of the page even if they appear elsewhere on the page. So the user who typically uses social media will instinctively know where to find the links.
+
+### As a customer who has decided to go ahead and book the service, I want to make a booking enquiry.
+- The user will find enquire buttons on the home page and the gallery page. They can also navigate to the contact page by the navigation links in the header and the footer which feature on all pages.
+- The buttons link to the contact page where the user can make an enquiry by online form, phone or email.
+- If the usser chooses to enquire by online form they will recieve a prompt if they fail to fill out all applicable fields.
+- The enquiry form is geared to the main clientelle of this business which is for weddings. If the user wants to book for a different event they can enquire by email or phone.
+- The phone and email links are made large to create the impression of them being links.
+- The phone and email links automatically open the applicable app on the users device when pressed.
+
+### As a potential customer I would like to see your customer testimonials, so that I will feel more confident about booking the service.
+- The user will find these on the home page towards the bottom of the page. It is conventional to have testimonials to the bottom of a page so the user will know instinctively to look here.
+- There is a picture of the couple to increase the trust of the user in the testimonials.
+
+### As a potential customer I want to find out more about your company, so that I can get to know more about your company ethos.
+- On the main page the user will find out a short bit of information on the company in the What We Do section.
+- The user can navigate to the About page where they will find out more about the company, the car and the pricing.
+- The testimonials tell the user a little bit about the company from a third person perspective.
+- Pictures paint a thousand words, so the website is littered with images of the service provided.
+
+## Feature testing
+### Navigation header
 
 # Deployment
 

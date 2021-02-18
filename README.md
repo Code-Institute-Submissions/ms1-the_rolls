@@ -401,7 +401,12 @@ The site was mainly developed using Google Chrome using the built in dev tools. 
 
 The site was tested using the following validators and online tools:
 
-
+### Google Lighthouse
+Based on initial results from Google Lighthouse the following changes were made to the site:
+- Add a Meta description
+- Add a 'rel="noopener"' attribute to the social media links
+- Text colour in the Enquire button on the callout lacked sufficient colour contrast so that was changed to the same colour as the rest of the text and the background changed to the same colour as the header and footer to maintain consistency and contrast.
+- It recommended that the images be converted from jpg to jp2 in order to improve first contentful paint time.
 
 # Deployment
 

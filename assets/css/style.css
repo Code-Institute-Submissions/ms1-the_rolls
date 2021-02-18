@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Playfair+Display:wght@400&family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Playfair+Display:wght@400&family=Italianno&display=swap');
 /*-------------------------------------------------------------------------------- GENERAL */
 body{
     font-family:"Raleway", sans-serif;
@@ -61,7 +61,7 @@ h2:after {
 }
 /*------------------------------------------------------------------- HERO IMAGE & CALLOUT */
 .hero-image{
-    background: #b8cdb7 url(../images/hero-image.jpg) bottom right/ cover no-repeat ;
+    background: #b8cdb7 url(../images/hero-image.jp2) bottom right/ cover no-repeat ;
     height:500px;   
 }
 .callout{
@@ -71,10 +71,11 @@ h2:after {
     border:1px solid #3B3B3B;
 }
 .btn-success {
-    color: #fff;
-    background-color: #7b8c7b;
-    border-color: #3B3B3B;
+    color:#3b3b3b;
+    background-color: #E6E6E6;
+    border:2px solid #3B3B3B;
     font-size:130%;
+    font-weight:400;
 }
 .btn-success:hover,
 .btn-success:active,
@@ -91,10 +92,18 @@ h2:after {
 .testimonial-img {
     border-radius:25px;
 }
+h3{
+    font-size:1.4rem;
+    font-weight:300;
+}
+h4{
+    font-size:1.0rem;
+    font-weight:300;
+}
 /*---------------------------------------------------------------------------------- ABOUT */
 .about-lead-image{
     height:160px;
-    background: #b8cdb7 url(../images/about-main-image.jpg) bottom center/ cover no-repeat ;
+    background: #b8cdb7 url(../images/about-main-image.jp2) bottom center/ cover no-repeat ;
 }
 .royce-quotes{
     color:#3B3B3B;
@@ -162,7 +171,7 @@ footer a:hover{
 /*----------------------------------------------------------------------------- CONTACT US */
 .contact-lead-image{
     height:160px;
-    background: #b8cdb7 url(../images/rolls-church.jpg) bottom center/ cover no-repeat ;
+    background: #b8cdb7 url(../images/rolls-church.jp2) bottom center/ cover no-repeat ;
 }
 .form-control{
     background-color:#fffcf7;

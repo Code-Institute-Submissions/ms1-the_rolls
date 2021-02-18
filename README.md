@@ -320,7 +320,27 @@ Each page is split into different sections and they appear either stacked or sid
 - Pictures paint a thousand words, so the website is littered with images of the service provided.
 
 ## Feature testing
-### Navigation header
+### Manual Testing
+#### Navigation header
+- The navigation links were tested to ensure that they work correctly on each page.
+- Checked that the logo brand links to the home page from each page.
+- Checked the navigation links work on smaller devices when the navbar collapses to a burger menu.
+- Checked the underline from the left works on each link on each page.
+- Checked the current page relates to the correct link and that the applicable link appear slightly heavier than the other links.
+- Checked the navigation links stay to the right on both small and large devices.
+- Checked the header collapses to a burger menu at a point that allows the nav links to be accomodated comfortably before they collapse.
+- Checked that the burger menu icon appears to the right on the smallest devices.
+- Checked that the navigation links and logo have a font size that appears in proportion when viewed on large devices.
+- Checked the burger menu when pressed diplays the links and hides the links when pressed a second time.
+- Checked the header appears the same size on all pages.
+- Checked that pressing tab logically brings you from left to right.
+#### Footer
+
+- Checked that only the correct 3 links appear on each page.
+- Checked that the underline effect works on each link on each page.
+- Checked that the social media links work.
+- Checked the responsiveness of the footer on each page for all screen sizes.
+- Checked the social media links open the correct page and open in a new tab.
 
 # Deployment
 

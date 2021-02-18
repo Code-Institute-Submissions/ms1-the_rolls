@@ -1,8 +1,11 @@
-![The Rolls Logo]()
 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<h1 style="font-family: 'Playfair Display', serif; font-size:4rem;">THE ROLLS</h1>
 This project is a static front-end website for a fictitious chauffeur driven, luxury car-hire service named “The Rolls”.
-
-* Insert mockup screenshot *
+<br>
+<br>
+<img src="assets/images/screen-mockup.png" style="width:1000px">
 
 # Table of Contents
 
@@ -40,7 +43,7 @@ This project is for Milestone 1 of the Code Institute Full Stack Developer Cours
 ### **The Business Goals:**
 -	Create an online presence for the company where users can easily access information on the service.
 -	Develop more booking leads for the business.
--	Present the brand and the service offered as a high-end, luxury product andevoke a sense of timeless elegance.
+-	Present the brand and the service offered as a high-end, luxury product and evoke a sense of timeless elegance.
 -	Primarily target the website at the lucrative wedding market, while making it clear the service can be booked for other occasions.
 
 ### **Target Clients:**
@@ -147,21 +150,18 @@ Instead of creating a logo I chose to keep it simple and implement the site logo
 #### Colour Scheme:
 The colour scheme was chosen to evoke certain emotions appropriate to this business. According to a [verywellmind.com article](https://www.verywellmind.com/color-psychology-2795824) on colour psychology:
 
-Blue evokes: Stability, calm, trustworthiness, professionalism
-
-Green evokes: Calm, optimism, security
-
-White evokes: Cleanliness, peacefulness, simplicity
-
-Black evokes: Sophistication
+- Blue evokes: Stability, calm, trustworthiness, professionalism
+- Green evokes: Calm, optimism, security
+- White evokes: Cleanliness, peacefulness, simplicity
+- Black evokes: Sophistication
 
 I chose to use green and white as the two main colours of the site and then allow the blue to come from the images of the car on the site.
 
-The colour of the car is a washed out blue so I chose to complement that with a similarily washed out green. The white chosen is an off white to add some warmth to the site as I felt pure white made the site appear a little cold. The text is a dark grey rather than black to bring a some warmth and to complement the washed out colours of blue and green.
+The colour of the car is a washed out blue so I chose to complement that with a similarily washed out green. The white chosen is an off white to add some warmth to the site as I felt pure white made the site appear a little cold. The text is a dark grey rather than black to bring some warmth and to complement the washed out colours of blue and green.
 
-Where the breen is used a backgound it has been implemented with a very subtle linear gradient, with a darker green to the sides and a slightly brighter green to the center.
+Where the green is used as a backgound it has been implemented with a very subtle linear gradient, with a darker green to the sides and a slightly brighter green to the center. This is done to give a subtle focus on the content in the center of the page and improve readability.
 
-Specifically, the three main colours used are:
+Specifically, the main colours used are:
 <figure style="display:inline-block">
 <div style="background-color:#90a8be; width:100px; height:100px; border-radius:10px; border:1px solid #000; display:inline-block"></div>
 <figcaption>Car colour</figcaption>
@@ -179,14 +179,12 @@ Specifically, the three main colours used are:
 <figcaption>#3b3b3b</figcaption>
 </figure>
 
-
-
 #### Typography:
 Google fonts were used for all of the fonts on the site.
 
 - Playfair Display at regular font weight was chosen for the brand logo and main headings. Playfair is an elegant serif typeface well suited for titles and headlines. Its classical style lends itself to the company ethos of timeless elegance.
 
-- Raleway at font weight 300 was chosen as the text for the main body and sub headings. Raleway is an elegant sans-serif typeface. To add an extra touch of elegance I chose to use a light weight.
+- Raleway at font weight 300 was chosen as the text for the main body and sub headings. Raleway is an elegant sans-serif typeface. To add an extra touch of elegance I chose to use a light weight and I found that any lighter reduced readability considerably.
 
 - Italianno was chosen for the Henry Rolls quote section. Italianno is a cursive typeface, chosen for its elegance. 
 
@@ -198,16 +196,20 @@ The images of couples in the testimonial section are royalty free images from pe
 
 #### Animations:
 
-The animations used are for the quote section of the about page and for the navigation links in the header and the footer. 
-- A slide in from left transition and a fade in transition are used for the quote section. The animations are implemented using [animate.css](https://animate.style/)
+The animations used are for the quote section of the about, the navigation links and the buttons. 
 
-- An underline from the left on hover animation is used for the navigation links. The animation is implemented using [hover.css](https://ianlunn.github.io/Hover/)
+- A slide in from left transition and a fade in transition are used for the quote section. The animations are implemented using [animate.css](https://animate.style/).
 
+- An underline from the left on hover animation is used for the navigation links. This was done to increase the interactiveness of the site and improve UX. The animation is implemented using [hover.css](https://ianlunn.github.io/Hover/).
+
+- The 'Enquire Now' buttons are implemented using [Bootstraps built in button class](https://getbootstrap.com/docs/4.0/components/buttons/). When the button is interacted with the button changes to a darker colour and gets a shadow around the edge. As with the nav links this improves interaction with the user.
+
+The animations were modified in the style.css file to tailor the elements for this site.
 # Features
 
 The site has the same basic layout for each page.
 
-The site is responsive to all screen sizes. This is done using [Bootstrap’s](https://getbootstrap.com/docs/5.0/getting-started/introduction/) flexbox grid system with its different responsive tiers. 
+The site is responsive to all screen sizes. This is done using [Bootstrap’s flexbox grid system](https://getbootstrap.com/docs/5.0/getting-started/introduction/) with its different responsive tiers. 
 
 Each page is split into different sections and they appear either stacked or side by side, depending on the screen size, as per the wireframes.
 
@@ -227,7 +229,7 @@ Each page is split into different sections and they appear either stacked or sid
 
     - The footer has site navigation links across the top of the footer. As with the header this is implemented using Bootstrap's navbar class. This allows the user to easily navigate to the next page without having to scroll back to the top. Having these links at the bottom of each page makes for a nicer UX, especially on larger smartphones.
     - Each footer has a different set of links so that only the other pages which can be navigated to are displayed, this is done to reduce clutter. 
-    - Social media links in the form of icons inside a circular div. The icons are [FontAwesome Icons(https://fontawesome.com/icons?d=gallery). The background colour changes to green when hovered over with a 0.2 second ease in and out transition.
+    - Social media links in the form of icons inside a circular div. The icons are [FontAwesome Icons](https://fontawesome.com/icons?d=gallery). The background colour changes to green when hovered over with a 0.2 second ease in and out transition.
     - Company address- Copyright fine print.
 
 - Features specific to each page
@@ -242,12 +244,13 @@ Each page is split into different sections and they appear either stacked or sid
     - About
         - A quote from Henry Royce to convey to the user the company ethos. The quote slides in from the left and the author fades in after the quote has stopped. This is done using [animate.css](https://animate.style/).
         - An ‘About Us’ section to tell the user a little bit more about the company and the company ethos.
-        - An ‘About the car’ section to give more detail on the cars specification etc.
-        - A 'Pricing' section to show the approximate price of the service. Below the text detailing the price there is a google map in an iframe to show the user the approximate cost in the defined areas. The iframe is manipulated to hide the cumbersome bar across the top of personal google maps.
+        - An ‘About the car’ section to give more detail on the car specifications etc.
+        - A 'Pricing' section to show the approximate price of the service. Below the text detailing the price there is a google map in an iframe to show the user the approximate cost in the defined areas. The iframe is manipulated to hide the cumbersome bar across the top of personal google maps that comes as standard.
     - Contact
-        - The page leads with an image.
-        - An wedding enquiry form with various input types to get the necessary information from the interested user. As the business is primarily targeted at weddings, the inputs are aligned to that need. All inputs are required except for the message input. When information is posted to Code Institutes form dump in order to demonstrate the use of the form.
+        - The page leads with an image of the car to keep consistency across the pages.
+        - A wedding enquiry form with various input types to get the necessary information from the interested user. As the business is primarily targeted at weddings, the inputs are aligned to that need. All inputs are required except for the message input. The information is posted to Code Institute's form dump in order to demonstrate the use of the form.
         - A section that gives the email address and phone number to allow the users to make contact this way if they prefer or to just ask a question.
+        - The email and phone number details are links that automatically open the applicable app on the users device.
         
 # Technologies Used
 
@@ -255,9 +258,25 @@ Each page is split into different sections and they appear either stacked or sid
 
 - **[Gitpod IDE](https://gitpod.io/)** - Used to code HTML & CSS
 
-- **[resizing.app](https://resizing.app/features/resize-png/)** - Used to resize images 
+- **[GitHub](https://github.com/)** Used as a code repository and to host the site.
 
-- **[cssgradient.io](https://cssgradient.io/)** Used to create color gradient background
+- **[Resizing.app](https://resizing.app/features/resize-png/)** - Used to resize images for quicker loading.
+
+- **[Cssgradient.io](https://cssgradient.io/)** Used to create color gradient background
+
+- **[Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)** Used extensively to test the responsiveness of the site.
+
+- **[Bootstrap V.5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)** Used throughout the project.
+
+- **[Google Fonts](https://fonts.google.com/about)** Used for all of the fonts that appear on the site.
+
+- **[Google maps](https://www.google.com/maps/d/u/1/?hl=en)**. Used for the embedded map.
+
+- **[Animate.css](https://animate.style/)**. Used for the slide in and fade in animations.
+
+- **[Hover.css](https://ianlunn.github.io/Hover/)**. Used for the underline from the left animation on the nav links.
+
+- **[Font Awesome](https://fontawesome.com/)**. Used for the phone, email and quote icons.
 
 # Testing
 
@@ -266,14 +285,6 @@ Each page is split into different sections and they appear either stacked or sid
 
 # Credits
 
-pexels.com used for the stock photos in testimonials section.
+Pexels.com . Used for the royalty free stock photos in testimonials section.
 
-Google fonts.
-
-animate.css
-
-hover.css
-
-https://www.howtoonlinetips.com/hide-google-map-top-bar-embedded-header/ used inspiration from the code on this site to hide the header on the embedded google map.
-
-fontawesome
+[How to Online](https://www.howtoonlinetips.com/hide-google-map-top-bar-embedded-header/). Used inspiration from the code on this site to hide the header on the embedded google map.

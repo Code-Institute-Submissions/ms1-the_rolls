@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Playfair+Display:wght@400&family=Italianno&display=swap');
-
 /*-------------------------------------------------------------------------------- GENERAL */
-
 body{
     font-family:"Raleway", sans-serif;
     background-color:#fffcf7;
@@ -61,7 +59,6 @@ h2:after {
 .header-nav{
     border-bottom:2px solid #3B3B3B;
 }
-
 /*------------------------------------------------------------------- HERO IMAGE & CALLOUT */
 .hero-image{
     background: #b8cdb7 url(../images/hero-image.jpg) bottom right/ cover no-repeat ;
@@ -160,6 +157,7 @@ footer a:hover{
 }
 .copyright-text{
     font-size:70%;
+    text-align:center;
 }
 /*----------------------------------------------------------------------------- CONTACT US */
 .contact-lead-image{
@@ -188,7 +186,7 @@ footer a:hover{
 .hvr-underline-from-center:before {
     bottom:20%;
     background:#3B3B3B;
-    height:2px;
+    height:1px;
     margin:0 8px;
 }
 /*------------------------------------------------------------------- ANIMATE.CSS Modifiers */

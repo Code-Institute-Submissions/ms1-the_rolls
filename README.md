@@ -321,7 +321,8 @@ Each page is split into different sections and they appear either stacked or sid
 
 ## Feature testing
 ### Manual Testing
-#### Navigation header
+
+#### Header
 - The navigation links were tested to ensure that they work correctly on each page.
 - Checked that the logo brand links to the home page from each page.
 - Checked the navigation links work on smaller devices when the navbar collapses to a burger menu.
@@ -341,6 +342,66 @@ Each page is split into different sections and they appear either stacked or sid
 - Checked that the social media links work.
 - Checked the responsiveness of the footer on each page for all screen sizes.
 - Checked the social media links open the correct page and open in a new tab.
+
+#### Home Page
+
+- Ensured the callout appears above the car and above the couple in the picture on all screen sizes so that the main focus of the image is visible on all screen sizes.
+- Ensured the image is such that the fold is always visible on all screen sizes below the hero image to encourage users to scroll down.
+- Ensured the callout is an appropriate width on all screen sizes.
+- Ensured the text is legible on all screen sizes.
+- Ensured the text in the What We Do section is aligned towrds the image on medium screen sizes and above.
+- Ensured the images in the What We Do section take up the full screen width on x-small devices.
+- Ensured the images in the What We Do section were stacked as per the wireframes on medium devices and larger.
+- Ensured variable padding and margins depending on screen size to make the information more presentable worked correctly.
+- Checked the forward and backwards buttons on the image carousel worked.
+- Checked the interval timer allowed enough time to read each testimonial.
+- Ensured the quote icons in the tetsimonials appeared on their own line and to the start and end of the quote.
+
+#### Gallery Page
+
+- Checked the carousel took up the full width of medium sized devices and smaller.
+- Checked the gallery images appeared as intended on larger devices.
+- Checked the interval timer was set to 5 seconds on all images.
+- Checked the image quality was good on all device sizes while balancing load times.
+- Checked the Enquire Now button linked to the Contact page
+- Ensured all text on the page was centered on all screen sizes.
+-Checked the carousel forward and back buttons worked.
+
+#### About Page
+
+- Checked the image at the top of the page appeared correctly on all screen sizes.
+- Checked each section had its own row.  
+- Checked the slide in from the left animation worked.
+- Checked the fade in animation worked.
+- Checked the timings of the animations.
+- Ensured the top of the iframe was hidden to hide the google map menu bar.
+- Checked the map could be zoomed in on and navigated.
+- Checked the zomm buttons on the google map worked.
+- Checked the 2 finger zoom worked on touchscreen devices.
+- Ensured the google map colour was appropriate to the website and in keeping with the theme.
+
+#### Contact Page
+
+- Checked the image at the top of the page appeared correctly on all screen sizes.
+- Checked that the enquiry form appeared first above the contact details on medium devices and smaller.
+- Checked that each input field on the form was given a shadow when the field was being interacted with.
+- Checked each input field would only take the appropriate data. eg email will only take an email etc.
+- Checked the calendar button works on various devices so user can select dates rather than write them.
+- Checked the required fields worked correctly and wouldnt allow a form submit without being filled.
+- Checked the Enquire Now button worked correctly by directing the form data at the C.I form data dump.
+- Ensured the contact details appeared to the right hand side, as intended, on large devices.
+- Checked the phone number opened the appropriate app on all devices when pressed.
+- Checked the email address opened the appropriate app on all devices when pressed.
+
+## Browser Tests
+
+The site was mainly developed using Google Chrome using the built in dev tools. The site was then also checked with Firefox and Microsoft Edge. All of the site features work as in Chrome and no issues were found.
+
+## Automated Testing
+
+The site was tested using the following validators and online tools:
+
+
 
 # Deployment
 

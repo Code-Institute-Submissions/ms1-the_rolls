@@ -37,7 +37,7 @@ h2:after {
     margin-right: -50%;
 }
 /*--------------------------------------------------------------------------------- NAVBAR */
-.navbar-brand{
+.navbar-brand h1{
     font-family:"Playfair Display", serif;
     font-size:1.7rem;
     color:#3B3B3B!important;
@@ -275,7 +275,7 @@ footer a:hover{
     .hero-image{
         height:600px;
     }
-    .navbar-brand{
+    .navbar-brand h1{
         font-size:2.2rem;
     }
     .nav-item a {

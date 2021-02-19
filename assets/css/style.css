@@ -117,7 +117,7 @@ h4{
     font-family:"Italianno", cursive;
 }
 .map-outer{
-    height:380px;
+    height:450px;
     width:100%;
     overflow:hidden;
 }
@@ -125,6 +125,8 @@ h4{
     position:relative;
     top:-55px;
     border:none;
+    height:100%;
+    width:100%;
 }
 /*--------------------------------------------------------------------------------- FOOTER */
 footer{

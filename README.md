@@ -409,8 +409,34 @@ Based on initial results from Google Lighthouse the following changes were made 
     <div style="text-align:center">
         <img src="assets/images/lighthouse-results.png" alt="lighthouse test results">
     </div>
+</figure>
 <figcaption style="text-align:center">Lighthouse Test Results after changes were made</figcaption>
 
+### WAVE Tools
+Bases on initial results from the webaccessibility tool the following were added:
+- Fixed the order of headings so that the site will make more sense to users.
+- Added an aria-label to divs with a picture in the background.
+- Fixed the aria-current page attribute in the header navbar to relate to the correct pages.
+
+There are 2 redundant link alerts on the WAVE tool remaining:
+- The Logo brand in the header and the Home navigation link are duplicate links and lead to the same page. As the navigation bar collapses to a burger menu on smaller screens I decided to keep the Logo brand as a link so that the user can easily navigate to the home page without having to open the burger menu.
+- The Enuquire Now button on the home page and the gallery page are duplicates of the Contact navigation link. As the buttons are calls to action I decided to keep the links as they are.
+
+<figure>
+    <div style="text-align:center">
+        <img src="assets/images/wave-results.png" alt="WAVE test results" height="300px">
+    </div>
+</figure>
+<figcaption style="text-align:center">WAVE Test Results after changes were made</figcaption>
+
+### W3C HTML validator
+[W3C HTML Validator](https://validator.w3.org/) yeilded the following issues:
+- Issues mainly related to the use of incorrect semantic markup. To overcome this I changed the semantic markup of the files to clear the warnings.
+- Erroneous addition of <code>type="textarea"</code> attribute to the textareas in the form on contact.html. These were deleted to remove the error.
+- An issue with the iframe map which originally had an attribute of <code>width="100%" height="450"</code>. The width attribute should have a pixel value and not a % value. To overcome this I modified style.css for <code>map-inner</code> to add <code>width:100%</code> and <code>height:100%</code>
+
+### W3C CSS validator
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) yielded no issues. 
 # Deployment
 
 # Credits

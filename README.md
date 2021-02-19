@@ -1,11 +1,9 @@
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-<h1 style="font-family: 'Playfair Display', serif; font-size:4rem;">THE ROLLS</h1>
-This project is a static front-end website for a fictitious chauffeur driven, luxury car-hire service named “The Rolls”.
-<br>
-<br>
+<div style="text-align:center">
+<img src="assets/images/readme-heading.png" style="width:600px">
+<br><br><br><br>
 <img src="assets/images/screen-mockup.png" style="width:1000px">
+</div>
+
 
 # Table of Contents
 
@@ -162,22 +160,8 @@ The colour of the car is a washed out blue so I chose to complement that with a 
 Where the green is used as a backgound it has been implemented with a very subtle linear gradient, with a darker green to the sides and a slightly brighter green to the center. This is done to give a subtle focus on the content in the center of the page and improve readability.
 
 Specifically, the main colours used are:
-<figure style="display:inline-block">
-<div style="background-color:#90a8be; width:100px; height:100px; border-radius:10px; border:1px solid #000; display:inline-block"></div>
-<figcaption>Car colour</figcaption>
-</figure>
-<figure style="display:inline-block">
-<div style="background-color:#b8cdb7; width:100px; height:100px; border-radius:10px; border:1px solid #000; display:inline-block"></div>
-<figcaption>#b8cdb7</figcaption>
-</figure>
-<figure style="display:inline-block">
-<div style="background-color:#fffcf7; width:100px; height:100px; border-radius:10px; border:1px solid #000; display:inline-block"></div>
-<figcaption>#fffcf7</figcaption>
-</figure>
-<figure style="display:inline-block">
-<div style="background-color:#3b3b3b; width:100px; height:100px; border-radius:10px; border:1px solid #000; display:inline-block"></div>
-<figcaption>#3b3b3b</figcaption>
-</figure>
+
+<img src="assets/images/color-scheme.png">
 
 #### Typography:
 Google fonts were used for all of the fonts on the site.
@@ -253,10 +237,30 @@ Each page is split into different sections and they appear either stacked or sid
         - The email and phone number details are links that automatically open the applicable app on the users device.
         
 # Technologies Used
+## Languages Used
+- HTML5
+
+- CSS3
+
+## Frameworks, Libraries, Programs and Online Tools Used
+
+- **[Animate.css](https://animate.style/)**. Used for the slide in and fade in animations.
+
+- **[Hover.css](https://ianlunn.github.io/Hover/)**. Used for the underline from the left animation on the nav links.
+
+- **[Font Awesome](https://fontawesome.com/)**. Used for the phone, email and quote icons.
+
+- **[Bootstrap V.5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)** Used throughout the project.
+
+- **[Google Fonts](https://fonts.google.com/about)** Used for all of the fonts that appear on the site.
+
+- **[Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)** Used extensively to test the responsiveness of the site.
+
+- **[Google maps](https://www.google.com/maps/d/u/1/?hl=en)**. Used for the embedded map.
 
 - **[Balsamiq](https://balsamiq.com/)** - Used to create wireframes
 
-- **[Gitpod IDE](https://gitpod.io/)** - Used to code HTML & CSS
+- **[Gitpod](https://gitpod.io/)** - Used to code HTML & CSS
 
 - **[GitHub](https://github.com/)** Used as a code repository and to host the site.
 
@@ -266,44 +270,32 @@ Each page is split into different sections and they appear either stacked or sid
 
 - **[Cssgradient.io](https://cssgradient.io/)** Used to create color gradient background
 
-- **[Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)** Used extensively to test the responsiveness of the site.
 
-- **[Bootstrap V.5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)** Used throughout the project.
-
-- **[Google Fonts](https://fonts.google.com/about)** Used for all of the fonts that appear on the site.
-
-- **[Google maps](https://www.google.com/maps/d/u/1/?hl=en)**. Used for the embedded map.
-
-- **[Animate.css](https://animate.style/)**. Used for the slide in and fade in animations.
-
-- **[Hover.css](https://ianlunn.github.io/Hover/)**. Used for the underline from the left animation on the nav links.
-
-- **[Font Awesome](https://fontawesome.com/)**. Used for the phone, email and quote icons.
 
 # Testing
 
 ## User Story Testing
-### As a visitor to the site I want to see what services you provide.
+### **As a visitor to the site I want to see what services you provide.**
 - A user who initially lands on the site instantly sees the hero image of a wedding couple beside the car with ribbons on the bonnet. This immediately gives the impression of what the service offered is.
 - The user sees the callout that gives a brief description of the service, further reinforcing the initial impression given with the hero image.
 - On the landing page the user can see a "What we do" section.
 - An "Äbout Us" page on the site goes into more detail on the service provided if the user wants to find out more.
 
-### As a potential customer I want to see what the car looks like inside and out, so I know exactly what I would be paying for.
+### **As a potential customer I want to see what the car looks like inside and out, so I know exactly what I would be paying for.**
 - The hero image on the home page gives the first impression of this.
 - The What We Do section of the home page presents 2 more pictures of the car.
 - The user can follow the navigation to the gallery page to see the entire collection of pictures of the car.
 - Each page of the site leads with a picture of the car, so that no matter what page the user lands on initially they will get an impression of the car.
 
-### As a potential customer who is interested in booking your service I want to know how much it costs, so I know if it is within my budget before spending time making an enquiry.
+### **As a potential customer who is interested in booking your service I want to know how much it costs, so I know if it is within my budget before spending time making an enquiry.**
 - The user will find this information in the About page.
 - It is made clear to the user that the prices listed are estimated prices based on the location of their event and that they should get in contact to get an accurate quote.
 
-### As an interested customer I would like a link to your social media accounts, so I can see more photos and follow you.
+### **As an interested customer I would like a link to your social media accounts, so I can see more photos and follow you.**
 - The user will find these links in the footer of each page. 
 - It is conventional to have the social media links at the bottom of the page even if they appear elsewhere on the page. So the user who typically uses social media will instinctively know where to find the links.
 
-### As a customer who has decided to go ahead and book the service, I want to make a booking enquiry.
+### **As a customer who has decided to go ahead and book the service, I want to make a booking enquiry.**
 - The user will find enquire buttons on the home page and the gallery page. They can also navigate to the contact page by the navigation links in the header and the footer which feature on all pages.
 - The buttons link to the contact page where the user can make an enquiry by online form, phone or email.
 - If the usser chooses to enquire by online form they will recieve a prompt if they fail to fill out all applicable fields.
@@ -311,11 +303,11 @@ Each page is split into different sections and they appear either stacked or sid
 - The phone and email links are made large to create the impression of them being links.
 - The phone and email links automatically open the applicable app on the users device when pressed.
 
-### As a potential customer I would like to see your customer testimonials, so that I will feel more confident about booking the service.
+### **As a potential customer I would like to see your customer testimonials, so that I will feel more confident about booking the service.**
 - The user will find these on the home page towards the bottom of the page. It is conventional to have testimonials to the bottom of a page so the user will know instinctively to look here.
 - There is a picture of the couple to increase the trust of the user in the testimonials.
 
-### As a potential customer I want to find out more about your company, so that I can get to know more about your company ethos.
+### **As a potential customer I want to find out more about your company, so that I can get to know more about your company ethos.**
 - On the main page the user will find out a short bit of information on the company in the What We Do section.
 - The user can navigate to the About page where they will find out more about the company, the car and the pricing.
 - The testimonials tell the user a little bit about the company from a third person perspective.
@@ -427,4 +419,4 @@ Pexels.com . Used for the royalty free stock photos in testimonials section.
 
 [How to Online](https://www.howtoonlinetips.com/hide-google-map-top-bar-embedded-header/). Used inspiration from the code on this site to hide the header on the embedded google map.
 
-[Sympli,io](https://sympli.io/blog/heres-everything-you-need-to-know-about-favicons-in-2020/) Used the code on this blog to implement the favicon images on different devices
+[Sympli.io](https://sympli.io/blog/heres-everything-you-need-to-know-about-favicons-in-2020/) Used the code on this blog to implement the favicon images on different devices

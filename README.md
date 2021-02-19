@@ -262,6 +262,8 @@ Each page is split into different sections and they appear either stacked or sid
 
 - **[Resizing.app](https://resizing.app/features/resize-png/)** - Used to resize images for quicker loading.
 
+- **[Favicon.io](https://favicon.io/favicon-generator/)** - Used to create the simple favicon image.
+
 - **[Cssgradient.io](https://cssgradient.io/)** Used to create color gradient background
 
 - **[Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)** Used extensively to test the responsiveness of the site.
@@ -403,12 +405,13 @@ The site was tested using the following validators and online tools:
 
 ### Google Lighthouse
 Based on initial results from Google Lighthouse the following changes were made to the site:
-- Added a Meta description
-- Added a 'rel="noopener"' attribute to the social media links
+- Added a Meta description.
+- Added a 'rel="noopener"' attribute to the social media links.
 - Text colour in the Enquire button on the callout lacked sufficient colour contrast so that was changed to the same colour as the rest of the text and the background changed to the same colour as the header and footer to maintain consistency and contrast.
 - Converted from jpg to jp2 in order to improve first contentful paint time.
-- Added a Meta Theme color
-- Added a title to the iframe google map for accessibility
+- Added a Meta Theme color.
+- Added a title to the iframe google map for accessibility.
+- Added an apple touch icon and subsequently included favicon images.
 
 <figure>
     <div style="text-align:center">
@@ -423,3 +426,5 @@ Based on initial results from Google Lighthouse the following changes were made 
 Pexels.com . Used for the royalty free stock photos in testimonials section.
 
 [How to Online](https://www.howtoonlinetips.com/hide-google-map-top-bar-embedded-header/). Used inspiration from the code on this site to hide the header on the embedded google map.
+
+[Sympli,io](https://sympli.io/blog/heres-everything-you-need-to-know-about-favicons-in-2020/) Used the code on this blog to implement the favicon images on different devices

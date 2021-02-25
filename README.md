@@ -229,10 +229,10 @@ Each page is split into different sections and they appear either stacked or sid
         - A quote from Henry Royce to convey to the user the company ethos. The quote slides in from the left and the author fades in after the quote has stopped. This is done using [animate.css](https://animate.style/).
         - An ‘About Us’ section to tell the user a little bit more about the company and the company ethos.
         - An ‘About the car’ section to give more detail on the car specifications etc.
-        - A 'Pricing' section to show the approximate price of the service. Below the text detailing the price there is a google map in an iframe to show the user the approximate cost in the defined areas. The iframe is manipulated to hide the cumbersome bar across the top of personal google maps that comes as standard.
+        - A 'Pricing' section to show the approximate price of the service. Below the text detailing the price there is a google map in an iframe to show the user the approximate cost in the defined areas. The iframe is manipulated to hide the cumbersome and unsightly bar across the top of personal google maps that comes as standard.
     - Contact
         - The page leads with an image of the car to keep consistency across the pages.
-        - A wedding enquiry form with various input types to get the necessary information from the interested user. As the business is primarily targeted at weddings, the inputs are aligned to that need. All inputs are required except for the message input. The information is posted to Code Institute's form dump in order to demonstrate the use of the form.
+        - A wedding enquiry form with various input types to get the necessary information from the interested user. As the business is primarily targeted at weddings, the inputs are aligned to that need. All inputs are required except for the message input. The information is posted to Code Institute's form dump in order to demonstrate the use of the form. A [Bootstrap form](https://getbootstrap.com/docs/5.0/forms/overview/) was used to implement this element.
         - A section that gives the email address and phone number to allow the users to make contact this way if they prefer or to just ask a question.
         - The email and phone number details are links that automatically open the applicable app on the users device.
         
@@ -254,7 +254,7 @@ Each page is split into different sections and they appear either stacked or sid
 
 - **[Google Fonts](https://fonts.google.com/about)** Used for all of the fonts that appear on the site.
 
-- **[Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)** Used extensively to test the responsiveness of the site.
+- **[Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)** Used extensively to test the responsiveness and test the site.
 
 - **[Google maps](https://www.google.com/maps/d/u/1/?hl=en)**. Used for the embedded map.
 
@@ -269,6 +269,8 @@ Each page is split into different sections and they appear either stacked or sid
 - **[Favicon.io](https://favicon.io/favicon-generator/)** - Used to create the simple favicon image.
 
 - **[Cssgradient.io](https://cssgradient.io/)** Used to create color gradient background
+
+- **[WAVE Accessibility Tool](https://wave.webaim.org/)** Used to check the accessibility of the site.
 
 
 
@@ -397,10 +399,10 @@ The site was tested using the following validators and online tools:
 
 ### Google Lighthouse
 Based on initial results from Google Lighthouse the following changes were made to the site:
-- Added a Meta description.
-- Added a 'rel="noopener"' attribute to the social media links.
+- Added a Meta description to each page.
+- Added a 'rel="noopener"' attribute to the social media links to improve security.
 - Text colour in the Enquire button on the callout lacked sufficient colour contrast so that was changed to the same colour as the rest of the text and the background changed to the same colour as the header and footer to maintain consistency and contrast.
-- Converted from jpg to jp2 in order to improve first contentful paint time.
+- Converted images from jpg to jp2 in order to improve first contentful paint time.
 - Added a Meta Theme color.
 - Added a title to the iframe google map for accessibility.
 - Added an apple touch icon and subsequently included favicon images.
@@ -413,9 +415,9 @@ Based on initial results from Google Lighthouse the following changes were made 
 <figcaption style="text-align:center">Lighthouse Test Results after changes were made</figcaption>
 
 ### WAVE Tools
-Bases on initial results from the webaccessibility tool the following were added:
+Bases on initial results from the web accessibility tool the following were added:
 - Fixed the order of headings so that the site will make more sense to users.
-- Added an aria-label to divs with a picture in the background.
+- Added an aria-label to divs with a picture in the background to improve accessibility.
 - Fixed the aria-current page attribute in the header navbar to relate to the correct pages.
 
 There are 2 redundant link alerts on the WAVE tool remaining:
@@ -433,10 +435,11 @@ There are 2 redundant link alerts on the WAVE tool remaining:
 [W3C HTML Validator](https://validator.w3.org/) yeilded the following issues:
 - Issues mainly related to the use of incorrect semantic markup. To overcome this I changed the semantic markup of the files to clear the warnings.
 - Erroneous addition of <code>type="textarea"</code> attribute to the textareas in the form on contact.html. These were deleted to remove the error.
-- An issue with the iframe map which originally had an attribute of <code>width="100%" height="450"</code>. The width attribute should have a pixel value and not a % value. To overcome this I modified style.css for <code>map-inner</code> to add <code>width:100%</code> and <code>height:100%</code>
+- An issue with the iframe map which originally had an attribute of <code>width="100%" height="450"</code>. The width attribute should have a pixel value and not a % value. To overcome this I modified style.css for <code>map-inner</code> to add <code>width:100%</code> and <code>height:100%</code> and removed the width and height attributes from the iframe.
 
 ### W3C CSS validator
-[W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) yielded no issues. 
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/) yielded no issues. 
+
 # Deployment
 
 # Credits

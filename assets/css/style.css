@@ -9,7 +9,7 @@ body{
     background: #b8cdb7;
     background: linear-gradient(90deg, #b8cdb7 0%, #c8d4c8 50%,  #b8cdb7 100%);
 }
-/* Below code modified from https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
+/* Below code relating to h2 was taken from https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
 h2 {
     font-family:"Playfair Display", serif;
     text-transform:uppercase;
@@ -135,7 +135,7 @@ footer{
 footer .navbar-nav{
     flex-direction:row;
 }
-/* Code below modified from the C.I. CV mini-project */
+/* Code below relating to sm-icons was modified from the code demonstrated in the Code Institute CV mini-project */
 .sm-icons{
     font-size:150%;
     width:40px;
@@ -201,6 +201,8 @@ footer a:hover{
     margin:0 8px;
 }
 /*------------------------------------------------------------------- ANIMATE.CSS Modifiers */
+
+/* Code in this section was modified from the documentation section on https://animate.style/ */
 .animate__animated.animate__fadeInLeft{
     --animate-duration: 2000ms;
 }
@@ -219,8 +221,8 @@ footer a:hover{
         margin-right:10px;
     }
     .callout-heading{
-    letter-spacing:0;
-    font-size:1.4rem;
+        letter-spacing:0;
+        font-size:1.4rem;
     }
 }
 /* SCREEN SIZE SM and up */
@@ -290,7 +292,7 @@ footer a:hover{
         height:500px;
     }
     .footer-nav .nav-item a{
-    font-size:1.0rem;
+        font-size:1.0rem;
     }
 }
 @media screen and (min-width:1600px){

@@ -254,7 +254,7 @@ Each page is split into different sections and they appear either stacked or sid
 
 - **[Google Fonts](https://fonts.google.com/about)** Used for all of the fonts that appear on the site.
 
-- **[Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)** Used extensively to test the responsiveness and test the site.
+- **[Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)** Used extensively to test the responsiveness of the site.
 
 - **[Google maps](https://www.google.com/maps/d/u/1/?hl=en)**. Used for the embedded map.
 

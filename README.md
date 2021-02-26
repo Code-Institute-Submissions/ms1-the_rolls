@@ -272,7 +272,7 @@ Each page is split into different sections and they appear either stacked or sid
 
 - **[WAVE Accessibility Tool](https://wave.webaim.org/)** Used to check the accessibility of the site.
 
-
+- **[Autoprefixer CSS Online](https://autoprefixer.github.io/)** Used to check for css prefix omissions to ensure cross browser compatibility.
 
 # Testing
 
@@ -441,6 +441,10 @@ There are 2 redundant link alerts on the WAVE tool remaining:
 ### W3C CSS validator
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) yielded no issues. 
 
+### Autoprefixer
+
+[Autoprefixer CSS Online](https://autoprefixer.github.io/) was used to check for any issues relating to prefixes in the CSS code. The test revealed prefix omissions relating to the linear gradients used for the background and the box shadows applied to some images and buttons. These omissions were corrected and no issues were found.
+
 # Deployment
 
 # Credits
@@ -448,16 +452,22 @@ There are 2 redundant link alerts on the WAVE tool remaining:
 The content on the site is my own and written by me. However, it should be noted that [vintageweddingscars.ie](http://www.vintageweddingcars.ie/) was used for overall inspiration on what should be included.
 
 ## Media 
-Pexels.com . Used for the three royalty free stock photos in testimonials section.
+[Pexels.com](https://www.pexels.com) . Used for the three royalty free stock photos in testimonials section.
 
 All other images are owned by me. Photgrapher: [David McClelland](https://davidmcclelland-photography.com/)
+
+## Animations
+
+[Animate.css](https://animate.style/) This external css file was used for the slide in and fade in animations used for the Henry Royce quote.
+
+[Hover.css](https://ianlunn.github.io/Hover/) This external css file was used for the underlne from left animation used on the navigation links.
 
 ## Code 
 [How to Online](https://www.howtoonlinetips.com/hide-google-map-top-bar-embedded-header/). Used inspiration from the code on this site to hide the header on the embedded google map.
 
 [Sympli.io](https://sympli.io/blog/heres-everything-you-need-to-know-about-favicons-in-2020/) Used the code on this blog to implement the favicon images on different devices.
 
-[Bootstrap V.5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) Code from the documentation on Bootstrap 5 was used to implement the responsiveness, navbar, carousel throughout the site. The code was heavily modified to suit this site.
+[Bootstrap V.5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) Template code from the documentation on Bootstrap 5 was used to implement the responsiveness, navbar, carousel throughout the site. The code was heavily modified to suit this site.
 
 [Stack Overflow](https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle). Code from this post was used to place the horizontal lines beside the headings.
 
@@ -465,5 +475,4 @@ All other images are owned by me. Photgrapher: [David McClelland](https://davidm
 
 [Sympli.io](https://sympli.io/blog/heres-everything-you-need-to-know-about-favicons-in-2020/). Code from this site was used as a guide to implement the favicon images on different devices.
 
-
-
+[Autoprefixer CSS Online](https://autoprefixer.github.io/) The output code from this automated test was used to correct the code that was already written by me.

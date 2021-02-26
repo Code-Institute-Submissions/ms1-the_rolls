@@ -202,7 +202,7 @@ Each page is split into different sections and they appear either stacked or sid
     - The header sits to the top of each page.
     - The company logo will sit to the left of the header on all devices.
     - The site navigation links sit horizontally to the right on all devices except smartphones.
-    - The navigation links are underlined from the left on hover. Implemented using [hover.css](https://ianlunn.github.io/Hover/).
+    - The navigation links are underlined from the left on hover. Implemented using [hover.css](https://ianlunn.github.io/Hover/). This improves the UX.
     - On smartphones the navigation links collapse down into a burger menu. The burger menu sits to the right of the header. This is done using [Bootstrap's collapsable navbar](https://getbootstrap.com/docs/5.0/components/navbar/).
 
 - Main Body
@@ -322,15 +322,16 @@ Each page is split into different sections and they appear either stacked or sid
 - The navigation links were tested to ensure that they work correctly on each page.
 - Checked that the logo brand links to the home page from each page.
 - Checked the navigation links work on smaller devices when the navbar collapses to a burger menu.
-- Checked the underline from the left works on each link on each page.
+- Checked the underline from the left works on each link on each page and doesnt extend beyond the writing itself.
 - Checked the current page relates to the correct link and that the applicable link appear slightly heavier than the other links.
 - Checked the navigation links stay to the right on both small and large devices.
 - Checked the header collapses to a burger menu at a point that allows the nav links to be accomodated comfortably before they collapse.
 - Checked that the burger menu icon appears to the right on the smallest devices.
 - Checked that the navigation links and logo have a font size that appears in proportion when viewed on large devices.
-- Checked the burger menu when pressed diplays the links and hides the links when pressed a second time.
+- Checked the burger menu, when pressed, diplays the links and hides the links when pressed a second time.
 - Checked the header appears the same size on all pages.
 - Checked that pressing tab logically brings you from left to right.
+
 #### Footer
 
 - Checked that only the correct 3 links appear on each page.
@@ -443,9 +444,26 @@ There are 2 redundant link alerts on the WAVE tool remaining:
 # Deployment
 
 # Credits
+## Content
+The content on the site is my own and written by me. However, it should be noted that [vintageweddingscars.ie](http://www.vintageweddingcars.ie/) was used for overall inspiration on what should be included.
 
-Pexels.com . Used for the royalty free stock photos in testimonials section.
+## Media 
+Pexels.com . Used for the three royalty free stock photos in testimonials section.
 
+All other images are owned by me. Photgrapher: [David McClelland](https://davidmcclelland-photography.com/)
+
+## Code 
 [How to Online](https://www.howtoonlinetips.com/hide-google-map-top-bar-embedded-header/). Used inspiration from the code on this site to hide the header on the embedded google map.
 
-[Sympli.io](https://sympli.io/blog/heres-everything-you-need-to-know-about-favicons-in-2020/) Used the code on this blog to implement the favicon images on different devices
+[Sympli.io](https://sympli.io/blog/heres-everything-you-need-to-know-about-favicons-in-2020/) Used the code on this blog to implement the favicon images on different devices.
+
+[Bootstrap V.5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) Code from the documentation on Bootstrap 5 was used to implement the responsiveness, navbar, carousel throughout the site. The code was heavily modified to suit this site.
+
+[Stack Overflow](https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle). Code from this post was used to place the horizontal lines beside the headings.
+
+[Animate.css](https://animate.style/). Code from the documentation section of this library was used to modify the timing of the animations.
+
+[Sympli.io](https://sympli.io/blog/heres-everything-you-need-to-know-about-favicons-in-2020/). Code from this site was used as a guide to implement the favicon images on different devices.
+
+
+

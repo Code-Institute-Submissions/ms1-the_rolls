@@ -170,6 +170,9 @@ footer a:hover{
     font-size:70%;
     text-align:center;
 }
+.copyright-text a {
+    color:#3b3b3b;
+}
 /*----------------------------------------------------------------------------- CONTACT US */
 .contact-lead-image{
     height:160px;

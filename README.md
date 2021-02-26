@@ -283,7 +283,7 @@ Each page is split into different sections and they appear either stacked or sid
 - A user who initially lands on the site instantly sees the hero image of a wedding couple beside the car with ribbons on the bonnet. This immediately gives the impression of what the service offered is.
 - The user sees the callout that gives a brief description of the service, further reinforcing the initial impression given with the hero image.
 - On the landing page the user can see a "What we do" section.
-- An "Äbout Us" page on the site goes into more detail on the service provided if the user wants to find out more.
+- An "About Us" page on the site goes into more detail on the service provided if the user wants to find out more.
 
 ### **As a potential customer I want to see what the car looks like inside and out, so I know exactly what I would be paying for.**
 - The hero image on the home page gives the first impression of this.
@@ -479,9 +479,45 @@ There are 2 redundant link alerts on the WAVE tool remaining:
 # Deployment
 ## How the project was deployed
 
-The project was deployed using GitHub Pages. The steps are as follows:
+The project was coded in Gitpod, committed to Git and pushed to GitHub. The project was deployed from its Github repository using GitHub Pages. 
 
-1. 
+The steps to deploy the site to GitHub pages are as follows:
+
+1. Login to Github.
+2. Select the pmcgrenery/ms1-the_rolls repository.
+3. On the top tab, selct "Settings".
+4. Scroll down to the "GitHub Pages" section.
+5. Under source, select "Master" from the dropdown selection.
+6. A second dropdown appears, ensure "/(root)" is selected.
+7. Press the ""Save" button. The page will refresh.
+8. Scroll back down to the "GitHub Pages" section. In the blue section under the heading you will find the link to the deployed site.
+
+## How to run the project in your browser
+
+1. Download the [Chrome Web Browser](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjE05jL-IfvAhUY6-0KHVj0DRcYABABGgJkZw&ohost=www.google.com&cid=CAESQOD24xYvSkhGMwiKLgK3CrSybtFeT6R-oG_css2y6Lu6XGzyepb2ghN57ehHJkpg6_HSncFxVG78IwXHmXdD1q4&sig=AOD64_2PC1Ooz3rD0sq4NbhSvetwGzaCuw&q=&ved=2ahUKEwj40ZHL-IfvAhVAaRUIHQXoBT0QqyQoAHoECAsQEw&adurl=).
+2. Download the [Chrome GitPod](https://www.gitpod.io/docs/browser-extension/) browser extension.
+3. Create a [Github Account](https://github.com/join).
+4. Log in to [GitPod](https://gitpod.io/login/), using your GitHub account details.
+5. Navigate to [The Rolls Github repository](https://github.com/pmcgrenery/ms1-the_rolls).
+6. Click on the green "Gitpod" button at the top of the repository above the file explorer.
+7. Gitpod will load for you in a new tab.
+8. The ReadMe file will be presented initially, you can navigate to the source code using the explorer on the left hand side.
+
+## How to run the project in a local IDE
+
+1. Navigate to [The Rolls Github repository](https://github.com/pmcgrenery/ms1-the_rolls).
+2. Click on the Code dropdown above the file explorer.
+3. Under Clone, select the "HTTPS" option.
+4. Copy the URL presented.
+5. Open your local IDE.
+6. Open the terminal
+7. Create a directory where you would want this repository to be stored.
+8. Type "git clone" and paste the URL in that you previously copied.
+9. Press Enter and you local clone repository will be created.
+
+For further information on how to clone a repository from GitHub click [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+For further information on how to clone a repository into your IDE please consult your providers documentation.
+
 # Credits
 ## Content
 The content on the site is my own and written by me. However, it should be noted that [vintageweddingscars.ie](http://www.vintageweddingcars.ie/) was used for overall inspiration on what should be included.

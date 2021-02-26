@@ -7,7 +7,6 @@
 
 # Table of Contents
 
-
 - [Project Overview](#project-overview)
 
 - [UX Design](#ux-design)

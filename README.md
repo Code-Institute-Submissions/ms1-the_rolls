@@ -184,7 +184,7 @@ The animations used are for the quote section of the about, the navigation links
 
 - A slide in from left transition and a fade in transition are used for the quote section. The animations are implemented using [animate.css](https://animate.style/).
 
-- An underline from the left on hover animation is used for the navigation links. This was done to increase the interactiveness of the site and improve UX. The animation is implemented using [hover.css](https://ianlunn.github.io/Hover/).
+- An underline from the center on hover animation is used for the navigation links. This was done to increase the interactiveness of the site and improve UX. The animation is implemented using [hover.css](https://ianlunn.github.io/Hover/).
 
 - The 'Enquire Now' buttons are implemented using [Bootstraps built in button class](https://getbootstrap.com/docs/4.0/components/buttons/). When the button is interacted with the button changes to a darker colour and gets a shadow around the edge. As with the nav links this improves interaction with the user.
 
@@ -202,7 +202,7 @@ Each page is split into different sections and they appear either stacked or sid
     - The header sits to the top of each page.
     - The company logo will sit to the left of the header on all devices.
     - The site navigation links sit horizontally to the right on all devices except smartphones.
-    - The navigation links are underlined from the left on hover. Implemented using [hover.css](https://ianlunn.github.io/Hover/). This improves the UX.
+    - The navigation links are underlined from the center on hover. Implemented using [hover.css](https://ianlunn.github.io/Hover/). This improves the UX.
     - On smartphones the navigation links collapse down into a burger menu. The burger menu sits to the right of the header. This is done using [Bootstrap's collapsable navbar](https://getbootstrap.com/docs/5.0/components/navbar/).
 
 - Main Body
@@ -246,7 +246,7 @@ Each page is split into different sections and they appear either stacked or sid
 
 - **[Animate.css](https://animate.style/)**. Used for the slide in and fade in animations.
 
-- **[Hover.css](https://ianlunn.github.io/Hover/)**. Used for the underline from the left animation on the nav links.
+- **[Hover.css](https://ianlunn.github.io/Hover/)**. Used for the underline from the center animation on the nav links.
 
 - **[Font Awesome](https://fontawesome.com/)**. Used for the phone, email and quote icons.
 
@@ -317,6 +317,7 @@ Each page is split into different sections and they appear either stacked or sid
 
 ## Feature testing
 ### Manual Testing
+The following elements and sections were tested manually on all screens sizes in all orientations.
 
 #### Header
 - The navigation links were tested to ensure that they work correctly on each page.
@@ -336,9 +337,8 @@ Each page is split into different sections and they appear either stacked or sid
 
 - Checked that only the correct 3 links appear on each page.
 - Checked that the underline effect works on each link on each page.
-- Checked that the social media links work.
+- Checked that the social media links work and opeen in new tab.
 - Checked the responsiveness of the footer on each page for all screen sizes.
-- Checked the social media links open the correct page and open in a new tab.
 
 #### Home Page
 
@@ -362,18 +362,17 @@ Each page is split into different sections and they appear either stacked or sid
 - Checked the image quality was good on all device sizes while balancing load times.
 - Checked the Enquire Now button linked to the Contact page
 - Ensured all text on the page was centered on all screen sizes.
--Checked the carousel forward and back buttons worked.
+- Checked the carousel forward and back buttons worked.
 
 #### About Page
 
 - Checked the image at the top of the page appeared correctly on all screen sizes.
 - Checked each section had its own row.  
-- Checked the slide in from the left animation worked.
-- Checked the fade in animation worked.
+- Checked the slide in from the left animation worked and was timed correctly.
+- Checked the fade in animation worked and was timed correctly.
 - Checked the timings of the animations.
-- Ensured the top of the iframe was hidden to hide the google map menu bar.
-- Checked the map could be zoomed in on and navigated.
-- Checked the zomm buttons on the google map worked.
+- Ensured the top of the iframe was hidden to hide the google map menu bar on all screen sizes.
+- Checked the map could be zoomed in and out and could be easily navigated.
 - Checked the 2 finger zoom worked on touchscreen devices.
 - Ensured the google map colour was appropriate to the website and in keeping with the theme.
 
@@ -383,16 +382,45 @@ Each page is split into different sections and they appear either stacked or sid
 - Checked that the enquiry form appeared first above the contact details on medium devices and smaller.
 - Checked that each input field on the form was given a shadow when the field was being interacted with.
 - Checked each input field would only take the appropriate data. eg email will only take an email etc.
-- Checked the calendar button works on various devices so user can select dates rather than write them.
-- Checked the required fields worked correctly and wouldnt allow a form submit without being filled.
+- Checked the calendar button works on various devices so user can select dates rather than have to write them.
+- Checked the required fields worked correctly and wouldn't allow a form submit without being filled.
 - Checked the Enquire Now button worked correctly by directing the form data at the C.I form data dump.
 - Ensured the contact details appeared to the right hand side, as intended, on large devices.
 - Checked the phone number opened the appropriate app on all devices when pressed.
 - Checked the email address opened the appropriate app on all devices when pressed.
 
+### Bugs
+#### Fixed Bugs Found During Manual Testing
+
+1. Bug found: The underline from the left extended well beyond the text when the nav links were used in the burger menu.
+    - Fix: 
+        1.Moved the <code>hvr-underline-from-center</code> class from the <code>li</code> parent to the actual <code>a</code> link on all pages.
+    
+        2.Added code to make the <code>nav-link</code> sit over to the right of the drop down menu by applying <code>float:right</code> on screen sizes XS(less than 576px).
+
+        3.Added code to remove the margins from the <code>hvr-underline-from-center:before</code> on screen size XS(less than 576px).
+
+2. Bug found: The navigation link for "Home" was appearing heavier in the header on all pages as the code had been copied across to each page from the index.html.
+    - Fix: Moved the <code>active</code> class in the navbar <code>a</code> links to the correct link.
+
+3. Bug Found: By default the links in the nav burger menu appear to the left side of the screen on xs screens. This is a bootstrap default.
+    - Fix: The original fix was to apply <code>text-align:end</code> to the <code>header-nav a</code>. However, this became obsolete when the underline bug above was found. So to make the links appear to the right hand side the fix was as detailed in the underline issue detailed above.
+
+4. Bug found: The social media links opened in the current browser tab.
+    - Fix: Added <code>target="_blank"</code> attribute to the links.
+
+5. Bug found: The social media icons in the footer squeeze in on top of eachother on medium screen sizes.
+    - Fix: Changed the bootstrap class to <code>justify-content-around</code> to move the 2 icons apart and made alterations to the bootstrap <code>col</code> class that the links are displayed in.
+
+6. Bug found: On screen size medium, the image and text on the 2nd row of the What We Do section did not appear as intended on the wireframe.
+    - Fix: I needed to change the order of the image and text but only on screen size medium and above. To do this I used Bootstrap's <code>order-md-#</code> class which defines the order of the relevant <code>div</code> on screen sizes medium and larger.
+
+7. Bug found: The text and pictures in the What We Do section appeared too close together on medium screens and larger.
+    - Fix: I applied Bootstrap's reponsive margins and padding to achieve the desired spacing on medium sized screens and larger. For example, <code>px-md-4</code> was added to the class for the text articles in order to push the image and the text apart on screen size medium and larger.
+
 ## Browser Tests
 
-The site was mainly developed using Google Chrome using the built in dev tools. The site was then also checked with Firefox and Microsoft Edge. All of the site features work as in Chrome and no issues were found.
+The site was mainly developed using Google Chrome using the built in dev tools. All of the elements detailed in the manual testing section were also checked with Firefox and Microsoft Edge. All of the site features work as in Chrome and no issues were found.
 
 ## Automated Testing
 
@@ -400,6 +428,7 @@ The site was tested using the following validators and online tools:
 
 ### Google Lighthouse
 Based on initial results from Google Lighthouse the following changes were made to the site:
+
 - Added a Meta description to each page.
 - Added a 'rel="noopener"' attribute to the social media links to improve security.
 - Text colour in the Enquire button on the callout lacked sufficient colour contrast so that was changed to the same colour as the rest of the text and the background changed to the same colour as the header and footer to maintain consistency and contrast.
@@ -433,7 +462,7 @@ There are 2 redundant link alerts on the WAVE tool remaining:
 <figcaption style="text-align:center">WAVE Test Results after changes were made</figcaption>
 
 ### W3C HTML validator
-[W3C HTML Validator](https://validator.w3.org/) yeilded the following issues:
+[W3C HTML Validator](https://validator.w3.org/) yielded the following issues:
 - Issues mainly related to the use of incorrect semantic markup. To overcome this I changed the semantic markup of the files to clear the warnings.
 - Erroneous addition of <code>type="textarea"</code> attribute to the textareas in the form on contact.html. These were deleted to remove the error.
 - An issue with the iframe map which originally had an attribute of <code>width="100%" height="450"</code>. The width attribute should have a pixel value and not a % value. To overcome this I modified style.css for <code>map-inner</code> to add <code>width:100%</code> and <code>height:100%</code> and removed the width and height attributes from the iframe.
@@ -460,7 +489,7 @@ All other images are owned by me. Photgrapher: [David McClelland](https://davidm
 
 [Animate.css](https://animate.style/) This external css file was used for the slide in and fade in animations used for the Henry Royce quote.
 
-[Hover.css](https://ianlunn.github.io/Hover/) This external css file was used for the underlne from left animation used on the navigation links.
+[Hover.css](https://ianlunn.github.io/Hover/) This external css file was used for the underlne from center animation used on the navigation links.
 
 ## Code 
 [How to Online](https://www.howtoonlinetips.com/hide-google-map-top-bar-embedded-header/). Used inspiration from the code on this site to hide the header on the embedded google map.

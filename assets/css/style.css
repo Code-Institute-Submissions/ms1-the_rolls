@@ -217,13 +217,19 @@ footer a:hover{
         margin-top:5vw;
     }
     .header-nav a{
-        text-align:end;
         margin-right:10px;
     }
     .callout-heading{
         letter-spacing:0;
         font-size:1.4rem;
     }
+    /* Code below to fix the bug that made the underline from center extend beyond the writing on XS screens */
+    .nav-link{
+        float:right;
+    }
+    .hvr-underline-from-center:before {
+        margin:0;
+}
 }
 /* SCREEN SIZE SM and up */
 @media screen and (min-width:576px){

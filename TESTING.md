@@ -1,6 +1,16 @@
 <div style="text-align:center">
 <img src="assets/images/readme-heading.png" style="width:600px">
-<br><br><br><br>
+<br><br>
+
+# Table of Contents
+
+- [User Story Testing](#user-story-testing)
+
+- [Feature Testing](#feature-testing)
+    - [Manual Testing](#manual-testing)
+    - [Bugs](#bugs)
+    - [Automated Testing](#automated-testing)
+
 # Testing
 ## User Story Testing
 ### **As a visitor to the site I want to see what services you provide.**
@@ -116,7 +126,6 @@ The following elements and sections were tested manually on all screens sizes in
 - Checked the email address opened the appropriate app on all devices when pressed.
 
 ### Bugs
-#### Fixed Bugs Found During Manual Testing
 
 1. Bug found: The underline from the left extended well beyond the text when the nav links were used in the burger menu.
     - Fix: 

@@ -9,7 +9,7 @@ body{
     background: #b8cdb7;
     background: linear-gradient(90deg, #b8cdb7 0%, #c8d4c8 50%,  #b8cdb7 100%);
 }
-/* Below code relating to h2 was taken from https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
+/* Below code relating to h2 is from https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
 h2 {
     font-family:"Playfair Display", serif;
     text-transform:uppercase;
@@ -36,6 +36,14 @@ h2:after {
     left: 0.3em;
     margin-right: -50%;
 }
+h3{
+    font-size:1.4rem;
+    font-weight:300;
+}
+h4{
+    font-size:1.0rem;
+    font-weight:300;
+}
 /*--------------------------------------------------------------------------------- NAVBAR */
 .navbar-brand h1{
     font-family:"Playfair Display", serif;
@@ -50,19 +58,13 @@ h2:after {
 .navbar{
     padding:0;
 }
-.nav-link .active{
-    font-weight:800;
-}
-.navbar button{
-    border:0;
-}
 .header-nav{
     border-bottom:2px solid #3B3B3B;
 }
 /*------------------------------------------------------------------- HERO IMAGE & CALLOUT */
 .hero-image{
     background: #b8cdb7 url(../images/hero-image.jp2) bottom right/ cover no-repeat ;
-    height:500px;   
+    height:500px;
 }
 .callout{
     background: #b8cdb7;
@@ -91,14 +93,6 @@ h2:after {
 }
 .testimonial-img {
     border-radius:20px;
-}
-h3{
-    font-size:1.4rem;
-    font-weight:300;
-}
-h4{
-    font-size:1.0rem;
-    font-weight:300;
 }
 /*------------------------------------------------------------------------------- CAROUSEL */
 .carousel-control-next-icon, .carousel-control-prev-icon{

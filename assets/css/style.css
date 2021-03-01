@@ -278,6 +278,10 @@ footer a:hover{
     .hero-image{
         height:570px;
     }
+    /* Code to move testimonial carousel controls inwards on larger screens */
+    .testimonial-carousel .carousel-control-next, .testimonial-carousel .carousel-control-prev{
+    width:50%;
+    }
 }
 /* SCREENS SIZE XXL and up */
 @media screen and (min-width:1400px){

@@ -162,7 +162,9 @@ The following elements and sections were tested manually on all screens sizes in
  
 7. Bug found: The text and pictures in the What We Do section appeared too close together on medium screens and larger.
     - Fix: I applied Bootstrap's responsive margins and padding to achieve the desired spacing on medium sized screens and larger. For example, <code>px-md-4</code> was added to the class for the text articles in order to push the image and the text apart on screen size medium and larger.
- 
+
+8. Bug Found: The carousel controls on the testimonial section were too far from the content on large screens.
+    - Fix: I changed the width of the div containing the control icons on larger devices to push the icons in towards the center of the page.
 ## Browser Tests
  
 The site was mainly developed using Google Chrome using the built in dev tools. All of the elements detailed in the manual testing section were also checked with Firefox and Microsoft Edge. All of the site features work as in Chrome and no issues were found.

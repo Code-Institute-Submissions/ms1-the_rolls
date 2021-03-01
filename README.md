@@ -186,8 +186,11 @@ The animations used are for the quote section of the about, the navigation links
 - An underline from the center on hover animation is used for the navigation links. This was done to increase the interactiveness of the site and improve UX. The animation is implemented using [hover.css](https://ianlunn.github.io/Hover/).
  
 - The 'Enquire Now' buttons are implemented using [Bootstraps built in button class](https://getbootstrap.com/docs/4.0/components/buttons/). When the button is interacted with the button changes to a darker colour and gets a shadow around the edge. As with the nav links this improves interaction with the user.
- 
+
+- The carousel on the gallery page has a crossfade transition from one image to the next. This animation is done using [Bootstraps built in carousel class](https://getbootstrap.com/docs/5.0/components/carousel/).
+
 The animations were modified in the style.css file to tailor the elements for this site.
+
 # Features
  
 The site has the same basic layout for each page.

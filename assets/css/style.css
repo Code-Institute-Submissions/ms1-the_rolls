@@ -105,7 +105,6 @@ h4{
     background-color:black;
     border-radius:10px;
 }
-
 /*---------------------------------------------------------------------------------- ABOUT */
 .about-lead-image{
     height:160px;
@@ -117,7 +116,7 @@ h4{
 }
 .royce-text{
     font-size:2.5rem;
-    background:#fffcf7;
+        background: rgb(255 252 247 / 20%);
     padding:10px 0;
     border-radius:15px;
     font-family:"Italianno", cursive;

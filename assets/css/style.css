@@ -90,7 +90,7 @@ h2:after {
     color:#3B3B3B;
 }
 .testimonial-img {
-    border-radius:25px;
+    border-radius:20px;
 }
 h3{
     font-size:1.4rem;
@@ -100,6 +100,12 @@ h4{
     font-size:1.0rem;
     font-weight:300;
 }
+/*------------------------------------------------------------------------------- CAROUSEL */
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color:black;
+    border-radius:10px;
+}
+
 /*---------------------------------------------------------------------------------- ABOUT */
 .about-lead-image{
     height:160px;
@@ -243,17 +249,17 @@ footer a:hover{
         height:250px;
     }
     .callout{
-        margin-top:25px;
+        margin-top:20px;
     }
 }
 /* SCREEN SIZE MD and up */
 @media screen and (min-width:768px){
     .what-we-do-img{
-        border-radius:25px;
+        border-radius:20px;
         box-shadow: 0 0 10px #b3b3b3;
     }
     .gallery-carousel img {
-        border-radius:25px;
+        border-radius:20px;
     }
     .about-lead-image{
         height:300px;

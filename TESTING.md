@@ -5,22 +5,21 @@
 # Table of Contents
  
 - [User Story Testing](#user-story-testing)
- 
-- [Feature Testing](#feature-testing)
-    - [Manual Testing](#manual-testing)
-        - [Header](#Header)
-        - [Footer](#footer)
-        - [Home Page](#home-page)
-        - [Gallery Page](#gallery-page)
-        - [About Page](#about-page)
-        - [Contact Page](#contact-page)
-    - [Bugs](#bugs)
-    - [Browser Testing](#browser-tests)
-    - [Automated Testing](#automated-testing)
-        - [Google Lighthouse](#google-lighthouse)
-        - [WAVE Tools](#wave-tools)
-        - [W3C HTML Validator](#W3C-html-validator)
-        - [Autoprefixer](#autoprefixer)
+
+- [Manual Testing](#manual-testing)
+    - [Header](#Header)
+    - [Footer](#footer)
+    - [Home Page](#home-page)
+    - [Gallery Page](#gallery-page)
+    - [About Page](#about-page)
+    - [Contact Page](#contact-page)
+- [Bugs](#bugs)
+- [Browser Testing](#browser-tests)
+- [Automated Testing](#automated-testing)
+    - [Google Lighthouse](#google-lighthouse)
+    - [WAVE Tools](#wave-tools)
+    - [W3C HTML Validator](#W3C-html-validator)
+    - [Autoprefixer](#autoprefixer)
  
 # Testing
 ## User Story Testing
@@ -61,12 +60,11 @@
 - The user can navigate to the About page where they will find out more about the company, the car and the pricing.
 - The testimonials tell the user a little bit about the company from a third person perspective.
 - Pictures paint a thousand words, so the website is littered with images of the service provided.
- 
-## Feature testing
-### Manual Testing
+
+## Manual Testing
 The following elements and sections were tested manually on all screens sizes in all orientations.
  
-#### Header
+### Header
 - The navigation links were tested to ensure that they work correctly on each page.
 - Checked that the logo brand links to the home page from each page.
 - Checked the navigation links work on smaller devices when the navbar collapses to a burger menu.
@@ -80,14 +78,14 @@ The following elements and sections were tested manually on all screens sizes in
 - Checked the header appears the same size on all pages.
 - Checked that pressing tab logically brings you from left to right.
  
-#### Footer
+### Footer
  
 - Checked that only the correct 3 links appear on each page.
 - Checked that the underline effect works on each link on each page.
 - Checked that the social media links work and open in new tab.
 - Checked the responsiveness of the footer on each page for all screen sizes.
  
-#### Home Page
+### Home Page
  
 - Ensured the callout appears above the car and above the couple in the picture on all screen sizes so that the main focus of the image is visible on all screen sizes.
 - Ensured the image is such that the fold is always visible on all screen sizes below the hero image to encourage users to scroll down.
@@ -101,7 +99,7 @@ The following elements and sections were tested manually on all screens sizes in
 - Checked the interval timer allowed enough time to read each testimonial.
 - Ensured the quote icons in the testimonials appeared on their own line and to the start and end of the quote.
  
-#### Gallery Page
+### Gallery Page
  
 - Checked the carousel took up the full width of medium sized devices and smaller.
 - Checked the gallery images appeared as intended on larger devices.
@@ -111,7 +109,7 @@ The following elements and sections were tested manually on all screens sizes in
 - Ensured all text on the page was centered on all screen sizes.
 - Checked the carousel forward and back buttons worked.
  
-#### About Page
+### About Page
  
 - Checked the image at the top of the page appear correctly on all screen sizes.
 - Checked each section had its own row.  
@@ -123,7 +121,7 @@ The following elements and sections were tested manually on all screens sizes in
 - Checked the 2 finger zoom worked on touchscreen devices.
 - Ensured the google map colour was appropriate to the website and in keeping with the theme.
  
-#### Contact Page
+### Contact Page
  
 - Checked the image at the top of the page appear correctly on all screen sizes.
 - Checked that the enquiry form appeared first above the contact details on medium devices and smaller.
@@ -136,10 +134,11 @@ The following elements and sections were tested manually on all screens sizes in
 - Checked the phone number opened the appropriate app on all devices when pressed.
 - Checked the email address opened the appropriate app on all devices when pressed.
  
-### Bugs
+## Bugs
  
 1. Bug found: The underline from the left extended well beyond the text when the nav links were used in the burger menu.
     - Fix: 
+
         1.Moved the <code>hvr-underline-from-center</code> class from the <code>li</code> parent to the actual <code>a</code> link on all pages.
     
         2.Added code to make the <code>nav-link</code> sit over to the right of the drop down menu by applying <code>float:right</code> on screen sizes XS(less than 576px).
@@ -164,11 +163,11 @@ The following elements and sections were tested manually on all screens sizes in
 7. Bug found: The text and pictures in the What We Do section appeared too close together on medium screens and larger.
     - Fix: I applied Bootstrap's responsive margins and padding to achieve the desired spacing on medium sized screens and larger. For example, <code>px-md-4</code> was added to the class for the text articles in order to push the image and the text apart on screen size medium and larger.
  
-### Browser Tests
+## Browser Tests
  
 The site was mainly developed using Google Chrome using the built in dev tools. All of the elements detailed in the manual testing section were also checked with Firefox and Microsoft Edge. All of the site features work as in Chrome and no issues were found.
  
-### Automated Testing
+## Automated Testing
  
 The site was tested using the following validators and online tools:
  

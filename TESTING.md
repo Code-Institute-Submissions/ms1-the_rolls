@@ -165,6 +165,7 @@ The following elements and sections were tested manually on all screens sizes in
 
 8. Bug Found: The carousel controls on the testimonial section were too far from the content on large screens.
     - Fix: I changed the width of the div containing the control icons on larger devices to push the icons in towards the center of the page.
+    
 ## Browser Tests
  
 The site was mainly developed using Google Chrome using the built in dev tools. All of the elements detailed in the manual testing section were also checked with Firefox and Microsoft Edge. All of the site features work as in Chrome and no issues were found.

@@ -236,7 +236,7 @@ Each page is split into different sections and they appear either stacked or sid
         - A 'Pricing' section to show the approximate price of the service. Below the text detailing the price there is a google map in an iframe to show the user the approximate cost in the defined areas. The iframe is manipulated to hide the cumbersome and unsightly bar across the top of personal google maps that comes as standard.
     - Contact
         - The page leads with an image of the car to keep consistency across the pages.
-        - A wedding enquiry form with various input types to get the necessary information from the interested user. As the business is primarily targeted at weddings, the inputs are aligned to that need. All inputs are required except for the message input. The information is posted to Code Institute's form dump in order to demonstrate the use of the form. A [Bootstrap form](https://getbootstrap.com/docs/5.0/forms/overview/) was used to implement this element.
+        - A wedding enquiry form with various input types to get the necessary information from the interested user. As the business is primarily targeted at weddings, the inputs are aligned to that need. All inputs are required except for the message input and phone number. A [Bootstrap form](https://getbootstrap.com/docs/5.0/forms/overview/) was used to implement this element. The phone number has a pattern attribute applied to it to require 10 or more numbers.
         - A section that gives the email address and phone number to allow the users to make contact this way if they prefer or to just ask a question.
         - The email and phone number details are links that automatically open the applicable app on the users device.
         

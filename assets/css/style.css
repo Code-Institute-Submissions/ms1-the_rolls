@@ -61,6 +61,12 @@ h4{
 .header-nav{
     border-bottom:2px solid #3B3B3B;
 }
+.navbar-toggler{
+    border:none;
+}
+.navbar-toggler:focus{
+    box-shadow:none;
+}
 /*------------------------------------------------------------------- HERO IMAGE & CALLOUT */
 .hero-image{
     background: #b8cdb7 url(../images/hero-image.jp2) bottom right/ cover no-repeat ;

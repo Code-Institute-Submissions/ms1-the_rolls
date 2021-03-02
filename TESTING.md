@@ -83,8 +83,6 @@ The following elements and sections were tested manually on all screens sizes in
  
 ### Footer
  
-- Checked that only the correct 3 links appear on each page.
-- Checked that the underline effect works on each link on each page.
 - Checked that the social media links work and open in new tab.
 - Checked the responsiveness of the footer on each page for all screen sizes.
  

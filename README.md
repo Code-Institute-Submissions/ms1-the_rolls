@@ -203,6 +203,7 @@ Each page is split into different sections and they appear either stacked or sid
 - Header
  
     - The header sits to the top of each page.
+    - The header is a sticky header that remains in place at the top of the screen when the user scrolls down to allow easy navigation no matter where the user is on the site.
     - The company logo will sit to the left of the header on all devices.
     - The site navigation links sit horizontally to the right on all devices except smartphones.
     - The navigation links are underlined from the center when hovered over. Implemented using [hover.css](https://ianlunn.github.io/Hover/). This improves the UX.
@@ -213,9 +214,7 @@ Each page is split into different sections and they appear either stacked or sid
     - The main body of each page contains the relevant content, in the form of images and text, for each page. The elements on the page are made responsive to different screen sizes using [Bootstrap's grid system](https://getbootstrap.com/docs/5.0/layout/grid/). The details of each page is laid out below.
  
 - Footer
- 
-    - The footer has site navigation links across the top of the footer. As with the header this is implemented using Bootstrap's navbar class. This allows the user to easily navigate to the next page without having to scroll back to the top. Having these links at the bottom of each page makes for a nicer UX, especially on larger smartphones.
-    - Each footer has a different set of links so that only the other pages which can be navigated to are displayed, this is done to reduce clutter. 
+
     - Social media links in the form of icons inside a circular div. The icons are [FontAwesome Icons](https://fontawesome.com/icons?d=gallery). The background colour changes to green when hovered over with a 0.2 second ease in and out transition.
     - Company address.
     - Copyright fine print.
@@ -284,7 +283,7 @@ Each page is split into different sections and they appear either stacked or sid
 Details of the testing carried out can be viewed in a separate [TESTING.md file](TESTING.md)
  
 # Deployment
-## How the project was deployed
+## How the project was deployed on GitHub Pages.
  
 The project was coded in Gitpod, committed to Git and pushed to GitHub. The project was deployed from its Github repository using GitHub Pages. 
  
@@ -299,7 +298,7 @@ The steps to deploy the site to GitHub pages are as follows:
 7. Press the ""Save" button. The page will refresh.
 8. Scroll back down to the "GitHub Pages" section. In the blue section under the heading you will find the link to the deployed site.
  
-## How to run the project in your browser
+## How to run the project in GitPod.
  
 1. Download the [Chrome Web Browser](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjE05jL-IfvAhUY6-0KHVj0DRcYABABGgJkZw&ohost=www.google.com&cid=CAESQOD24xYvSkhGMwiKLgK3CrSybtFeT6R-oG_css2y6Lu6XGzyepb2ghN57ehHJkpg6_HSncFxVG78IwXHmXdD1q4&sig=AOD64_2PC1Ooz3rD0sq4NbhSvetwGzaCuw&q=&ved=2ahUKEwj40ZHL-IfvAhVAaRUIHQXoBT0QqyQoAHoECAsQEw&adurl=).
 2. Download the [Chrome GitPod](https://www.gitpod.io/docs/browser-extension/) browser extension.
@@ -309,8 +308,10 @@ The steps to deploy the site to GitHub pages are as follows:
 6. Click on the green "Gitpod" button at the top of the repository above the file explorer.
 7. Gitpod will load for you in a new tab.
 8. The ReadMe file will be presented initially, you can navigate to the source code using the explorer on the left hand side.
+9. To display the site frontend in a separate browser tab, enter "python3 -m http.server" into the terminal at the bottom of the screen and press Enter.
+10. A notification will appear at the bottom right of the screen, click on Open Browser.
  
-## How to run the project in a local IDE
+## How to run the project on a local machine.
  
 1. Navigate to [The Rolls Github repository](https://github.com/pmcgrenery/ms1-the_rolls).
 2. Click on the Code dropdown above the file explorer.

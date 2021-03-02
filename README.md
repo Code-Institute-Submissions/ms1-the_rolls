@@ -168,7 +168,7 @@ Google fonts were used for all of the fonts on the site.
  
 - Playfair Display at regular font weight was chosen for the brand logo and main headings. Playfair is an elegant serif typeface well suited for titles and headlines. Its classical style lends itself to the company ethos of timeless elegance.
  
-- Raleway at font weight 300 was chosen as the text for the main body and subheadings. Raleway is an elegant sans-serif typeface. To add an extra touch of elegance I chose to use a light weight and I found that any lighter reduced readability considerably.
+- Raleway at font weight 300 was chosen as the text for the main body and subheadings. Raleway is an elegant sans-serif typeface. To add an extra touch of elegance I chose to use a light weight. I found that any lighter than weight 300 reduced readability considerably.
  
 - Italianno was chosen for the Henry Rolls quote section. Italianno is a cursive typeface, chosen for its elegance. 
  
@@ -206,7 +206,7 @@ Each page is split into different sections and they appear either stacked or sid
     - The company logo will sit to the left of the header on all devices.
     - The site navigation links sit horizontally to the right on all devices except smartphones.
     - The navigation links are underlined from the center when hovered over. Implemented using [hover.css](https://ianlunn.github.io/Hover/). This improves the UX.
-    - On smartphones the navigation links collapse down into a burger menu. The burger menu sits to the right of the header. This is done using [Bootstrap's collapsible navbar](https://getbootstrap.com/docs/5.0/components/navbar/). The links sit to the right hand side of when the burger menu is pressed on.
+    - On smartphones the navigation links collapse down into a burger menu. The burger menu sits to the right of the header. This is done using [Bootstrap's collapsible navbar](https://getbootstrap.com/docs/5.0/components/navbar/). The links sit to the right hand side when the burger menu is pressed on.
  
 - Main Body
  

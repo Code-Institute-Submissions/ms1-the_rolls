@@ -67,6 +67,9 @@ h4{
 .navbar-toggler:focus{
     box-shadow:none;
 }
+.sticky-top{
+    background-color:#fffcf7;
+}
 /*------------------------------------------------------------------- HERO IMAGE & CALLOUT */
 .hero-image{
     background: #b8cdb7 url(../images/hero-image.jp2) bottom right/ cover no-repeat ;
@@ -166,6 +169,9 @@ footer a:hover{
 }
 .copyright-text a {
     color:#3b3b3b;
+}
+footer address{
+    margin-bottom:0;
 }
 /*----------------------------------------------------------------------------- CONTACT US */
 .contact-lead-image{

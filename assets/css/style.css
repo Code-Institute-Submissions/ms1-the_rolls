@@ -102,7 +102,7 @@ h4{
 }
 /*------------------------------------------------------------------------------- CAROUSEL */
 .carousel-control-next-icon, .carousel-control-prev-icon{
-    background-color:black;
+    background-color:rgb(109, 51, 51);
     border-radius:10px;
 }
 /*---------------------------------------------------------------------------------- ABOUT */
@@ -137,9 +137,6 @@ h4{
 footer{
     background: #fffcf7;
 }
-footer .navbar-nav{
-    flex-direction:row;
-}
 /* Code below relating to sm-icons was modified from the code demonstrated in the Code Institute CV mini-project */
 .sm-icons{
     font-size:150%;
@@ -162,14 +159,6 @@ footer .navbar-nav{
 }
 footer a:hover{
     color:#3B3B3B;
-}
-.footer-nav{
-    margin-top:40px;
-    margin-bottom:20px;
-}
-.footer-nav .nav-item a{
-    text-transform:uppercase;
-    font-size:1.0rem;
 }
 .copyright-text{
     font-size:70%;

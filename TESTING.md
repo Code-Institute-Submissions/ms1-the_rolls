@@ -81,15 +81,15 @@ The following elements and sections were tested manually on all screens sizes in
 - Checked the header appears the same size on all pages.
 - Checked that pressing tab logically brings you from left to right.
 
-<figure>
+<figure style="display:block">
 <img src="assets/images/header-desktop.png" style="width:600px">
 <figcaption>Header on a desktop</figcaption>
 </figure>
-<figure>
+<figure style="display:block">
 <img src="assets/images/header-tablet.png" style="width:384px">
 <figcaption>Header on a tablet</figcaption>
 </figure>
-<figure>
+<figure style="display:block">
 <img src="assets/images/header-mobile.png" style="width:207px">
 <figcaption>Header on a mobile</figcaption>
 </figure>
@@ -99,15 +99,15 @@ The following elements and sections were tested manually on all screens sizes in
 - Checked that the social media links work and open in new tab.
 - Checked the responsiveness of the footer on each page for all screen sizes.
 
-<figure>
+<figure style="display:block">
 <img src="assets/images/footer-desktop.png" style="width:600px">
 <figcaption>Footer on a desktop</figcaption>
 </figure>
-<figure>
+<figure style="display:block">
 <img src="assets/images/footer-tablet.png" style="width:384px">
 <figcaption>Footer on a tablet</figcaption>
 </figure>
-<figure>
+<figure style="display:block">
 <img src="assets/images/footer-mobile.png" style="width:212px">
 <figcaption>Footer on a mobile</figcaption>
 </figure>
@@ -126,41 +126,41 @@ The following elements and sections were tested manually on all screens sizes in
 - Checked the interval timer allowed enough time to read each testimonial.
 - Ensured the quote icons in the testimonials appeared on their own line and to the start and end of the quote.
  
-<figure>
+<figure style="display:block">
 <img src="assets/images/hero-image-desktop.png" style="width:600px">
 <figcaption>Homepage Hero Image on a desktop</figcaption>
 </figure>
-<figure>
+<figure style="display:block">
 <img src="assets/images/hero-image-tablet.png" style="width:384px">
 <figcaption>Homepage Hero Image on a tablet</figcaption>
 </figure>
-<figure>
+<figure style="display:block">
 <img src="assets/images/hero-image-mobile.png" style="width:212px">
 <figcaption>Homepage Hero Image on a mobile</figcaption>
 </figure>
 
-<figure>
+<figure style="display:block">
 <img src="assets/images/what-we-do-desktop.png" style="width:600px">
 <figcaption>Homepage What We Do on a desktop</figcaption>
 </figure>
-<figure>
+<figure style="display:block">
 <img src="assets/images/what-we-do-tablet.png" style="width:384px">
 <figcaption>Homepage What We Do on a tablet</figcaption>
 </figure>
-<figure>
+<figure style="display:block">
 <img src="assets/images/what-we-do-mobile.png" style="width:212px">
 <figcaption>Homepage What We Do on a mobile</figcaption>
 </figure>
 
-<figure>
+<figure style="display:block">
 <img src="assets/images/testimonial-desktop.png" style="width:600px">
 <figcaption>Homepage Testimonial on a desktop</figcaption>
 </figure>
-<figure>
+<figure style="display:block">
 <img src="assets/images/testimonial-tablet.png" style="width:384px">
 <figcaption>Homepage Testimonial on a tablet</figcaption>
 </figure>
-<figure>
+<figure style="display:block">
 <img src="assets/images/testimonial-mobile.png" style="width:212px">
 <figcaption>Homepage Testimonial on a mobile</figcaption>
 </figure>
@@ -175,15 +175,15 @@ The following elements and sections were tested manually on all screens sizes in
 - Ensured all text on the page was centered on all screen sizes.
 - Checked the carousel forward and back buttons worked.
 
-<figure>
+<figure style="display:block">
 <img src="assets/images/gallery-desktop.png" style="width:600px">
 <figcaption>Gallery on a desktop</figcaption>
 </figure>
-<figure>
+<figure style="display:block">
 <img src="assets/images/gallery-tablet.png" style="width:384px">
 <figcaption>Gallery on a tablet</figcaption>
 </figure>
-<figure>
+<figure style="display:block">
 <img src="assets/images/gallery-mobile.png" style="width:212px">
 <figcaption>Gallery on a mobile</figcaption>
 </figure>
@@ -200,41 +200,41 @@ The following elements and sections were tested manually on all screens sizes in
 - Checked the 2 finger zoom worked on touchscreen devices.
 - Ensured the google map colour was appropriate to the website and in keeping with the theme.
  
-<figure>
+<figure style="display:block">
 <img src="assets/images/lead-image-quote-desktop.png" style="width:600px">
 <figcaption>Lead image and quote section on a desktop</figcaption>
 </figure>
-<figure>
+<figure style="display:block">
 <img src="assets/images/lead-image-quote-tablet.png" style="width:384px">
 <figcaption>Lead image and quote section on a tablet</figcaption>
 </figure>
-<figure>
+<figure style="display:block">
 <img src="assets/images/lead-image-quote-mobile.png" style="width:212px">
 <figcaption>Lead image and quote section on a mobile</figcaption>
 </figure>
 
-<figure>
+<figure style="display:block">
 <img src="assets/images/about-desktop.png" style="width:600px">
 <figcaption>About section on a desktop</figcaption>
 </figure>
-<figure>
+<figure style="display:block">
 <img src="assets/images/about-tablet.png" style="width:384px">
 <figcaption>About section on a tablet</figcaption>
 </figure>
-<figure>
+<figure style="display:block">
 <img src="assets/images/about-mobile.png" style="width:212px">
 <figcaption>About section on a mobile</figcaption>
 </figure>
 
-<figure>
+<figure style="display:block">
 <img src="assets/images/map-desktop.png" style="width:600px">
 <figcaption>Embedded Google Map on a desktop</figcaption>
 </figure>
-<figure>
+<figure style="display:block">
 <img src="assets/images/map-tablet.png" style="width:384px">
 <figcaption>Embedded Google Map on a tablet</figcaption>
 </figure>
-<figure>
+<figure style="display:block">
 <img src="assets/images/map-mobile.png" style="width:212px">
 <figcaption>Embedded Google Map on a mobile</figcaption>
 </figure>
@@ -256,15 +256,15 @@ The following elements and sections were tested manually on all screens sizes in
 - Checked the phone number opened the appropriate app on all devices when pressed.
 - Checked the email address opened the appropriate app on all devices when pressed.
 
-<figure>
+<figure style="display:block">
 <img src="assets/images/contact-desktop.png" style="width:600px">
 <figcaption>Contact page on a desktop</figcaption>
 </figure>
-<figure>
+<figure style="display:block">
 <img src="assets/images/contact-tablet.png" style="width:384px">
 <figcaption>Contact page on a tablet</figcaption>
 </figure>
-<figure>
+<figure style="display:block">
 <img src="assets/images/contact-mobile.png" style="width:212px">
 <figcaption>Contact page on a mobile</figcaption>
 </figure>

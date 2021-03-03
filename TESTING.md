@@ -65,7 +65,7 @@
 
 Manual testing was largely undertaken by myself, as documented below. A number of family and friends of varying tech know how and age range also gave me their feedback.
 
-The following elements and sections were tested manually on all screens sizes in all orientations.
+The following elements and sections were tested manually on all screens sizes in all orientations using Chrome Developer Tools.
  
 ### Header
 - The navigation links were tested to ensure that they work correctly on each page.
@@ -80,12 +80,38 @@ The following elements and sections were tested manually on all screens sizes in
 - Checked that the burger menu, when pressed, diplays the links and hides the links when pressed a second time.
 - Checked the header appears the same size on all pages.
 - Checked that pressing tab logically brings you from left to right.
+
+<figure>
+<img src="assets/images/header-desktop.png" style="width:600px">
+<figcaption>Header on a desktop</figcaption>
+</figure>
+<figure>
+<img src="assets/images/header-tablet.png" style="width:384px">
+<figcaption>Header on a tablet</figcaption>
+</figure>
+<figure>
+<img src="assets/images/header-mobile.png" style="width:207px">
+<figcaption>Header on a mobile</figcaption>
+</figure>
  
 ### Footer
  
 - Checked that the social media links work and open in new tab.
 - Checked the responsiveness of the footer on each page for all screen sizes.
- 
+
+<figure>
+<img src="assets/images/footer-desktop.png" style="width:600px">
+<figcaption>Footer on a desktop</figcaption>
+</figure>
+<figure>
+<img src="assets/images/footer-tablet.png" style="width:384px">
+<figcaption>Footer on a tablet</figcaption>
+</figure>
+<figure>
+<img src="assets/images/footer-mobile.png" style="width:212px">
+<figcaption>Footer on a mobile</figcaption>
+</figure>
+
 ### Home Page
  
 - Ensured the callout appears above the car and above the couple in the picture on all screen sizes so that the main focus of the image is visible on all screen sizes.
@@ -100,6 +126,45 @@ The following elements and sections were tested manually on all screens sizes in
 - Checked the interval timer allowed enough time to read each testimonial.
 - Ensured the quote icons in the testimonials appeared on their own line and to the start and end of the quote.
  
+<figure>
+<img src="assets/images/hero-image-desktop.png" style="width:600px">
+<figcaption>Homepage Hero Image on a desktop</figcaption>
+</figure>
+<figure>
+<img src="assets/images/hero-image-tablet.png" style="width:384px">
+<figcaption>Homepage Hero Image on a tablet</figcaption>
+</figure>
+<figure>
+<img src="assets/images/hero-image-mobile.png" style="width:212px">
+<figcaption>Homepage Hero Image on a mobile</figcaption>
+</figure>
+
+<figure>
+<img src="assets/images/what-we-do-desktop.png" style="width:600px">
+<figcaption>Homepage What We Do on a desktop</figcaption>
+</figure>
+<figure>
+<img src="assets/images/what-we-do-tablet.png" style="width:384px">
+<figcaption>Homepage What We Do on a tablet</figcaption>
+</figure>
+<figure>
+<img src="assets/images/what-we-do-mobile.png" style="width:212px">
+<figcaption>Homepage What We Do on a mobile</figcaption>
+</figure>
+
+<figure>
+<img src="assets/images/testimonial-desktop.png" style="width:600px">
+<figcaption>Homepage Testimonial on a desktop</figcaption>
+</figure>
+<figure>
+<img src="assets/images/testimonial-tablet.png" style="width:384px">
+<figcaption>Homepage Testimonial on a tablet</figcaption>
+</figure>
+<figure>
+<img src="assets/images/testimonial-mobile.png" style="width:212px">
+<figcaption>Homepage Testimonial on a mobile</figcaption>
+</figure>
+
 ### Gallery Page
  
 - Checked the carousel took up the full width of medium sized devices and smaller.
@@ -109,7 +174,20 @@ The following elements and sections were tested manually on all screens sizes in
 - Checked the Enquire Now button linked to the Contact page
 - Ensured all text on the page was centered on all screen sizes.
 - Checked the carousel forward and back buttons worked.
- 
+
+<figure>
+<img src="assets/images/gallery-desktop.png" style="width:600px">
+<figcaption>Gallery on a desktop</figcaption>
+</figure>
+<figure>
+<img src="assets/images/gallery-tablet.png" style="width:384px">
+<figcaption>Gallery on a tablet</figcaption>
+</figure>
+<figure>
+<img src="assets/images/gallery-mobile.png" style="width:212px">
+<figcaption>Gallery on a mobile</figcaption>
+</figure>
+
 ### About Page
  
 - Checked the image at the top of the page appear correctly on all screen sizes.
@@ -122,6 +200,45 @@ The following elements and sections were tested manually on all screens sizes in
 - Checked the 2 finger zoom worked on touchscreen devices.
 - Ensured the google map colour was appropriate to the website and in keeping with the theme.
  
+<figure>
+<img src="assets/images/lead-image-quote-desktop.png" style="width:600px">
+<figcaption>Lead image and quote section on a desktop</figcaption>
+</figure>
+<figure>
+<img src="assets/images/lead-image-quote-tablet.png" style="width:384px">
+<figcaption>Lead image and quote section on a tablet</figcaption>
+</figure>
+<figure>
+<img src="assets/images/lead-image-quote-mobile.png" style="width:212px">
+<figcaption>Lead image and quote section on a mobile</figcaption>
+</figure>
+
+<figure>
+<img src="assets/images/about-desktop.png" style="width:600px">
+<figcaption>About section on a desktop</figcaption>
+</figure>
+<figure>
+<img src="assets/images/about-tablet.png" style="width:384px">
+<figcaption>About section on a tablet</figcaption>
+</figure>
+<figure>
+<img src="assets/images/about-mobile.png" style="width:212px">
+<figcaption>About section on a mobile</figcaption>
+</figure>
+
+<figure>
+<img src="assets/images/map-desktop.png" style="width:600px">
+<figcaption>Embedded Google Map on a desktop</figcaption>
+</figure>
+<figure>
+<img src="assets/images/map-tablet.png" style="width:384px">
+<figcaption>Embedded Google Map on a tablet</figcaption>
+</figure>
+<figure>
+<img src="assets/images/map-mobile.png" style="width:212px">
+<figcaption>Embedded Google Map on a mobile</figcaption>
+</figure>
+
 ### Contact Page
  
 - Checked the image at the top of the page appear correctly on all screen sizes.
@@ -130,11 +247,28 @@ The following elements and sections were tested manually on all screens sizes in
 - Checked each input field would only take the appropriate data. eg email will only take an email etc.
 - Checked the calendar button works on various devices so users can select dates rather than have to write them.
 - Checked the required fields worked correctly and wouldn't allow a form submit without being filled.
-- Checked the Enquire Now button worked correctly by directing the form data at the C.I form data dump.
+- Checked the phone number input would not accept any less than 10 digits.
+- Checked the phone number does not accept letters.
+- Checked the form could not be submitted before the required fields were filled out.
+- Checked the modal is brought up only after the form has been successfully been submitted.
+- Checked the data inputted on the form automatically clears when the form has been successfully submitted.
 - Ensured the contact details appeared to the right hand side, as intended, on large devices.
 - Checked the phone number opened the appropriate app on all devices when pressed.
 - Checked the email address opened the appropriate app on all devices when pressed.
- 
+
+<figure>
+<img src="assets/images/contact-desktop.png" style="width:600px">
+<figcaption>Contact page on a desktop</figcaption>
+</figure>
+<figure>
+<img src="assets/images/contact-tablet.png" style="width:384px">
+<figcaption>Contact page on a tablet</figcaption>
+</figure>
+<figure>
+<img src="assets/images/contact-mobile.png" style="width:212px">
+<figcaption>Contact page on a mobile</figcaption>
+</figure>
+
 ## Bugs
  
 1. Bug found: The underline from the left extended well beyond the text when the nav links were used in the burger menu.

@@ -69,7 +69,7 @@
                             <h3>Wedding Enquiry Form</h3>
                         </header>
                         <!-- Bootstrap Form -->
-                        <form action="https://formdump.codeinstitute.net" method="POST">
+                        <form id="myForm">
                             <div class="form-group">
                                 <label for="full_name">Full Name:</label>
                                 <input type="text" class="form-control" id="full_name" name="full_name" required>
@@ -80,7 +80,8 @@
                             </div>
                             <div class="form-group">
                                 <label for="tel">Phone Number:</label>
-                                <!-- Pattern attribute added to require phone number of 10 digits or more to suit typical Irish phone numbers-->
+                                <!-- pattern attribute added to require phone number of 10 digits or more to suit typical Irish phone numbers-->
+                                <!-- Code from https://www.w3schools.com/tags/att_input_type_tel.asp -->
                                 <input type="tel" class="form-control" name="tel" id="tel" placeholder="eg. 0871234567" pattern="[0-9]{10,}">
                             </div>
                             <div class="form-group">
@@ -103,10 +104,24 @@
                                 <label for="message">Message:</label>
                                 <textarea class="form-control" id="message" name="message" rows="4" placeholder="Anything else we need to know?"></textarea>
                             </div>
+                            <!-- Submit button which triggers modal -->
                             <div class="text-center mt-5">
                                 <button type="submit" class="btn btn-success mb-4">Enquire Now</button>
                             </div>
                         </form>
+                        <!-- MODAL -->
+                        <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content ">
+                                    <div class="modal-body text-center">
+                                        <p class="modal-title">Thank you for submitting your enquiry</p>
+                                        <p><i class="far fa-check-circle" aria-hidden="true"></i></p>
+                                        <p>We will be in touch with you within 48 hours.</p>
+                                        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </section>
                     <!-- CONTACT NUMBER & EMAIL -->
                     <section class="col-xl-4 py-4 text-center">
@@ -180,5 +195,14 @@
 </footer>
 <!-- Bootstrap Javascript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<!-- JQuery Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+<!-- JAVASCRIPT TO BRING MODAL UP ON FORM SUBMIT -->
+<script>
+    $('#myForm').on('submit', function(e){
+    $('#myModal').modal('show');
+    e.preventDefault();
+    });
+</script>
 </body>
 </html>

@@ -9,6 +9,7 @@ body{
     background: #b8cdb7;
     background: linear-gradient(90deg, #b8cdb7 0%, #c8d4c8 50%,  #b8cdb7 100%);
 }
+
 /* Below code relating to h2 is from https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
 h2 {
     font-family:"Playfair Display", serif;
@@ -43,6 +44,21 @@ h3{
 h4{
     font-size:1.0rem;
     font-weight:300;
+}
+/*---------------------------------------------------------------------------------- MODAL */
+p.modal-title{
+    font-family:"Playfair Display", serif;
+    text-transform:uppercase;
+    font-size:1.7rem;
+    padding-bottom:15px;
+}
+.modal-content{
+    border-radius:20px;
+    background-color:#fffcf7;
+    padding:10px;
+}
+.fa-check-circle{
+    font-size:50px;
 }
 /*--------------------------------------------------------------------------------- NAVBAR */
 .navbar-brand h1{
@@ -105,7 +121,7 @@ h4{
 }
 /*------------------------------------------------------------------------------- CAROUSEL */
 .carousel-control-next-icon, .carousel-control-prev-icon{
-    background-color:rgb(109, 51, 51);
+    background-color:black;
     border-radius:10px;
 }
 /*---------------------------------------------------------------------------------- ABOUT */

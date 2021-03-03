@@ -238,6 +238,7 @@ The following elements and sections were tested manually on all screens sizes in
 <img src="assets/images/about-tablet.png" style="width:384px"><br/>
 <figcaption>About section on a tablet</figcaption>
 </figure>
+<br/>
 <figure>
 <img src="assets/images/about-mobile.png" style="width:212px"><br/>
 <figcaption>About section on a mobile</figcaption>

@@ -236,7 +236,17 @@ Each page is split into different sections and they appear either stacked or sid
         - A 'Pricing' section to show the approximate price of the service. Below the text detailing the price there is a google map in an iframe to show the user the approximate cost in the defined areas. The iframe is manipulated to hide the cumbersome and unsightly bar across the top of personal google maps that comes as standard.
     - Contact
         - The page leads with an image of the car to keep consistency across the pages.
-        - A wedding enquiry form with various input types to get the necessary information from the interested user. As the business is primarily targeted at weddings, the inputs are aligned to that need. All inputs are required except for the message input and phone number. A [Bootstrap form](https://getbootstrap.com/docs/5.0/forms/overview/) was used to implement this element. The phone number has a pattern attribute applied to it to require 10 or more numbers.
+        - A wedding enquiry form
+            - [Bootstrap form](https://getbootstrap.com/docs/5.0/forms/overview/) was used to implement this element.
+            - The form contains various input types to get the necessary information from the interested user. As the business is primarily targeted at weddings, the inputs are aligned to that need.
+            - All form inputs are required except for the message input and phone number.
+            - Placeholder text is entered in the phone number input to give the user a hint for the phone number format. The same applies to the date.
+            - Placeholder text is provided in the address and message inputs to provide extra information.
+            - The phone number input in the form has a pattern attribute applied to it to require 10 or more numbers to suit Irish phone numbers. Allowing 10 or more numbers lets the user enter a foreign phone number if needed.
+            - Once the form is correctly filled out it may be submitted, otherwise a warning will appear on the relevant input that has not been correctly filled.
+            - When the form is submitted a modal fades in and thanks the user for submitting an enquiry and giving them a timeframe for when to expect a reply.
+            - As the modal fades in the form's previously inputted values are reset.
+            - The modal can be closed by clicking in any of the dark space or clicking on the close button.
         - A section that gives the email address and phone number to allow the users to make contact this way if they prefer or to just ask a question.
         - The email and phone number details are links that automatically open the applicable app on the users device.
         
@@ -278,6 +288,8 @@ Each page is split into different sections and they appear either stacked or sid
  
 - **[Autoprefixer CSS Online](https://autoprefixer.github.io/)** Used to check for css prefix omissions to ensure cross browser compatibility.
  
+ - **[jQuery v3.6.0](https://autoprefixer.github.io/)** Used to implement the javaScript that presents the modal when the form has been successfully submitted.
+
 # Testing
  
 Details of the testing carried out can be viewed in a separate [TESTING.md file](TESTING.md)
@@ -308,8 +320,9 @@ The steps to deploy the site to GitHub pages are as follows:
 6. Click on the green "Gitpod" button at the top of the repository above the file explorer.
 7. Gitpod will load for you in a new tab.
 8. The ReadMe file will be presented initially, you can navigate to the source code using the explorer on the left hand side.
-9. To display the site frontend in a separate browser tab, enter "python3 -m http.server" into the terminal at the bottom of the screen and press Enter.
+9. To display the site frontend in a separate browser tab, type "python3 -m http.server" into the terminal at the bottom of the screen and press Enter.
 10. A notification will appear at the bottom right of the screen, click on Open Browser.
+11. To allow you to enter commands in the terminal after opening a port to see the website front end you must first press "Ctrl + C" to interrupt the open port.
  
 ## How to run the project on a local machine.
  
@@ -355,3 +368,7 @@ All other images are owned by me. Photographer: [David McClelland](https://david
 [Sympli.io](https://sympli.io/blog/heres-everything-you-need-to-know-about-favicons-in-2020/). Code from this site was used as a guide to implement the favicon images on different devices.
  
 [Autoprefixer CSS Online](https://autoprefixer.github.io/) The output code from this automated test was used to correct the code that was already written by me.
+
+[Codepen.io](https://codepen.io/hanapiers/pen/EXNrGP) Code from this site was modified and used to present the modal after the form has been submitted.
+
+[Stackoverflow.com](https://stackoverflow.com/questions/16452699/how-to-reset-a-form-using-jquery-with-reset-method) Code from this post was used to reset the form after submitting.

@@ -82,17 +82,17 @@ The following elements and sections were tested manually on all screens sizes in
 - Checked that pressing tab logically brings you from left to right.
 
 <figure>
-<img src="assets/images/header-desktop.png" style="width:600px">
+<img src="assets/images/header-desktop.png" style="width:600px"><br/>
 <figcaption>Header on a desktop</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/header-tablet.png" style="width:384px">
+<img src="assets/images/header-tablet.png" style="width:384px"><br/>
 <figcaption>Header on a tablet</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/header-mobile.png" style="width:207px">
+<img src="assets/images/header-mobile.png" style="width:207px"><br/>
 <figcaption>Header on a mobile</figcaption>
 </figure>
  <br/>
@@ -102,18 +102,18 @@ The following elements and sections were tested manually on all screens sizes in
 - Checked that the social media links work and open in new tab.
 - Checked the responsiveness of the footer on each page for all screen sizes.
 
-<figure style="display:block">
-<img src="assets/images/footer-desktop.png" style="width:600px">
+<figure>
+<img src="assets/images/footer-desktop.png" style="width:600px"><br/>
 <figcaption>Footer on a desktop</figcaption>
 </figure>
 <br/>
-<figure style="display:block">
-<img src="assets/images/footer-tablet.png" style="width:384px">
+<figure>
+<img src="assets/images/footer-tablet.png" style="width:384px"><br/>
 <figcaption>Footer on a tablet</figcaption>
 </figure>
 <br/>
 <figure style="display:block">
-<img src="assets/images/footer-mobile.png" style="width:212px">
+<img src="assets/images/footer-mobile.png" style="width:212px"><br/>
 <figcaption>Footer on a mobile</figcaption>
 </figure>
 <br/>
@@ -132,48 +132,48 @@ The following elements and sections were tested manually on all screens sizes in
 - Checked the interval timer allowed enough time to read each testimonial.
 - Ensured the quote icons in the testimonials appeared on their own line and to the start and end of the quote.
 
-<figure style="display:block">
-<img src="assets/images/hero-image-desktop.png" style="width:600px">
+<figure>
+<img src="assets/images/hero-image-desktop.png" style="width:600px"><br/>
 <figcaption>Homepage Hero Image on a desktop</figcaption>
 </figure>
 <br/>
-<figure style="display:block">
-<img src="assets/images/hero-image-tablet.png" style="width:384px">
+<figure>
+<img src="assets/images/hero-image-tablet.png" style="width:384px"><br/>
 <figcaption>Homepage Hero Image on a tablet</figcaption>
 </figure>
 <br/>
-<figure style="display:block">
-<img src="assets/images/hero-image-mobile.png" style="width:212px">
+<figure>
+<img src="assets/images/hero-image-mobile.png" style="width:212px"><br/>
 <figcaption>Homepage Hero Image on a mobile</figcaption>
 </figure>
 <br/>
-<figure style="display:block">
-<img src="assets/images/what-we-do-desktop.png" style="width:600px">
+<figure>
+<img src="assets/images/what-we-do-desktop.png" style="width:600px"><br/>
 <figcaption>Homepage What We Do on a desktop</figcaption>
 </figure>
 <br/>
-<figure style="display:block">
-<img src="assets/images/what-we-do-tablet.png" style="width:384px">
+<figure>
+<img src="assets/images/what-we-do-tablet.png" style="width:384px"><br/>
 <figcaption>Homepage What We Do on a tablet</figcaption>
 </figure>
 <br/>
-<figure style="display:block">
-<img src="assets/images/what-we-do-mobile.png" style="width:212px">
+<figure>
+<img src="assets/images/what-we-do-mobile.png" style="width:212px"><br/>
 <figcaption>Homepage What We Do on a mobile</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/testimonial-desktop.png" style="width:600px">
+<img src="assets/images/testimonial-desktop.png" style="width:600px"><br/>
 <figcaption>Homepage Testimonial on a desktop</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/testimonial-tablet.png" style="width:384px">
+<img src="assets/images/testimonial-tablet.png" style="width:384px"><br/>
 <figcaption>Homepage Testimonial on a tablet</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/testimonial-mobile.png" style="width:212px">
+<img src="assets/images/testimonial-mobile.png" style="width:212px"><br/>
 <figcaption>Homepage Testimonial on a mobile</figcaption>
 </figure>
 
@@ -187,18 +187,18 @@ The following elements and sections were tested manually on all screens sizes in
 - Ensured all text on the page was centered on all screen sizes.
 - Checked the carousel forward and back buttons worked.
 
-<figure style="display:block">
-<img src="assets/images/gallery-desktop.png" style="width:600px">
+<figure>
+<img src="assets/images/gallery-desktop.png" style="width:600px"><br/>
 <figcaption>Gallery on a desktop</figcaption>
 </figure>
 <br/>
-<figure style="display:block">
-<img src="assets/images/gallery-tablet.png" style="width:384px">
+<figure>
+<img src="assets/images/gallery-tablet.png" style="width:384px"><br/>
 <figcaption>Gallery on a tablet</figcaption>
 </figure>
 <br/>
-<figure style="display:block">
-<img src="assets/images/gallery-mobile.png" style="width:212px">
+<figure>
+<img src="assets/images/gallery-mobile.png" style="width:212px"><br/>
 <figcaption>Gallery on a mobile</figcaption>
 </figure>
 
@@ -214,47 +214,47 @@ The following elements and sections were tested manually on all screens sizes in
 - Checked the 2 finger zoom worked on touchscreen devices.
 - Ensured the google map colour was appropriate to the website and in keeping with the theme.
  
-<figure style="display:block">
-<img src="assets/images/lead-image-quote-desktop.png" style="width:600px">
+<figure>
+<img src="assets/images/lead-image-quote-desktop.png" style="width:600px"><br/>
 <figcaption>Lead image and quote section on a desktop</figcaption>
 </figure>
 <br/>
-<figure style="display:block">
-<img src="assets/images/lead-image-quote-tablet.png" style="width:384px">
+<figure>
+<img src="assets/images/lead-image-quote-tablet.png" style="width:384px"><br/>
 <figcaption>Lead image and quote section on a tablet</figcaption>
 </figure>
 <br/>
-<figure style="display:block">
-<img src="assets/images/lead-image-quote-mobile.png" style="width:212px">
+<figure>
+<img src="assets/images/lead-image-quote-mobile.png" style="width:212px"><br/>
 <figcaption>Lead image and quote section on a mobile</figcaption>
 </figure>
 <br/>
-<figure style="display:block">
-<img src="assets/images/about-desktop.png" style="width:600px">
+<figure>
+<img src="assets/images/about-desktop.png" style="width:600px"><br/>
 <figcaption>About section on a desktop</figcaption>
 </figure>
 <br/>
-<figure style="display:block">
-<img src="assets/images/about-tablet.png" style="width:384px">
+<figure>
+<img src="assets/images/about-tablet.png" style="width:384px"><br/>
 <figcaption>About section on a tablet</figcaption>
 </figure>
-<figure style="display:block">
-<img src="assets/images/about-mobile.png" style="width:212px">
+<figure>
+<img src="assets/images/about-mobile.png" style="width:212px"><br/>
 <figcaption>About section on a mobile</figcaption>
 </figure>
 <br/>
-<figure style="display:block">
-<img src="assets/images/map-desktop.png" style="width:600px">
+<figure>
+<img src="assets/images/map-desktop.png" style="width:600px"><br/>
 <figcaption>Embedded Google Map on a desktop</figcaption>
 </figure>
 <br/>
-<figure style="display:block">
-<img src="assets/images/map-tablet.png" style="width:384px">
+<figure>
+<img src="assets/images/map-tablet.png" style="width:384px"><br/>
 <figcaption>Embedded Google Map on a tablet</figcaption>
 </figure>
 <br/>
-<figure style="display:block">
-<img src="assets/images/map-mobile.png" style="width:212px">
+<figure>
+<img src="assets/images/map-mobile.png" style="width:212px"><br/>
 <figcaption>Embedded Google Map on a mobile</figcaption>
 </figure>
 <br/>
@@ -276,18 +276,18 @@ The following elements and sections were tested manually on all screens sizes in
 - Checked the phone number opened the appropriate app on all devices when pressed.
 - Checked the email address opened the appropriate app on all devices when pressed.
 
-<figure style="display:block">
-<img src="assets/images/contact-desktop.png" style="width:600px">
+<figure>
+<img src="assets/images/contact-desktop.png" style="width:600px"><br/>
 <figcaption>Contact page on a desktop</figcaption>
 </figure>
 <br/>
-<figure style="display:block">
-<img src="assets/images/contact-tablet.png" style="width:384px">
+<figure>
+<img src="assets/images/contact-tablet.png" style="width:384px"><br/>
 <figcaption>Contact page on a tablet</figcaption>
 </figure>
 <br/>
-<figure style="display:block">
-<img src="assets/images/contact-mobile.png" style="width:212px">
+<figure>
+<img src="assets/images/contact-mobile.png" style="width:212px"><br/>
 <figcaption>Contact page on a mobile</figcaption>
 </figure>
 <br/>

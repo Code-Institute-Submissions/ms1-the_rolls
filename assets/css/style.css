@@ -60,6 +60,13 @@ p.modal-title{
 .fa-check-circle{
     font-size:50px;
 }
+#modal-tick{
+    width:48px;
+    height:48px;
+    border-radius:50%;
+    background-color: #b8cdb7;
+    display:inline-block;
+}
 /*--------------------------------------------------------------------------------- NAVBAR */
 .navbar-brand h1{
     font-family:"Playfair Display", serif;
@@ -196,10 +203,27 @@ footer address{
 }
 .form-control{
     background-color:#fffcf7;
+    border:1px solid #3B3B3B;
+}
+/* Code below to prevent broweser inserting an undesirable blue background when inputs autofilled
+Code modified from https://stackoverflow.com/a/56629167 */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus{
+    box-shadow:0 0 0px 1000px #fffcf7 inset;;
+     -webkit-box-shadow: 0 0 0px 1000px #fffcf7 inset;
+    transition: background-color 5000s ease-in-out 0s;
 }
 .form-control:focus{
     border-color: #3B3B3B;
     box-shadow: 0 0 0 0.25rem #0000004d;
+    background-color:#fffcf7;
 }
 .contact-details i{
     font-size:250%;
@@ -209,9 +233,7 @@ footer address{
     text-decoration:none;
     color:inherit;
 }
-.form-control{
-    border:1px solid #3B3B3B;
-}
+
 /*--------------------------------------------------------------------- HOVER.CSS Modifiers */
 .hvr-underline-from-center:before {
     bottom:20%;

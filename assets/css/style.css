@@ -132,10 +132,26 @@ p.modal-title{
 .testimonial-img {
     border-radius:20px;
 }
-/*------------------------------------------------------------------------------- CAROUSEL */
-.carousel-control-next-icon, .carousel-control-prev-icon{
-    background-color:black;
-    border-radius:10px;
+/*--------------------------------------------------------------------CUSTOM CAROUSEL ICONS*/
+.carousel-control-next, .carousel-control-prev{
+    opacity:0.8;
+}
+.carousel-control-next:hover,
+.carousel-control-next:focus,
+.carousel-control-prev:hover,
+.carousel-control-next:focus{
+    opacity:1;
+}
+.carousel-control-prev-icon{
+    background-image:url(../images/carousel-prev.png);
+}
+.carousel-control-next-icon{
+    background-image:url(../images/carousel-next.png);
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    width:22px;
+    height:22px;
 }
 /*---------------------------------------------------------------------------------- ABOUT */
 .about-lead-image{

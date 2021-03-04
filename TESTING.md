@@ -44,9 +44,10 @@
 - It is conventional to have the social media links at the bottom of the page even if they appear elsewhere on the page. So the user who typically uses social media will instinctively know where to find the links.
  
 ### **As a customer who has decided to go ahead and book the service, I want to make a booking enquiry.**
-- The user will find enquire buttons on the home page and the gallery page. They can also navigate to the contact page by the navigation links in the header and the footer which feature on all pages.
+- The user will find enquire buttons on the home page and the gallery page. They can also navigate to the contact page by the navigation links in the header which feature on all pages.
 - The buttons link to the contact page where the user can make an enquiry by online form, phone or email.
-- If the user chooses to enquire by online form they will receive a prompt if they fail to fill out all applicable fields.
+- If the user chooses to enquire using the  online form they will receive a prompt if they fail to fill out all applicable fields.
+- When the form is submitted successfully the user recieves a thank you message in a modal so that they recieve feedback for the action they have taken.
 - The enquiry form is geared to the main clientele of this business which is for weddings. If the user wants to book for a different event they can enquire by email or phone.
 - The phone and email links are made large to create the impression of them being links.
 - The phone and email links automatically open the applicable app on the users device when pressed.
@@ -223,6 +224,7 @@ Chrome's built in screen size emulator was used to test the site on different sc
 - Checked the fade in animation worked and was timed correctly.
 - Checked the timings of the animations.
 - Ensured the top of the iframe was hidden to hide the google map menu bar on all screen sizes.
+- Ensured the bottom of the iframe was hidden to hide the google map scale and T&C's text on all screen sizes.
 - Checked the map could be zoomed in and out and could be easily navigated.
 - Checked the 2 finger zoom worked on touchscreen devices.
 - Ensured the google map colour was appropriate to the website and in keeping with the theme.
@@ -320,7 +322,7 @@ Chrome's built in screen size emulator was used to test the site on different sc
 2. Bug found: The navigation link for "Home" was appearing heavier in the header on all pages as the code had been copied across to each page from the index.html.
     - Fix: Moved the <code>active</code> class in the navbar <code>a</code> links to the correct link.
  
-3. Bug Found: By default the links in the nav burger menu appear to the left side of the screen on xs screens. This is a bootstrap default.
+3. Bug Found: By default the links in the nav burger menu appear to the left side of the screen on xs screens.
     - Fix: The original fix was to apply <code>text-align:end</code> to the <code>header-nav a</code>. However, this became obsolete when the underline bug above was found. So to make the links appear to the right hand side the fix was as detailed in the underline issue detailed above.
  
 4. Bug found: The social media links opened in the current browser tab.
@@ -384,7 +386,7 @@ There are 2 redundant link alerts on the WAVE tool remaining:
 [W3C HTML Validator](https://validator.w3.org/) yielded the following issues:
 - Issues mainly related to the use of incorrect semantic markup. To overcome this I changed the semantic markup of the files to clear the warnings.
 - Erroneous addition of <code>type="textarea"</code> attribute to the textareas in the form on contact.html. These were deleted to remove the error.
-- An issue with the iframe map which originally had an attribute of <code>width="100%" height="450"</code>. The width attribute should have a pixel value and not a % value. To overcome this I modified style.css for <code>map-inner</code> to add <code>width:100%</code> and <code>height:100%</code> and removed the width and height attributes from the iframe.
+- An issue with the iframe map which originally had an attribute of <code>width="100%" height="450"</code>. The width attribute should have a pixel value and not a % value. To overcome this I modified style.css for <code>map-inner</code> to add <code>width:100%</code> and <code>height:470px</code> and removed the width and height attributes from the iframe.
  
 ### W3C CSS validator
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) yielded no issues. 

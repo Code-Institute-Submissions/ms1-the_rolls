@@ -126,7 +126,6 @@ This page will have a gallery of the promotional photographs.
 •   **Contact**
 This page will have details on how to contact the company for a booking enquiry.
  
- 
 ### **Skeleton Plane**
  
 [Home Page Wireframes](./assets/images/homepage-wireframe.png)
@@ -190,7 +189,11 @@ The animations used are for the quote section of the about, the navigation links
 
 - The carousel on the gallery page has a crossfade transition from one image to the next. This animation is done using [Bootstraps built in carousel class](https://getbootstrap.com/docs/5.0/components/carousel/).
 
-The animations were modified in the style.css file to tailor the elements for this site.
+- The carousel on the home page is a slide type carousel. Again, this is a Bootstrap carousel.
+
+- A modal that fades in after the enquiry form has been submitted successfully. It was implemented using a combination of a [Bootstrap Modal](https://getbootstrap.com/docs/5.0/components/modal/) and some javaScript using [jQuery](https://jquery.com/).
+
+Many of the animations were modified in the style.css file to tailor the elements for this site.
 
 # Features
  
@@ -233,7 +236,8 @@ Each page is split into different sections and they appear either stacked or sid
         - A quote from Henry Royce to convey to the user the company ethos. The quote slides in from the left and the author fades in after the quote has stopped and the user has had a chance to read the quote. This is done using [animate.css](https://animate.style/).
         - An ‘About Us’ section to tell the user a little bit more about the company and the company ethos.
         - An ‘About the car’ section to give more detail on the car specifications etc.
-        - A 'Pricing' section to show the approximate price of the service. Below the text detailing the price there is a google map in an iframe to show the user the approximate cost in the defined areas. The iframe is manipulated to hide the cumbersome and unsightly bar across the top of personal google maps that comes as standard.
+        - A 'Pricing' section to show the approximate price of the service. 
+        - Below the text detailing the price there is a google map in an iframe to show the user the approximate cost in the defined areas. The iframe is manipulated to hide the cumbersome and unsightly bar across the top and the the scale and T&C link at the bottom that comes as standard.
     - Contact
         - The page leads with an image of the car to keep consistency across the pages.
         - A wedding enquiry form
@@ -244,6 +248,7 @@ Each page is split into different sections and they appear either stacked or sid
             - Placeholder text is provided in the address and message inputs to provide extra information.
             - The phone number input in the form has a pattern attribute applied to it to require 10 or more numbers to suit Irish phone numbers. Allowing 10 or more numbers lets the user enter a foreign phone number if needed.
             - Once the form is correctly filled out it may be submitted, otherwise a warning will appear on the relevant input that has not been correctly filled.
+            - Only when the form is filled out correctly will the 'Thank You' modal appear after clicking on Enquire Now.
             - When the form is submitted a modal fades in and thanks the user for submitting an enquiry and giving them a timeframe for when to expect a reply.
             - As the modal fades in the form's previously inputted values are reset.
             - The modal can be closed by clicking in any of the dark space or clicking on the close button.
@@ -252,9 +257,12 @@ Each page is split into different sections and they appear either stacked or sid
         
 # Technologies Used
 ## Languages Used
+
 - HTML5
  
 - CSS3
+
+- JavaScript
  
 ## Frameworks, Libraries, Programs and Online Tools Used
  
@@ -272,9 +280,9 @@ Each page is split into different sections and they appear either stacked or sid
  
 - **[Google maps](https://www.google.com/maps/d/u/1/?hl=en)**. Used for the embedded map.
  
-- **[Balsamiq](https://balsamiq.com/)** - Used to create wireframes
+- **[Balsamiq](https://balsamiq.com/)** - Used to create wireframes.
  
-- **[Gitpod](https://gitpod.io/)** - Used to code HTML & CSS
+- **[Gitpod](https://gitpod.io/)** - Used to code HTML, CSS and the small piece of javaScript.
  
 - **[GitHub](https://github.com/)** Used as a code repository and to host the site.
  
@@ -282,19 +290,20 @@ Each page is split into different sections and they appear either stacked or sid
  
 - **[Favicon.io](https://favicon.io/favicon-generator/)** - Used to create the simple favicon image.
  
-- **[Cssgradient.io](https://cssgradient.io/)** Used to create color gradient background
+- **[Cssgradient.io](https://cssgradient.io/)** Used to create color gradient background.
  
 - **[WAVE Accessibility Tool](https://wave.webaim.org/)** Used to check the accessibility of the site.
  
 - **[Autoprefixer CSS Online](https://autoprefixer.github.io/)** Used to check for css prefix omissions to ensure cross browser compatibility.
  
- - **[jQuery v3.6.0](https://autoprefixer.github.io/)** Used to implement the javaScript that presents the modal when the form has been successfully submitted.
+- **[jQuery v3.6.0](https://autoprefixer.github.io/)** Used to implement the javaScript that presents the modal when the form has been successfully submitted.
 
 # Testing
  
 Details of the testing carried out can be viewed in a separate [TESTING.md file](TESTING.md)
  
 # Deployment
+
 ## How the project was deployed on GitHub Pages.
  
 The project was coded in Gitpod, committed to Git and pushed to GitHub. The project was deployed from its Github repository using GitHub Pages. 
@@ -353,7 +362,9 @@ All other images are owned by me. Photographer: [David McClelland](https://david
 [Animate.css](https://animate.style/) This external css file was used for the slide in and fade in animations used for the Henry Royce quote.
  
 [Hover.css](https://ianlunn.github.io/Hover/) This external css file was used for the underline from center animation used on the navigation links.
- 
+
+[Bootstrap V.5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) Used throughout the project. The built in animations used were the carousel, button and modal.
+
 ## Code 
 [How to Online](https://www.howtoonlinetips.com/hide-google-map-top-bar-embedded-header/). Used inspiration from the code on this site to hide the header on the embedded google map.
  
@@ -369,6 +380,11 @@ All other images are owned by me. Photographer: [David McClelland](https://david
  
 [Autoprefixer CSS Online](https://autoprefixer.github.io/) The output code from this automated test was used to correct the code that was already written by me.
 
-[Codepen.io](https://codepen.io/hanapiers/pen/EXNrGP) Code from this site was modified and used to present the modal after the form has been submitted.
+[Codepen.io](https://codepen.io/hanapiers/pen/EXNrGP) Code from this site was modified and used to present the modal after the form has been submitted successfully.
 
 [Stackoverflow.com](https://stackoverflow.com/questions/16452699/how-to-reset-a-form-using-jquery-with-reset-method) Code from this post was used to reset the form after submitting.
+
+# Acknowledgements
+
+- A massive thank you to my mentor Rohit Sharma for his invaluable input and suggestions on how to improve the site and documentation.
+- Thank you to the Code Institute Slack community. Any questions I had were already answered in the channels so that was invaluable.

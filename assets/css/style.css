@@ -7,6 +7,8 @@ body{
 }
 .green-bg{
     background: #b8cdb7;
+    background: -webkit-gradient(linear, left top, right top, from(#b8cdb7), color-stop(50%, #c8d4c8),  to(#b8cdb7));
+    background: -o-linear-gradient(left, #b8cdb7 0%, #c8d4c8 50%,  #b8cdb7 100%);
     background: linear-gradient(90deg, #b8cdb7 0%, #c8d4c8 50%,  #b8cdb7 100%);
 }
 
@@ -88,7 +90,8 @@ p.modal-title{
     border:none;
 }
 .navbar-toggler:focus{
-    box-shadow:none;
+    -webkit-box-shadow:none;
+            box-shadow:none;
 }
 .sticky-top{
     background-color:#fffcf7;
@@ -100,6 +103,8 @@ p.modal-title{
 }
 .callout{
     background: #b8cdb7;
+    background: -webkit-gradient(linear, left top, right top, from(#b8cdb7), color-stop(50%, #c8d4c8),  to(#b8cdb7));
+    background: -o-linear-gradient(left, #b8cdb7 0%, #c8d4c8 50%,  #b8cdb7 100%);
     background: linear-gradient(90deg, #b8cdb7 0%, #c8d4c8 50%,  #b8cdb7 100%);
     border-radius:10px;
     border:1px solid #3B3B3B;
@@ -117,7 +122,8 @@ p.modal-title{
 .btn-success:active:focus{
     background-color: rgb(100 114 100);
     border-color: #3B3B3B;
-    box-shadow: 0 0 0 0.25rem #0000004d;
+    -webkit-box-shadow: 0 0 0 0.25rem #0000004d;
+            box-shadow: 0 0 0 0.25rem #0000004d;
     }
 /*--------------------------------------------------------------------------- TESTIMONIALS */
 .quotes {
@@ -218,11 +224,13 @@ select:-webkit-autofill:hover,
 select:-webkit-autofill:focus{
     box-shadow:0 0 0px 1000px #fffcf7 inset;;
      -webkit-box-shadow: 0 0 0px 1000px #fffcf7 inset;
+    -webkit-transition: background-color 5000s ease-in-out 0s;
     transition: background-color 5000s ease-in-out 0s;
 }
 .form-control:focus{
     border-color: #3B3B3B;
-    box-shadow: 0 0 0 0.25rem #0000004d;
+    -webkit-box-shadow: 0 0 0 0.25rem #0000004d;
+            box-shadow: 0 0 0 0.25rem #0000004d;
     background-color:#fffcf7;
 }
 .contact-details i{
@@ -288,7 +296,8 @@ select:-webkit-autofill:focus{
 @media screen and (min-width:768px){
     .what-we-do-img{
         border-radius:20px;
-        box-shadow: 0 0 10px #b3b3b3;
+        -webkit-box-shadow: 0 0 10px #b3b3b3;
+                box-shadow: 0 0 10px #b3b3b3;
     }
     .gallery-carousel img {
         border-radius:20px;

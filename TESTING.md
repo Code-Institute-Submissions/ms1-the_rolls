@@ -341,8 +341,14 @@ Chrome's built in screen size emulator was used to test the site on different sc
     - Fix: I changed the width of the div containing the control icons on larger devices to push the icons in towards the center of the page.
 
 9. Bug Found: When the site was tested on friends and family, some found it hard to see the previous and next icons for the carousels. Some users also suggested the icons were too far apart on large screens.
-    - Fix: To overcome this issue I applied a background to the arrow to allow the icon to stand out. I also forced the icons on the testimonial carousel towards the middle of the page on larger screens as per user suggestions.
+    - Fix: To overcome this issue I inserted a custom icon image to replace the standard Bootstrap icon to allow the icon to stand out. I also forced the icons on the testimonial carousel towards the middle of the page on larger screens as per user suggestions.
  
+10. Bug Found: I initially had the "Thank You" modal triggered by simply pressing the "Submit Enquiry" button. But I realised during testing that the modal was presented regardless of whether the form was filled out or not. To fix this I needed to include code that only lets you submit the form once the form has been filled correctly.
+    - Fix: In order to do this I included javaScript that listens out for the submit event on the enquiry form. As the form cannot be submitted unless the form is filled out correctly, this acted as the initial filter to check if the form has been filled out properly or not. Once the submit event takes place, then the code will run and present the modal.
+
+11. Bug Found: Originally the form did not reset the values after the form was submitted. I found this gave a poor UX and created the impression to the user that the information had not been submitted.
+    - Fix: I included code in the snippet of javaScript that resets the form after the form has been successfully submitted.
+
 ## Automated Testing
  
 The site was tested using the following validators and online tools:
@@ -356,7 +362,7 @@ Based on initial results from Google Lighthouse the following changes were made 
 - Converted images from jpg to jp2 in order to improve first contentful paint time.
 - Added a Meta Theme color.
 - Added a title to the iframe google map for accessibility.
-- Added an apple touch icon and subsequently included favicon images.
+- Added an Apple touch icon and subsequently included favicon images.
  
 <figure>
     <div style="text-align:center">

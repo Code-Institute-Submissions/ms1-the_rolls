@@ -63,10 +63,23 @@
 
 ## Manual Testing
 
-Manual testing was largely undertaken by myself, as documented below. A number of family and friends of varying tech know how and age range also gave me their feedback.
+The following elements and sections were tested using Chrome Developer Tools.
 
-The following elements and sections were tested manually on all screens sizes in all orientations using Chrome Developer Tools.
- 
+Chrome's built in screen size emulator was used to test the site on different screen sizes. All of the elements listed in this manual tesing section were tested on the following screen sizes:
+
+| Viewport Size (px)| Description | Bootstrap Breakpoint |
+| -------------- |-------------| -----------------|
+| 320 x 568 | iPhone5/SE in Portrait | XS |
+| 375 x 667 | iPhone 6/7/8 in Portrait | XS |
+| 568 x 320 | iPhone 5/SE in Landscape | SM |
+| 667 x 375 | iPhone 6/7/8 in Landscape | SM |
+| 768 x 1024 | iPad in Portrait | M |
+| 1024 x 768 | iPad in Landscape | L |
+| 1280 x 800 | Common Laptop | XL |
+| 1366 x 768 | Common Laptop | XL |
+| 1440 x 900 | Macbook Pro 15 | XXL |
+| 1920 x 1080 | Common Large Desktop Monitor | XXL |
+
 ### Header
 - The navigation links were tested to ensure that they work correctly on each page.
 - Checked that the logo brand links to the home page from each page.
@@ -327,10 +340,6 @@ The following elements and sections were tested manually on all screens sizes in
 
 9. Bug Found: When the site was tested on friends and family, some found it hard to see the previous and next icons for the carousels. Some users also suggested the icons were too far apart on large screens.
     - Fix: To overcome this issue I applied a background to the arrow to allow the icon to stand out. I also forced the icons on the testimonial carousel towards the middle of the page on larger screens as per user suggestions.
-
-## Browser Tests
- 
-The site was mainly developed using Google Chrome using the built in dev tools. All of the elements detailed in the manual testing section were also checked with Firefox and Microsoft Edge. All of the site features work as in Chrome and no issues were found.
  
 ## Automated Testing
  

@@ -24,43 +24,78 @@
 # Testing
 ## User Story Testing
 ### **As a visitor to the site I want to see what services you provide.**
-- A user who initially lands on the site instantly sees the hero image of a wedding couple beside the car with ribbons on the bonnet. This immediately gives the impression of what the service offered is.
-- The user sees the callout that gives a brief description of the service, further reinforcing the initial impression given with the hero image.
-- On the landing page the user can see a "What we do" section.
-- An "About Us" page on the site goes into more detail on the service provided if the user wants to find out more.
- 
+1. A user who initially lands on the site instantly sees the hero image of a wedding couple beside the car with ribbons on the bonnet. This immediately gives the impression of what the service offered is.
+2. The user sees the callout that gives a brief description of the service, further reinforcing the initial impression given with the hero image.
+3. On the landing page the user can see a "What we do" section.
+4. An "About Us" page on the site goes into more detail on the service provided if the user wants to find out more.
+
+<img src="assets/images/user-story-1.png" style="width:600px">
+<br/>
+
 ### **As a potential customer I want to see what the car looks like inside and out, so I know exactly what I would be paying for.**
-- The hero image on the home page gives the first impression of this.
-- The What We Do section of the home page presents 2 more pictures of the car.
-- The user can follow the navigation to the gallery page to see the entire collection of pictures of the car.
-- Each page of the site leads with a picture of the car, so that no matter what page the user lands on initially they will get an impression of the car.
- 
+1. The hero image on the home page gives the first impression of this.
+2. The What We Do section of the home page presents 2 more pictures of the car.
+3. The user can follow the navigation to the gallery page to see the entire collection of pictures of the car.
+4. Each page of the site leads with a picture of the car, so that no matter what page the user lands on initially they will get an impression of the car.
+
+<img src="assets/images/user-story-2.png" style="width:600px">
+<br/>
+<img src="assets/images/user-story-3.png" style="width:600px">
+<br/>
+<img src="assets/images/user-story-4.png" style="width:600px">
+<br/>
+
 ### **As a potential customer who is interested in booking your service I want to know how much it costs, so I know if it is within my budget before spending time making an enquiry.**
-- The user will find this information in the About page.
-- It is made clear to the user that the prices listed are estimated prices based on the location of their event and that they should get in contact to get an accurate quote.
- 
+1. The user will find this information in the About page.
+2. It is made clear to the user that the prices listed are estimated prices based on the location of their event and that they should get in contact to get an accurate quote.
+
+<img src="assets/images/user-story-5.png" style="width:600px">
+<br/>
+
 ### **As an interested customer I would like a link to your social media accounts, so I can see more photos and follow you.**
-- The user will find these links in the footer of each page. 
-- It is conventional to have the social media links at the bottom of the page even if they appear elsewhere on the page. So the user who typically uses social media will instinctively know where to find the links.
+1. The user will find these links in the footer of each page. 
+2. It is conventional to have the social media links at the bottom of the page even if they appear elsewhere on the page. So the user who typically uses social media will instinctively know where to find the links.
  
+<img src="assets/images/user-story-6.png" style="width:600px">
+<br/>
+
 ### **As a customer who has decided to go ahead and book the service, I want to make a booking enquiry.**
-- The user will find enquire buttons on the home page and the gallery page. They can also navigate to the contact page by the navigation links in the header which feature on all pages.
-- The buttons link to the contact page where the user can make an enquiry by online form, phone or email.
-- If the user chooses to enquire using the  online form they will receive a prompt if they fail to fill out all applicable fields.
-- When the form is submitted successfully the user recieves a thank you message in a modal so that they recieve feedback for the action they have taken.
-- The enquiry form is geared to the main clientele of this business which is for weddings. If the user wants to book for a different event they can enquire by email or phone.
-- The phone and email links are made large to create the impression of them being links.
-- The phone and email links automatically open the applicable app on the users device when pressed.
+1. The user will find enquire buttons on the home page and the gallery page. They can also navigate to the contact page by the navigation links in the header which feature on all pages.
+2. The buttons link to the contact page where the user can make an enquiry.
+3. The user can make an enquiry by submitting an enquiry form.
+4. The user can make an enquiry by phone or email.
+5. If the user chooses to enquire using the  online form they will receive a prompt if they fail to fill out all applicable fields.
+6. When the form is submitted successfully the user recieves a thank you message in a modal so that they recieve feedback for the action they have taken.
+7. The enquiry form is geared to the main clientele of this business which is for weddings. If the user wants to book for a different event they can enquire by email or phone.
+8. The phone and email links are made large to create the impression of them being links.
+9. The phone and email links automatically open the applicable app on the users device when pressed.
+
+<img src="assets/images/user-story-7.png" style="width:600px">
+<br/>
+<img src="assets/images/user-story-8.png" style="width:600px">
+<br/>
+<img src="assets/images/user-story-9.png" style="width:600px">
+<br/>
+<img src="assets/images/user-story-10.png" style="width:600px">
+<br/>
  
 ### **As a potential customer I would like to see your customer testimonials, so that I will feel more confident about booking the service.**
-- The user will find these on the home page towards the bottom of the page. It is conventional to have testimonials to the bottom of a page so the user will know instinctively to look here.
-- There is a picture of the couple to increase the trust of the user in the testimonials.
- 
+1. The user will find these on the home page towards the bottom of the page. It is conventional to have testimonials to the bottom of a page so the user will know instinctively to look here.
+2. There is a picture of the couple to increase the trust of the user in the testimonials.
+
+<img src="assets/images/user-story-11.png" style="width:600px">
+<br/>
+
 ### **As a potential customer I want to find out more about your company, so that I can get to know more about your company ethos.**
-- On the main page the user will find out a short bit of information on the company in the What We Do section.
-- The user can navigate to the About page where they will find out more about the company, the car and the pricing.
-- The testimonials tell the user a little bit about the company from a third person perspective.
-- Pictures paint a thousand words, so the website is littered with images of the service provided.
+1. On the main page the user will find out a short bit of information on the company in the What We Do section.
+2. The user can navigate to the About page where they will find out more about the company, the car and the pricing.
+3. The testimonials tell the user a little bit about the company from a third person perspective.
+4. Pictures paint a thousand words, so the website is littered with images of the service provided.
+
+<img src="assets/images/user-story-12.png" style="width:600px">
+<br/>
+<img src="assets/images/user-story-13.png" style="width:600px">
+<br/>
 
 ## Manual Testing
 

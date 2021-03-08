@@ -254,9 +254,9 @@ select:-webkit-autofill:focus{
     font-size:150%;
 }
 .contact-details a{
-    font-size:150%;
+    font-size:170%;
     text-decoration:none;
-    font-weight:700;
+    font-weight:500;
     color:inherit;
 }
 .required-asterisk{

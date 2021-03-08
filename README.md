@@ -254,7 +254,10 @@ Each page is split into different sections and they appear either stacked or sid
             - The modal can be closed by clicking in any of the dark space or clicking on the close button.
         - A section that gives the email address and phone number to allow the users to make contact this way if they prefer or to just ask a question.
         - The email and phone number details are links that automatically open the applicable app on the users device.
-        
+    - 404 Page
+        - The page appears when a user tries to open a non existent page.
+        - A text box lets the user know they are in the wrong place and contains a link to return to the home page.
+
 # Technologies Used
 ## Languages Used
 

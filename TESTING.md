@@ -13,6 +13,7 @@
     - [Gallery Page](#gallery-page)
     - [About Page](#about-page)
     - [Contact Page](#contact-page)
+    - [404 Page](#404-page)
 - [Bugs](#bugs)
 - [Browser Testing](#browser-tests)
 - [Automated Testing](#automated-testing)
@@ -340,6 +341,28 @@ Chrome's built in screen size emulator was used to test the site on different sc
 <figure>
 <img src="assets/images/contact-mobile.png" style="width:212px"><br/>
 <figcaption>Contact page on a mobile</figcaption>
+</figure>
+<br/>
+
+### 404 Page
+
+- Checked the 404 page appeared when any url other than those that exist in the project are entered. eg https://pmcgrenery.github.io/ms1-the_rolls/information.html
+- Checked the link to the home page returns the user to the home page as intended.
+- Checked the 404 page appears as intended on all device sizes.
+
+<figure>
+<img src="assets/images/404-desktop.png" style="width:600px"><br/>
+<figcaption>404 page on a desktop</figcaption>
+</figure>
+<br/>
+<figure>
+<img src="assets/images/404-tablet.png" style="width:384px"><br/>
+<figcaption>404 page on a tablet</figcaption>
+</figure>
+<br/>
+<figure>
+<img src="assets/images/404-mobile.png" style="width:212px"><br/>
+<figcaption>404 page on a mobile</figcaption>
 </figure>
 <br/>
 

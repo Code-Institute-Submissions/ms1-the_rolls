@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Playfair+Display:wght@400&family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&family=Playfair+Display:wght@400&family=Italianno&display=swap');
 /*-------------------------------------------------------------------------------- GENERAL */
 body{
     font-family:"Raleway", sans-serif;
@@ -251,12 +251,16 @@ select:-webkit-autofill:focus{
     background-color:#fffcf7;
 }
 .contact-details i{
-    font-size:250%;
+    font-size:150%;
 }
 .contact-details a{
-    font-size:200%;
+    font-size:150%;
     text-decoration:none;
+    font-weight:700;
     color:inherit;
+}
+.required-asterisk{
+    font-weight:700;
 }
 
 /*--------------------------------------------------------------------- HOVER.CSS Modifiers */

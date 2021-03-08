@@ -47,28 +47,6 @@ h4{
     font-size:1.0rem;
     font-weight:300;
 }
-/*---------------------------------------------------------------------------------- MODAL */
-p.modal-title{
-    font-family:"Playfair Display", serif;
-    text-transform:uppercase;
-    font-size:1.7rem;
-    padding-bottom:15px;
-}
-.modal-content{
-    border-radius:20px;
-    background-color:#fffcf7;
-    padding:10px;
-}
-.fa-check-circle{
-    font-size:50px;
-}
-#modal-check{
-    width:48px;
-    height:48px;
-    border-radius:50%;
-    background-color: #b8cdb7;
-    display:inline-block;
-}
 /*--------------------------------------------------------------------------------- NAVBAR */
 .navbar-brand h1{
     font-family:"Playfair Display", serif;
@@ -95,91 +73,6 @@ p.modal-title{
 }
 .sticky-top{
     background-color:#fffcf7;
-}
-/*------------------------------------------------------------------- HERO IMAGE & CALLOUT */
-.hero-image{
-    background: #b8cdb7 url(../images/hero-image.jp2) bottom right/ cover no-repeat ;
-    height:500px;
-}
-.callout{
-    background: #b8cdb7;
-    background: -webkit-gradient(linear, left top, right top, from(#b8cdb7), color-stop(50%, #c8d4c8),  to(#b8cdb7));
-    background: -o-linear-gradient(left, #b8cdb7 0%, #c8d4c8 50%,  #b8cdb7 100%);
-    background: linear-gradient(90deg, #b8cdb7 0%, #c8d4c8 50%,  #b8cdb7 100%);
-    border-radius:10px;
-    border:1px solid #3B3B3B;
-}
-.btn-success {
-    color:#3b3b3b;
-    background-color: #E6E6E6;
-    border:2px solid #3B3B3B;
-    font-size:130%;
-    font-weight:400;
-}
-.btn-success:hover,
-.btn-success:active,
-.btn-success:focus,
-.btn-success:active:focus{
-    background-color: rgb(100 114 100);
-    border-color: #3B3B3B;
-    -webkit-box-shadow: 0 0 0 0.25rem #0000004d;
-            box-shadow: 0 0 0 0.25rem #0000004d;
-    }
-/*--------------------------------------------------------------------------- TESTIMONIALS */
-.quotes {
-    color:#3B3B3B;
-}
-.testimonial-img {
-    border-radius:20px;
-}
-/*--------------------------------------------------------------------CUSTOM CAROUSEL ICONS*/
-.carousel-control-next, .carousel-control-prev{
-    opacity:0.8;
-}
-.carousel-control-next:hover,
-.carousel-control-next:focus,
-.carousel-control-prev:hover,
-.carousel-control-next:focus{
-    opacity:1;
-}
-.carousel-control-prev-icon{
-    background-image:url(../images/carousel-prev.png);
-}
-.carousel-control-next-icon{
-    background-image:url(../images/carousel-next.png);
-}
-.carousel-control-next-icon,
-.carousel-control-prev-icon{
-    width:22px;
-    height:22px;
-}
-/*---------------------------------------------------------------------------------- ABOUT */
-.about-lead-image{
-    height:160px;
-    background: #b8cdb7 url(../images/about-main-image.jp2) bottom center/ cover no-repeat ;
-}
-.royce-quotes{
-    color:#3B3B3B;
-    font-size:40%;
-}
-.royce-text{
-    font-size:2.5rem;
-        background: rgb(255 252 247 / 25%);
-    padding:10px 0;
-    border-radius:15px;
-    font-family:"Italianno", cursive;
-}
-.map-outer{
-    height:400px;
-    width:100%;
-    overflow:hidden;
-}
-.map-inner{
-    position:relative;
-    top:-55px;
-    border:none;
-    height:470px;
-    width:100%;
 }
 /*--------------------------------------------------------------------------------- FOOTER */
 footer{
@@ -218,6 +111,70 @@ footer a:hover{
 }
 footer address{
     margin-bottom:0;
+}
+/*------------------------------------------------------------------- HERO IMAGE & CALLOUT */
+.hero-image{
+    background: #b8cdb7 url(../images/hero-image.jp2) bottom right/ cover no-repeat ;
+    height:500px;
+}
+.callout{
+    background: #b8cdb7;
+    background: -webkit-gradient(linear, left top, right top, from(#b8cdb7), color-stop(50%, #c8d4c8),  to(#b8cdb7));
+    background: -o-linear-gradient(left, #b8cdb7 0%, #c8d4c8 50%,  #b8cdb7 100%);
+    background: linear-gradient(90deg, #b8cdb7 0%, #c8d4c8 50%,  #b8cdb7 100%);
+    border-radius:10px;
+    border:1px solid #3B3B3B;
+}
+.btn-success {
+    color:#3b3b3b;
+    background-color: #E6E6E6;
+    border:2px solid #3B3B3B;
+    font-size:130%;
+    font-weight:400;
+}
+.btn-success:hover,
+.btn-success:active,
+.btn-success:focus,
+.btn-success:active:focus{
+    background-color: rgb(100 114 100);
+    border-color: #3B3B3B;
+    -webkit-box-shadow: 0 0 0 0.25rem #0000004d;
+            box-shadow: 0 0 0 0.25rem #0000004d;
+}
+/*--------------------------------------------------------------------------- TESTIMONIALS */
+.quotes {
+    color:#3B3B3B;
+}
+.testimonial-img {
+    border-radius:20px;
+}
+/*---------------------------------------------------------------------------------- ABOUT */
+.about-lead-image{
+    height:160px;
+    background: #b8cdb7 url(../images/about-main-image.jp2) bottom center/ cover no-repeat ;
+}
+.royce-quotes{
+    color:#3B3B3B;
+    font-size:40%;
+}
+.royce-text{
+    font-size:2.5rem;
+        background: rgb(255 252 247 / 25%);
+    padding:10px 0;
+    border-radius:15px;
+    font-family:"Italianno", cursive;
+}
+.map-outer{
+    height:400px;
+    width:100%;
+    overflow:hidden;
+}
+.map-inner{
+    position:relative;
+    top:-55px;
+    border:none;
+    height:470px;
+    width:100%;
 }
 /*----------------------------------------------------------------------------- CONTACT US */
 .contact-lead-image{
@@ -262,7 +219,49 @@ select:-webkit-autofill:focus{
 .required-asterisk{
     font-weight:700;
 }
-
+/*---------------------------------------------------------------------------------- MODAL */
+p.modal-title{
+    font-family:"Playfair Display", serif;
+    text-transform:uppercase;
+    font-size:1.7rem;
+    padding-bottom:15px;
+}
+.modal-content{
+    border-radius:20px;
+    background-color:#fffcf7;
+    padding:10px;
+}
+.fa-check-circle{
+    font-size:50px;
+}
+#modal-check{
+    width:48px;
+    height:48px;
+    border-radius:50%;
+    background-color: #b8cdb7;
+    display:inline-block;
+}
+/*--------------------------------------------------------------------CUSTOM CAROUSEL ICONS*/
+.carousel-control-next, .carousel-control-prev{
+    opacity:0.8;
+}
+.carousel-control-next:hover,
+.carousel-control-next:focus,
+.carousel-control-prev:hover,
+.carousel-control-next:focus{
+    opacity:1;
+}
+.carousel-control-prev-icon{
+    background-image:url(../images/carousel-prev.png);
+}
+.carousel-control-next-icon{
+    background-image:url(../images/carousel-next.png);
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    width:22px;
+    height:22px;
+}
 /*--------------------------------------------------------------------- HOVER.CSS Modifiers */
 .hvr-underline-from-center:before {
     bottom:20%;

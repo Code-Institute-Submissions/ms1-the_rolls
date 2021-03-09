@@ -449,9 +449,12 @@ There are 2 redundant link alerts on the WAVE tool remaining:
  
 ### W3C HTML validator
 [W3C HTML Validator](https://validator.w3.org/) yielded the following issues:
-- Issues mainly related to the use of incorrect semantic markup. To overcome this I changed the semantic markup of the files to clear the warnings.
-- Erroneous addition of <code>type="textarea"</code> attribute to the textareas in the form on contact.html. These were deleted to remove the error.
-- An issue with the iframe map which originally had an attribute of <code>width="100%" height="450"</code>. The width attribute should have a pixel value and not a % value. To overcome this I modified style.css for <code>map-inner</code> to add <code>width:100%</code> and <code>height:470px</code> and removed the width and height attributes from the iframe.
+- Issues mainly related to the use of incorrect semantic markup.
+    - Fix: To overcome this I changed the semantic markup of the files to clear the warnings.
+- Erroneous addition of <code>type="textarea"</code> attribute to the textareas in the form on contact.html. 
+    - Fix: These were deleted to remove the error.
+- An issue with the iframe map which originally had an attribute of <code>width="100%" height="450"</code>. 
+    - Fix: The width attribute should have a pixel value and not a % value. To overcome this I modified style.css for <code>map-inner</code> to add <code>width:100%</code> and <code>height:470px</code> and removed the width and height attributes from the iframe.
  
 ### W3C CSS validator
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) yielded no issues. 

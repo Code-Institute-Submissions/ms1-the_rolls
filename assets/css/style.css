@@ -386,6 +386,21 @@ p.modal-title{
         height:700px;
     }
 }
+/* Apple iMac 5K monitor */
+@media screen and (min-width:1950px){
+    .hero-image{
+        height:900px;
+    }
+    .callout{
+        margin-top:60px;
+    }
+    .about-lead-image{
+        height:800px;
+    }
+    .contact-lead-image{
+        height:800px;
+    }
+}
 /*------------------------------------------------------------------------ 404 PAGE */
 .lost-bg{
     /* CODE from https://css-tricks.com/perfect-full-page-background-image/ */

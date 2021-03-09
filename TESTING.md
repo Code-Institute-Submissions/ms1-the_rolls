@@ -116,6 +116,7 @@ Chrome's built in screen size emulator was used to test the site on different sc
 | 1366 x 768 | Common Laptop | XL |
 | 1440 x 900 | Macbook Pro 15 | XXL |
 | 1920 x 1080 | Common Large Desktop Monitor | XXL |
+| 2560 x 1440 | 5K desktop monitor  | XXL |
 
 ### Header
 - The navigation links were tested to ensure that they work correctly on each page.

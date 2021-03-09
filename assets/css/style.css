@@ -63,6 +63,9 @@ h4{
 }
 .header-nav{
     border-bottom:2px solid #3B3B3B;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 }
 .navbar-toggler{
     border:none;
@@ -124,6 +127,8 @@ footer address{
     background: linear-gradient(90deg, #b8cdb7 0%, #c8d4c8 50%,  #b8cdb7 100%);
     border-radius:10px;
     border:1px solid #3B3B3B;
+    -webkit-box-shadow: 0 7px 10px -5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 7px 10px -5px rgba(0, 0, 0, 0.5);
 }
 .btn-success {
     color:#3b3b3b;

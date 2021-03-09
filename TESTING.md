@@ -459,4 +459,13 @@ There are 2 redundant link alerts on the WAVE tool remaining:
  
 [Autoprefixer CSS Online](https://autoprefixer.github.io/) was used to check for any issues relating to prefixes in the CSS code. The test revealed prefix omissions relating to the linear gradients used for the background and the box shadows applied to some images and buttons. These omissions were corrected and no issues were found.
  
+### A11y Color Contrast Checker
+ 
+[A11y Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/) Used to check the contrast of the colors to ensure the site is accessible. No issues were found and the actual contrast ratios well exceeded the accepted standards.
 
+<figure>
+    <div style="text-align:center">
+        <img src="assets/images/color-contrast-results.png" alt="WAVE test results" width="600px">
+    </div>
+</figure>
+<figcaption style="text-align:center">A1y Color Contrast Results</figcaption>

@@ -468,4 +468,4 @@ There are 2 redundant link alerts on the WAVE tool remaining:
         <img src="assets/images/color-contrast-results.png" alt="WAVE test results" width="600px">
     </div>
 </figure>
-<figcaption style="text-align:center">A1y Color Contrast Results</figcaption>
+<figcaption style="text-align:center">A11y Color Contrast Results</figcaption>

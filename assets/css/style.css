@@ -404,17 +404,14 @@ p.modal-title{
 /*------------------------------------------------------------------------ 404 PAGE */
 .lost-bg{
     /* CODE from https://css-tricks.com/perfect-full-page-background-image/ */
-    background: #b8cdb7 url(../images/404-image.jpg) no-repeat center center fixed; 
+    background: #b8cdb7 url(../images/404-image.jpg) no-repeat center center ; 
     -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
      background-size: cover;
-}
-.opaque-overlay{
-    background:rgba(0, 0, 0, 0.25) ;
-    width:100%;
-    height:100vh;
-    position:relative;
+     position:relative;
+     height:100vh;
+     width:auto;
 }
 .fzf-image-container{
     display:flex;
@@ -438,6 +435,15 @@ p.modal-title{
     min-width:300px;
     max-width:600px;
     border: 1px solid #3b3b3b;
+}
+.lost-text a {
+    color:#3b3b3b; 
+    font-size:"120%";
+    text-transform:uppercase;
+}
+.lost-text i{
+    font-size:300%;
+    padding:10px 0;
 }
 .lost-header{
     font-family:"Playfair Display", serif;

@@ -419,7 +419,7 @@ Based on initial results from Google Lighthouse the following changes were made 
  
 - Added a Meta description to each page.
 - Added a 'rel="noopener"' attribute to the social media links to improve security.
-- Text colour in the Enquire button on the callout lacked sufficient colour contrast so that was changed to the same colour as the rest of the text and the background changed to the same colour as the header and footer to maintain consistency and contrast.
+- Text colour in the Enquire button on the callout lacked sufficient colour contrast so that was changed to the same colour as the rest of the text and the background changed to a silver colour.
 - Converted images from jpg to jp2 in order to improve first contentful paint time.
 - Added a Meta Theme color.
 - Added a title to the iframe google map for accessibility.

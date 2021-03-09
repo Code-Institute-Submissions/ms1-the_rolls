@@ -295,11 +295,17 @@ Each page is split into different sections and they appear either stacked or sid
  
 - **[Cssgradient.io](https://cssgradient.io/)** Used to create color gradient background.
  
+- **[jQuery v3.6.0](https://autoprefixer.github.io/)** Used to implement the javaScript that presents the modal when the form has been successfully submitted.
+
+- **[A11y Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/)** Used to check color contrast of the site for accessibility.
+
+- **[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)** Used to validate CSS3 code.
+
+- **[W3C HTML Validator](https://validator.w3.org/)** Used to validate HTML5 code.
+
 - **[WAVE Accessibility Tool](https://wave.webaim.org/)** Used to check the accessibility of the site.
  
 - **[Autoprefixer CSS Online](https://autoprefixer.github.io/)** Used to check for css prefix omissions to ensure cross browser compatibility.
- 
-- **[jQuery v3.6.0](https://autoprefixer.github.io/)** Used to implement the javaScript that presents the modal when the form has been successfully submitted.
 
 # Testing
  

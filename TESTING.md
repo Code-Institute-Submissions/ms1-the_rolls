@@ -20,7 +20,9 @@
     - [Google Lighthouse](#google-lighthouse)
     - [WAVE Tools](#wave-tools)
     - [W3C HTML Validator](#W3C-html-validator)
+    - [W3C CSS Validator](#W3C-css-validator)
     - [Autoprefixer](#autoprefixer)
+    - [A11y Color Contrast Checker](#a11y-color-contrast-checker)
  
 # Testing
 ## User Story Testing

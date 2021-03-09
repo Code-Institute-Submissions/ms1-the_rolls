@@ -362,7 +362,7 @@ For further information on how to clone a repository into your IDE please consul
 The content on the site is my own and written by me. However, it should be noted that [vintageweddingscars.ie](http://www.vintageweddingcars.ie/) was used for overall inspiration on what should be included.
  
 ## Media 
-[Pexels.com](https://www.pexels.com) . Used for the three royalty free stock photos in testimonials section.
+[Pexels.com](https://www.pexels.com) . Used for the three royalty free stock photos in testimonials section and the background image on the 404 page.
  
 All other images are owned by me. Photographer: [David McClelland](https://davidmcclelland-photography.com/)
  

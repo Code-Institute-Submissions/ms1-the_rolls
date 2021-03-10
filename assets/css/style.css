@@ -239,10 +239,11 @@ h3.modal-title{
 }
 .fa-check-circle{
     font-size:50px;
+    transform: translate(-1px,-1px);
 }
 #modal-check{
-    width:48px;
-    height:48px;
+    width:47px;
+    height:47px;
     border-radius:50%;
     background-color: #b8cdb7;
     display:inline-block;

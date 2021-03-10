@@ -127,15 +127,17 @@ This page will have a gallery of the promotional photographs.
 This page will have details on how to contact the company for a booking enquiry.
  
 ### **Skeleton Plane**
+
+The wireframes below represent initial thoughts on the design of the site. The site changed slightly as it evolved but the presentation of content remained largely the same as the wireframes.
+
+[Home Page Wireframes](wireframes/homepage-wireframe.png)
  
-[Home Page Wireframes](docs/homepage-wireframe.png)
+[About Us Wireframes](wireframes/about-wireframe.png)
  
-[About Us Wireframes](docs/about-wireframe.png)
+[Gallery Wireframes](wireframes/gallery-wireframe.png)
  
-[Gallery Wireframes](docs/gallery-wireframe.png)
- 
-[Contact Wireframes](docs/contact-wireframe.png)
- 
+[Contact Wireframes](wireframes/contact-wireframe.png)
+
 ### **Surface Plane**
  
 The project's overall aesthetic is designed to align with the company's ethos and branding and evoke a sense of calm, elegance, trustworthiness and simplicity.
@@ -145,6 +147,7 @@ The project's overall aesthetic is designed to align with the company's ethos an
 Instead of creating a logo I chose to keep it simple and implement the site logo using HTML and CSS so that it scales well across different devices. 
  
 #### Colour Scheme:
+
 The colour scheme was chosen to evoke certain emotions appropriate to this business. According to a [verywellmind.com article](https://www.verywellmind.com/color-psychology-2795824) on colour psychology:
  
 - Blue evokes: Stability, calm, trustworthiness, professionalism
@@ -163,6 +166,7 @@ Specifically, the main colours used are:
 <img src="docs/color-scheme.png">
  
 #### Typography:
+
 Google fonts were used for all of the fonts on the site.
  
 - Playfair Display at regular font weight was chosen for the brand logo and main headings. Playfair is an elegant serif typeface well suited for titles and headlines. Its classical style lends itself to the company ethos of timeless elegance.

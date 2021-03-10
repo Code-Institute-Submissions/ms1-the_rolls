@@ -1,7 +1,7 @@
 <div style="text-align:center">
-<img src="assets/images/readme-heading.png" style="width:600px">
+<img src="docs/readme-heading.png" style="width:600px">
 <br><br><br><br>
-<img src="assets/images/screen-mockup.png" style="width:1000px">
+<img src="docs/screen-mockup.png" style="width:1000px">
 </div>
  
  
@@ -128,13 +128,13 @@ This page will have details on how to contact the company for a booking enquiry.
  
 ### **Skeleton Plane**
  
-[Home Page Wireframes](./assets/images/homepage-wireframe.png)
+[Home Page Wireframes](docs/homepage-wireframe.png)
  
-[About Us Wireframes](./assets/images/about-wireframe.png)
+[About Us Wireframes](docs/about-wireframe.png)
  
-[Gallery Wireframes](./assets/images/gallery-wireframe.png)
+[Gallery Wireframes](docs/gallery-wireframe.png)
  
-[Contact Wireframes](./assets/images/contact-wireframe.png)
+[Contact Wireframes](docs/contact-wireframe.png)
  
 ### **Surface Plane**
  
@@ -160,7 +160,7 @@ Where the green is used as a background it has been implemented with a very subt
  
 Specifically, the main colours used are:
  
-<img src="assets/images/color-scheme.png">
+<img src="docs/color-scheme.png">
  
 #### Typography:
 Google fonts were used for all of the fonts on the site.

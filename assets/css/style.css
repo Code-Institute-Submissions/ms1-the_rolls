@@ -5,7 +5,7 @@ body{
     background-color:#fffcf7;
     color:#3B3B3B;
 }
-.green-bg{
+.main-bg{
     background: #b8cdb7;
     background: -o-linear-gradient(left, #b8cdb7 0%, #c8d4c8 50%,  #b8cdb7 100%);
     background: -webkit-gradient(linear, left top, right top, from(#b8cdb7), color-stop(50%, #c8d4c8),  to(#b8cdb7));

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&family=Playfair+Display:wght@400&family=Italianno&display=swap');
-/*-------------------------------------------------------------------------------- GENERAL */
+/* ----------GENERAL---------- */
 body{
     font-family:"Raleway", sans-serif;
     background-color:#fffcf7;
@@ -11,8 +11,8 @@ body{
     background: -webkit-gradient(linear, left top, right top, from(#b8cdb7), color-stop(50%, #c8d4c8),  to(#b8cdb7));
     background: linear-gradient(90deg, #b8cdb7 0%, #c8d4c8 50%,  #b8cdb7 100%);
 }
-
-/* Below code relating to h2 is from https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
+/* Below code relating to h2 is from 
+https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
 h2 {
     font-family:"Playfair Display", serif;
     text-transform:uppercase;
@@ -47,7 +47,8 @@ h4{
     font-size:1.0rem;
     font-weight:300;
 }
-/*--------------------------------------------------------------------------------- NAVBAR */
+
+/* ----------NAVBAR----------- */
 .navbar-brand h1{
     font-family:"Playfair Display", serif;
     font-size:1.7rem;
@@ -76,11 +77,13 @@ h4{
 .sticky-top{
     background-color:#fffcf7;
 }
-/*--------------------------------------------------------------------------------- FOOTER */
+
+/* ----------FOOTER---------- */
 footer{
     background: #fffcf7;
 }
-/* Code below relating to sm-icons was modified from the code demonstrated in the Code Institute CV mini-project */
+/* Code below relating to sm-icons was modified from the code
+ demonstrated in the Code Institute CV mini-project */
 .sm-icons{
     font-size:150%;
     width:40px;
@@ -114,7 +117,8 @@ footer a:hover{
 footer address{
     margin-bottom:0;
 }
-/*------------------------------------------------------------------- HERO IMAGE & CALLOUT */
+
+/* ----------HERO IMAGE & CALLOUT---------- */
 .hero-image{
     background: #b8cdb7 url(../images/hero-image.jp2) bottom right/ cover no-repeat ;
     height:500px;
@@ -145,14 +149,16 @@ footer address{
     -webkit-box-shadow: 0 0 0 0.25rem #0000004d;
             box-shadow: 0 0 0 0.25rem #0000004d;
 }
-/*--------------------------------------------------------------------------- TESTIMONIALS */
+
+/* ----------TESTIMONIALS---------- */
 .quotes {
     color:#3B3B3B;
 }
 .testimonial-img {
     border-radius:20px;
 }
-/*---------------------------------------------------------------------------------- ABOUT */
+
+/* ----------ABOUT---------- */
 .about-lead-image{
     height:160px;
     background: #b8cdb7 url(../images/about-main-image.jp2) bottom center/ cover no-repeat ;
@@ -182,7 +188,8 @@ footer address{
     height:470px;
     width:100%;
 }
-/*----------------------------------------------------------------------------- CONTACT US */
+
+/* ----------CONTACT US---------- */
 .contact-lead-image{
     height:160px;
     background: #b8cdb7 url(../images/rolls-church.jp2) bottom center/ cover no-repeat ;
@@ -191,7 +198,8 @@ footer address{
     background-color:#fffcf7;
     border:1px solid #3B3B3B;
 }
-/* Code below to prevent broweser inserting an undesirable blue background when inputs autofilled
+/* Code below to prevent broweser inserting an 
+undesirable blue background when inputs autofilled
 Code modified from https://stackoverflow.com/a/56629167 */
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
@@ -225,7 +233,8 @@ select:-webkit-autofill:focus{
 .required-asterisk{
     font-weight:700;
 }
-/*---------------------------------------------------------------------------------- MODAL */
+
+/* ----------MODAL---------- */
 h3.modal-title{
     font-family:"Playfair Display", serif;
     text-transform:uppercase;
@@ -248,7 +257,8 @@ h3.modal-title{
     background-color: #b8cdb7;
     display:inline-block;
 }
-/*--------------------------------------------------------------------CUSTOM CAROUSEL ICONS*/
+
+/* ----------CUSTOM CAROUSEL ICONS---------- */
 .carousel-control-next, .carousel-control-prev{
     opacity:0.8;
 }
@@ -269,23 +279,25 @@ h3.modal-title{
     width:22px;
     height:22px;
 }
-/*--------------------------------------------------------------------- HOVER.CSS Modifiers */
+
+/* ----------HOVER.CSS Modifiers---------- */
 .hvr-underline-from-center:before {
     bottom:20%;
     background:#3B3B3B;
     height:1px;
     margin:0 8px;
 }
-/*------------------------------------------------------------------- ANIMATE.CSS Modifiers */
 
-/* Code in this section was modified from the documentation section on https://animate.style/ */
+/* ----------ANIMATE.CSS Modifiers---------- */
+/* Code in this section was modified from the 
+documentation section on https://animate.style/ */
 .animate__animated.animate__fadeInLeft{
     --animate-duration: 2000ms;
 }
 .animate__animated.animate__fadeIn{
     --animate-duration: 3000ms;
 }
-/*------------------------------------------------------------------------ MEDIA QUERIES */
+/* MEDIA QUERIES */
 
 /* SCREEN SIZE XS */
 @media screen and (max-width:575px){
@@ -299,13 +311,14 @@ h3.modal-title{
         letter-spacing:0;
         font-size:1.4rem;
     }
-    /* Code below to fix the bug that made the underline from center extend beyond the writing on XS screens */
+    /* Code below to fix the bug that made the underline 
+    from center extend beyond the writing on XS screens */
     .nav-link{
         float:right;
     }
     .hvr-underline-from-center:before {
         margin:0;
-}
+    }
 }
 /* SCREEN SIZE SM and up */
 @media screen and (min-width:576px){
@@ -353,8 +366,10 @@ h3.modal-title{
     .hero-image{
         height:570px;
     }
-    /* Code to move testimonial carousel controls inwards on larger screens */
-    .testimonial-carousel .carousel-control-next, .testimonial-carousel .carousel-control-prev{
+    /* Code to move testimonial carousel 
+    controls inwards on larger screens */
+    .testimonial-carousel .carousel-control-next, 
+    .testimonial-carousel .carousel-control-prev{
     width:50%;
     }
 }
@@ -382,6 +397,7 @@ h3.modal-title{
         font-size:1.0rem;
     }
 }
+/* 1600px wide and up */
 @media screen and (min-width:1600px){
     .hero-image{
         height:700px;
@@ -402,7 +418,8 @@ h3.modal-title{
         height:800px;
     }
 }
-/*------------------------------------------------------------------------ 404 PAGE */
+
+/* ----------404 PAGE---------- */
 .lost-bg{
     /* CODE from https://css-tricks.com/perfect-full-page-background-image/ */
     background: #b8cdb7 url(../images/404-image.jpg) no-repeat center center ;

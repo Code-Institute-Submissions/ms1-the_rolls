@@ -1,5 +1,5 @@
 <div style="text-align:center">
-<img src="assets/images/readme-heading.png" style="width:600px">
+<img src="docs/readme-heading.png" style="width:600px">
 <br><br>
  
 # Table of Contents
@@ -32,7 +32,7 @@
 3. On the landing page the user can see a "What we do" section.
 4. An "About Us" page on the site goes into more detail on the service provided if the user wants to find out more.
 
-<img src="assets/images/user-story-1.png" style="width:600px">
+<img src="docs/user-story-1.png" style="width:600px">
 <br/>
 
 ### **As a potential customer I want to see what the car looks like inside and out, so I know exactly what I would be paying for.**
@@ -41,25 +41,25 @@
 3. The user can follow the navigation to the gallery page to see the entire collection of pictures of the car.
 4. Each page of the site leads with a picture of the car, so that no matter what page the user lands on initially they will get an impression of the car.
 
-<img src="assets/images/user-story-2.png" style="width:600px">
+<img src="docs/user-story-2.png" style="width:600px">
 <br/>
-<img src="assets/images/user-story-3.png" style="width:600px">
+<img src="docs/user-story-3.png" style="width:600px">
 <br/>
-<img src="assets/images/user-story-4.png" style="width:600px">
+<img src="docs/user-story-4.png" style="width:600px">
 <br/>
 
 ### **As a potential customer who is interested in booking your service I want to know how much it costs, so I know if it is within my budget before spending time making an enquiry.**
 1. The user will find this information in the About page.
 2. It is made clear to the user that the prices listed are estimated prices based on the location of their event and that they should get in contact to get an accurate quote.
 
-<img src="assets/images/user-story-5.png" style="width:600px">
+<img src="docs/user-story-5.png" style="width:600px">
 <br/>
 
 ### **As an interested customer I would like a link to your social media accounts, so I can see more photos and follow you.**
 1. The user will find these links in the footer of each page. 
 2. It is conventional to have the social media links at the bottom of the page even if they appear elsewhere on the page. So the user who typically uses social media will instinctively know where to find the links.
  
-<img src="assets/images/user-story-6.png" style="width:600px">
+<img src="docs/user-story-6.png" style="width:600px">
 <br/>
 
 ### **As a customer who has decided to go ahead and book the service, I want to make a booking enquiry.**
@@ -73,20 +73,20 @@
 8. The phone and email links are made large to create the impression of them being links.
 9. The phone and email links automatically open the applicable app on the users device when pressed.
 
-<img src="assets/images/user-story-7.png" style="width:600px">
+<img src="docs/user-story-7.png" style="width:600px">
 <br/>
-<img src="assets/images/user-story-8.png" style="width:600px">
+<img src="docs/user-story-8.png" style="width:600px">
 <br/>
-<img src="assets/images/user-story-9.png" style="width:600px">
+<img src="docs/user-story-9.png" style="width:600px">
 <br/>
-<img src="assets/images/user-story-10.png" style="width:600px">
+<img src="docs/user-story-10.png" style="width:600px">
 <br/>
  
 ### **As a potential customer I would like to see your customer testimonials, so that I will feel more confident about booking the service.**
 1. The user will find these on the home page towards the bottom of the page. It is conventional to have testimonials to the bottom of a page so the user will know instinctively to look here.
 2. There is a picture of the couple to increase the trust of the user in the testimonials.
 
-<img src="assets/images/user-story-11.png" style="width:600px">
+<img src="docs/user-story-11.png" style="width:600px">
 <br/>
 
 ### **As a potential customer I want to find out more about your company, so that I can get to know more about your company ethos.**
@@ -95,9 +95,9 @@
 3. The testimonials tell the user a little bit about the company from a third person perspective.
 4. Pictures paint a thousand words, so the website is littered with images of the service provided.
 
-<img src="assets/images/user-story-12.png" style="width:600px">
+<img src="docs/user-story-12.png" style="width:600px">
 <br/>
-<img src="assets/images/user-story-13.png" style="width:600px">
+<img src="docs/user-story-13.png" style="width:600px">
 <br/>
 
 ## Manual Testing
@@ -135,17 +135,17 @@ Chrome's built in screen size emulator was used to test the site on different sc
 - Checked that pressing tab logically brings you from left to right.
 
 <figure>
-<img src="assets/images/header-desktop.png" style="width:600px"><br/>
+<img src="docs/header-desktop.png" style="width:600px"><br/>
 <figcaption>Header on a desktop</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/header-tablet.png" style="width:384px"><br/>
+<img src="docs/header-tablet.png" style="width:384px"><br/>
 <figcaption>Header on a tablet</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/header-mobile.png" style="width:207px"><br/>
+<img src="docs/header-mobile.png" style="width:207px"><br/>
 <figcaption>Header on a mobile</figcaption>
 </figure>
  <br/>
@@ -156,17 +156,17 @@ Chrome's built in screen size emulator was used to test the site on different sc
 - Checked the responsiveness of the footer on each page for all screen sizes.
 
 <figure>
-<img src="assets/images/footer-desktop.png" style="width:600px"><br/>
+<img src="docs/footer-desktop.png" style="width:600px"><br/>
 <figcaption>Footer on a desktop</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/footer-tablet.png" style="width:384px"><br/>
+<img src="docs/footer-tablet.png" style="width:384px"><br/>
 <figcaption>Footer on a tablet</figcaption>
 </figure>
 <br/>
 <figure style="display:block">
-<img src="assets/images/footer-mobile.png" style="width:212px"><br/>
+<img src="docs/footer-mobile.png" style="width:212px"><br/>
 <figcaption>Footer on a mobile</figcaption>
 </figure>
 <br/>
@@ -186,47 +186,47 @@ Chrome's built in screen size emulator was used to test the site on different sc
 - Ensured the quote icons in the testimonials appeared on their own line and to the start and end of the quote.
 
 <figure>
-<img src="assets/images/hero-image-desktop.png" style="width:600px"><br/>
+<img src="docs/hero-image-desktop.png" style="width:600px"><br/>
 <figcaption>Homepage Hero Image on a desktop</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/hero-image-tablet.png" style="width:384px"><br/>
+<img src="docs/hero-image-tablet.png" style="width:384px"><br/>
 <figcaption>Homepage Hero Image on a tablet</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/hero-image-mobile.png" style="width:212px"><br/>
+<img src="docs/hero-image-mobile.png" style="width:212px"><br/>
 <figcaption>Homepage Hero Image on a mobile</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/what-we-do-desktop.png" style="width:600px"><br/>
+<img src="docs/what-we-do-desktop.png" style="width:600px"><br/>
 <figcaption>Homepage What We Do on a desktop</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/what-we-do-tablet.png" style="width:384px"><br/>
+<img src="docs/what-we-do-tablet.png" style="width:384px"><br/>
 <figcaption>Homepage What We Do on a tablet</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/what-we-do-mobile.png" style="width:212px"><br/>
+<img src="docs/what-we-do-mobile.png" style="width:212px"><br/>
 <figcaption>Homepage What We Do on a mobile</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/testimonial-desktop.png" style="width:600px"><br/>
+<img src="docs/testimonial-desktop.png" style="width:600px"><br/>
 <figcaption>Homepage Testimonial on a desktop</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/testimonial-tablet.png" style="width:384px"><br/>
+<img src="docs/testimonial-tablet.png" style="width:384px"><br/>
 <figcaption>Homepage Testimonial on a tablet</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/testimonial-mobile.png" style="width:212px"><br/>
+<img src="docs/testimonial-mobile.png" style="width:212px"><br/>
 <figcaption>Homepage Testimonial on a mobile</figcaption>
 </figure>
 
@@ -241,17 +241,17 @@ Chrome's built in screen size emulator was used to test the site on different sc
 - Checked the carousel forward and back buttons worked.
 
 <figure>
-<img src="assets/images/gallery-desktop.png" style="width:600px"><br/>
+<img src="docs/gallery-desktop.png" style="width:600px"><br/>
 <figcaption>Gallery on a desktop</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/gallery-tablet.png" style="width:384px"><br/>
+<img src="docs/gallery-tablet.png" style="width:384px"><br/>
 <figcaption>Gallery on a tablet</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/gallery-mobile.png" style="width:212px"><br/>
+<img src="docs/gallery-mobile.png" style="width:212px"><br/>
 <figcaption>Gallery on a mobile</figcaption>
 </figure>
 
@@ -269,47 +269,47 @@ Chrome's built in screen size emulator was used to test the site on different sc
 - Ensured the google map colour was appropriate to the website and in keeping with the theme.
  
 <figure>
-<img src="assets/images/lead-image-quote-desktop.png" style="width:600px"><br/>
+<img src="docs/lead-image-quote-desktop.png" style="width:600px"><br/>
 <figcaption>Lead image and quote section on a desktop</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/lead-image-quote-tablet.png" style="width:384px"><br/>
+<img src="docs/lead-image-quote-tablet.png" style="width:384px"><br/>
 <figcaption>Lead image and quote section on a tablet</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/lead-image-quote-mobile.png" style="width:212px"><br/>
+<img src="docs/lead-image-quote-mobile.png" style="width:212px"><br/>
 <figcaption>Lead image and quote section on a mobile</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/about-desktop.png" style="width:600px"><br/>
+<img src="docs/about-desktop.png" style="width:600px"><br/>
 <figcaption>About section on a desktop</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/about-tablet.png" style="width:384px"><br/>
+<img src="docs/about-tablet.png" style="width:384px"><br/>
 <figcaption>About section on a tablet</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/about-mobile.png" style="width:212px"><br/>
+<img src="docs/about-mobile.png" style="width:212px"><br/>
 <figcaption>About section on a mobile</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/map-desktop.png" style="width:600px"><br/>
+<img src="docs/map-desktop.png" style="width:600px"><br/>
 <figcaption>Embedded Google Map on a desktop</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/map-tablet.png" style="width:384px"><br/>
+<img src="docs/map-tablet.png" style="width:384px"><br/>
 <figcaption>Embedded Google Map on a tablet</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/map-mobile.png" style="width:212px"><br/>
+<img src="docs/map-mobile.png" style="width:212px"><br/>
 <figcaption>Embedded Google Map on a mobile</figcaption>
 </figure>
 <br/>
@@ -332,17 +332,17 @@ Chrome's built in screen size emulator was used to test the site on different sc
 - Checked the email address opened the appropriate app on all devices when pressed.
 
 <figure>
-<img src="assets/images/contact-desktop.png" style="width:600px"><br/>
+<img src="docs/contact-desktop.png" style="width:600px"><br/>
 <figcaption>Contact page on a desktop</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/contact-tablet.png" style="width:384px"><br/>
+<img src="docs/contact-tablet.png" style="width:384px"><br/>
 <figcaption>Contact page on a tablet</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/contact-mobile.png" style="width:212px"><br/>
+<img src="docs/contact-mobile.png" style="width:212px"><br/>
 <figcaption>Contact page on a mobile</figcaption>
 </figure>
 <br/>
@@ -354,17 +354,17 @@ Chrome's built in screen size emulator was used to test the site on different sc
 - Checked the 404 page appears as intended on all device sizes.
 
 <figure>
-<img src="assets/images/404-desktop.png" style="width:600px"><br/>
+<img src="docs/404-desktop.png" style="width:600px"><br/>
 <figcaption>404 page on a desktop</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/404-tablet.png" style="width:384px"><br/>
+<img src="docs/404-tablet.png" style="width:384px"><br/>
 <figcaption>404 page on a tablet</figcaption>
 </figure>
 <br/>
 <figure>
-<img src="assets/images/404-mobile.png" style="width:212px"><br/>
+<img src="docs/404-mobile.png" style="width:212px"><br/>
 <figcaption>404 page on a mobile</figcaption>
 </figure>
 <br/>
@@ -427,7 +427,7 @@ Based on initial results from Google Lighthouse the following changes were made 
  
 <figure>
     <div style="text-align:center">
-        <img src="assets/images/lighthouse-results.png" alt="lighthouse test results">
+        <img src="docs/lighthouse-results.png" alt="lighthouse test results">
     </div>
 </figure>
 <figcaption style="text-align:center">Lighthouse Test Results after changes were made</figcaption>
@@ -444,7 +444,7 @@ There are 2 redundant link alerts on the WAVE tool remaining:
  
 <figure>
     <div style="text-align:center">
-        <img src="assets/images/wave-results.png" alt="WAVE test results" height="300px">
+        <img src="docs/wave-results.png" alt="WAVE test results" height="300px">
     </div>
 </figure>
 <figcaption style="text-align:center">WAVE Test Results after changes were made</figcaption>
@@ -471,7 +471,7 @@ There are 2 redundant link alerts on the WAVE tool remaining:
 
 <figure>
     <div style="text-align:center">
-        <img src="assets/images/color-contrast-results.png" alt="WAVE test results" width="600px">
+        <img src="docs/color-contrast-results.png" alt="WAVE test results" width="600px">
     </div>
 </figure>
 <figcaption style="text-align:center">A11y Color Contrast Results</figcaption>

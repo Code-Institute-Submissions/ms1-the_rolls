@@ -410,6 +410,11 @@ Chrome's built in screen size emulator was used to test the site on different sc
 11. Bug Found: Originally the form did not reset the values after the form was submitted. I found this gave a poor UX and created the impression to the user that the information had not been submitted.
     - Fix: I included code in the snippet of javaScript that resets the form after the form has been successfully submitted.
 
+12. Bug Found: The modal fontawesome icon has a circular div behind it, for some reason the div overflows the icon despite the fact that the icon is 50px wide , and the div is 48px wide.
+    - Fix: After some experimenting I applied <code>transform: translate(-2px,-2px)</code> to the icon to move it relative to the div to fix the issue.
+
+<img src="docs/modal-icon.png" alt="modal icon bug identified">
+
 ## Automated Testing
  
 The site was tested using the following validators and online tools:

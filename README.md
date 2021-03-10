@@ -179,7 +179,7 @@ Google fonts were used for all of the fonts on the site.
  
 The images used on the majority of the site are my own images, taken by David McClelland. The images were chosen to highlight the service provided.
  
-The images of couples in the testimonial section are royalty free images from pexels.com.
+The images of couples in the testimonial section and 404 page are royalty free images from pexels.com.
  
 #### Animations:
  
@@ -189,9 +189,9 @@ The animations used are for the quote section of the about, the navigation links
  
 - An underline from the center on hover animation is used for the navigation links. This was done to increase the interactiveness of the site and improve UX. The animation is implemented using [hover.css](https://ianlunn.github.io/Hover/).
  
-- The 'Enquire Now' buttons are implemented using [Bootstraps built in button class](https://getbootstrap.com/docs/4.0/components/buttons/). When the button is interacted with the button changes to a darker colour and gets a shadow around the edge. As with the nav links this improves interaction with the user.
+- The 'Enquire Now' buttons are implemented using [Bootstraps button class](https://getbootstrap.com/docs/4.0/components/buttons/). When the button is interacted with the button changes to a darker colour and gets a shadow around the edge. As with the nav links this improves interaction with the user.
 
-- The carousel on the gallery page has a crossfade transition from one image to the next. This animation is done using [Bootstraps built in carousel class](https://getbootstrap.com/docs/5.0/components/carousel/).
+- The carousel on the gallery page has a crossfade transition from one image to the next. This animation is done using [Bootstraps carousel class](https://getbootstrap.com/docs/5.0/components/carousel/).
 
 - The carousel on the home page is a slide type carousel. Again, this is a Bootstrap carousel.
 
@@ -265,9 +265,9 @@ Each page is split into different sections and they appear either stacked or sid
 # Technologies Used
 ## Languages Used
 
-- HTML5
+- HTML
  
-- CSS3
+- CSS
 
 - JavaScript
  
@@ -279,7 +279,7 @@ Each page is split into different sections and they appear either stacked or sid
  
 - **[Font Awesome](https://fontawesome.com/)**. Used for the phone, email and quote icons.
  
-- **[Bootstrap V.5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)** Used throughout the project.
+- **[Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)** Used throughout the project.
  
 - **[Google Fonts](https://fonts.google.com/about)** Used for all of the fonts that appear on the site.
  
@@ -299,7 +299,7 @@ Each page is split into different sections and they appear either stacked or sid
  
 - **[Cssgradient.io](https://cssgradient.io/)** Used to create color gradient background.
  
-- **[jQuery v3.6.0](https://autoprefixer.github.io/)** Used to implement the javaScript that presents the modal when the form has been successfully submitted.
+- **[jQuery](https://autoprefixer.github.io/)** Used to implement the javaScript that presents the modal when the form has been successfully submitted.
 
 - **[A11y Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/)** Used to check color contrast of the site for accessibility.
 
@@ -376,14 +376,14 @@ All other images are owned by me. Photographer: [David McClelland](https://david
  
 [Hover.css](https://ianlunn.github.io/Hover/) This external css file was used for the underline from center animation used on the navigation links.
 
-[Bootstrap V.5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) Used throughout the project. The built in animations used were the carousel, button and modal.
+[Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) Used throughout the project. The built in animations used were the carousel, button and modal.
 
 ## Code 
 [How to Online](https://www.howtoonlinetips.com/hide-google-map-top-bar-embedded-header/). Used inspiration from the code on this site to hide the header on the embedded google map.
  
 [Sympli.io](https://sympli.io/blog/heres-everything-you-need-to-know-about-favicons-in-2020/) Used the code on this blog to implement the favicon images on different devices.
  
-[Bootstrap V.5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) Template code from the documentation on Bootstrap 5 was used to implement the responsiveness, navbar, carousel throughout the site. The code was heavily modified to suit this site.
+[Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) Template code from the documentation on Bootstrap 5 was used to implement the responsiveness, navbar, carousel throughout the site. The code was heavily modified to suit this site.
  
 [Stack Overflow](https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle). Code from this post was used to place the horizontal lines beside the headings.
  

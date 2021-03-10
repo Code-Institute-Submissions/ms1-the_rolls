@@ -226,7 +226,7 @@ select:-webkit-autofill:focus{
     font-weight:700;
 }
 /*---------------------------------------------------------------------------------- MODAL */
-p.modal-title{
+h3.modal-title{
     font-family:"Playfair Display", serif;
     text-transform:uppercase;
     font-size:1.7rem;

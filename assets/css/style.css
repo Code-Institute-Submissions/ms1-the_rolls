@@ -7,8 +7,8 @@ body{
 }
 .green-bg{
     background: #b8cdb7;
-    background: -webkit-gradient(linear, left top, right top, from(#b8cdb7), color-stop(50%, #c8d4c8),  to(#b8cdb7));
     background: -o-linear-gradient(left, #b8cdb7 0%, #c8d4c8 50%,  #b8cdb7 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#b8cdb7), color-stop(50%, #c8d4c8),  to(#b8cdb7));
     background: linear-gradient(90deg, #b8cdb7 0%, #c8d4c8 50%,  #b8cdb7 100%);
 }
 
@@ -121,8 +121,8 @@ footer address{
 }
 .callout{
     background: #b8cdb7;
-    background: -webkit-gradient(linear, left top, left bottom, from(#cfdacf), to(#b8cdb7));
     background: -o-linear-gradient(top, #cfdacf, #b8cdb7);
+    background: -webkit-gradient(linear, left top, left bottom, from(#cfdacf), to(#b8cdb7));
     background: linear-gradient(180deg, #cfdacf, #b8cdb7);
     border-radius:10px;
     border:1px solid #3B3B3B;
@@ -404,17 +404,18 @@ h3.modal-title{
 /*------------------------------------------------------------------------ 404 PAGE */
 .lost-bg{
     /* CODE from https://css-tricks.com/perfect-full-page-background-image/ */
-    background: #b8cdb7 url(../images/404-image.jpg) no-repeat center center ; 
-    -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
+    background: #b8cdb7 url(../images/404-image.jpg) no-repeat center center ;
+    background-size: cover;
      position:relative;
      height:100vh;
      width:auto;
 }
 .fzf-image-container{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
     justify-content:center;
 }
 .fzf-image {
@@ -428,6 +429,8 @@ h3.modal-title{
     color:#fffcf7;
     background-color:rgba(184, 205, 183, 0.80);
     padding:20px;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
     top:40%;
     left:50%;
